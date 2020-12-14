@@ -1,0 +1,8085 @@
+Spaceship Command:
+  Frigate Command:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -5
+    2:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -10
+    3:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -15
+            flight_velocity: 8
+    4:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -20
+            flight_velocity: 16
+    5:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -25
+            flight_velocity: 25
+  Advanced Frigate Command:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -4
+    3:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 3
+    4:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 6
+    5:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+  Expert Frigate Command:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -4
+            flight_velocity: 2
+    3:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 4
+    4:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 7
+    5:
+      ship:
+        type: Frigate
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+
+  Destroyer Command:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -5
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -10
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -15
+            flight_velocity: 8
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -20
+            flight_velocity: 16
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -25
+            flight_velocity: 25
+  Advanced Destroyer Command:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -4
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 3
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 6
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+  Expert Destroyer Command:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -4
+            flight_velocity: 2
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 4
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 7
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+
+  Cruiser Command:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -5
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -10
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -15
+            flight_velocity: 8
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -20
+            flight_velocity: 16
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -25
+            flight_velocity: 25
+  Advanced Cruiser Command:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -4
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 3
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 6
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+  Expert Cruiser Command:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -4
+            flight_velocity: 2
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 4
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 7
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+
+  Battlecruiser Command:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -5
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -10
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -15
+            flight_velocity: 8
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -20
+            flight_velocity: 16
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -25
+            flight_velocity: 25
+  Advanced Battlecruiser Command:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -4
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 3
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 6
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+  Expert Battlecruiser Command:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -4
+            flight_velocity: 2
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 4
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 7
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+
+  Battleship Command:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -5
+    2:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -10
+    3:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -15
+            flight_velocity: 8
+    4:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -20
+            flight_velocity: 16
+    5:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -25
+            flight_velocity: 25
+  Advanced Battleship Command:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -4
+    3:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 3
+    4:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 6
+    5:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+  Expert Battleship Command:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -4
+            flight_velocity: 2
+    3:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 4
+    4:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 7
+    5:
+      ship:
+        type: Battleship
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+
+  Industrial Ship Command:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -5
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -10
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -15
+            flight_velocity: 8
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -20
+            flight_velocity: 16
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -25
+            flight_velocity: 25
+  Advanced Industrial Ship Command:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -4
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 3
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 6
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+  Expert Industrial Ship Command:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -2
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -4
+            flight_velocity: 2
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -6
+            flight_velocity: 4
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -8
+            flight_velocity: 7
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          navigation:
+            inertia_modifier: -10
+            flight_velocity: 10
+
+Navigation:
+  Afterburner:
+    1:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -4
+    2:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -8
+            activation_time: 5
+    3:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -12
+            activation_time: 10
+    4:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -16
+            activation_time: 15
+            ship:
+              navigation:
+                flight_velocity: 10
+    5:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -20
+            activation_time: 20
+            ship:
+              navigation:
+                flight_velocity: 20
+  Advanced Afterburner:
+    1:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -3
+    2:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -6
+            activation_time: 4
+    3:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -9
+            activation_time: 8
+    4:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -12
+            activation_time: 12
+            ship:
+              navigation:
+                flight_velocity: 8
+    5:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -15
+            activation_time: 15
+            ship:
+              navigation:
+                flight_velocity: 15
+  Expert Afterburner:
+    1:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -3
+    2:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -6
+            activation_time: 4
+    3:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -9
+            activation_time: 8
+    4:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -12
+            activation_time: 12
+            ship:
+              navigation:
+                flight_velocity: 8
+    5:
+      propulsion:
+        afterburners:
+          any:
+            activation_cost: -15
+            activation_time: 15
+            ship:
+              navigation:
+                flight_velocity: 15
+
+Shields Operation:
+  Shield Operation:
+    1:
+      shield:
+        boosters:
+          any:
+            activation_time: -2
+    2:
+      shield:
+        boosters:
+          any:
+            activation_time: -4
+            activation_cost: -2
+    3:
+      shield:
+        boosters:
+          any:
+            activation_time: -6
+            activation_cost: -4
+    4:
+      shield:
+        boosters:
+          any:
+            activation_time: -8
+            activation_cost: -7
+    5:
+      shield:
+        boosters:
+          any:
+            activation_time: -10
+            activation_cost: -10
+  Advanced Shield Operation:
+    1:
+      shield:
+        boosters:
+          any:
+            activation_time: -2
+    2:
+      shield:
+        boosters:
+          any:
+            activation_time: -4
+            activation_cost: -2
+    3:
+      shield:
+        boosters:
+          any:
+            activation_time: -6
+            activation_cost: -4
+    4:
+      shield:
+        boosters:
+          any:
+            activation_time: -8
+            activation_cost: -7
+            powergrid: -8
+    5:
+      shield:
+        boosters:
+          any:
+            activation_time: -10
+            activation_cost: -10
+            powergrid: -15
+  Expert Shield Operation:
+    1:
+      shield:
+        boosters:
+          any:
+            activation_time: -1
+    2:
+      shield:
+        boosters:
+          any:
+            activation_time: -2
+            activation_cost: -1
+    3:
+      shield:
+        boosters:
+          any:
+            activation_time: -3
+            activation_cost: -2
+    4:
+      shield:
+        boosters:
+          any:
+            activation_time: -4
+            activation_cost: -3
+            powergrid: -5
+    5:
+      shield:
+        boosters:
+          any:
+            activation_time: -5
+            activation_cost: -5
+            powergrid: -10
+
+  Shield Hardening:
+    1:
+      shield:
+        hardeners:
+          any:
+            activation_time: 3
+    2:
+      shield:
+        hardeners:
+          any:
+            activation_time: 6
+    3:
+      shield:
+        hardeners:
+          any:
+            activation_time: 9
+            activation_cost: -5
+    4:
+      shield:
+        hardeners:
+          any:
+            activation_time: 12
+            activation_cost: -10
+    5:
+      shield:
+        hardeners:
+          any:
+            activation_time: 15
+            activation_cost: -15
+  Advanced Shield Hardening:
+    1:
+      shield:
+        hardeners:
+          any:
+            activation_time: 2
+    2:
+      shield:
+        hardeners:
+          any:
+            activation_time: 4
+    3:
+      shield:
+        hardeners:
+          any:
+            activation_time: 6
+            activation_cost: -3
+    4:
+      shield:
+        hardeners:
+          any:
+            activation_time: 8
+            activation_cost: -6
+    5:
+      shield:
+        hardeners:
+          any:
+            activation_time: 10
+            activation_cost: -10
+  Expert Shield Hardening:
+    1:
+      shield:
+        hardeners:
+          any:
+            activation_time: 1
+    2:
+      shield:
+        hardeners:
+          any:
+            activation_time: 2
+    3:
+      shield:
+        hardeners:
+          any:
+            activation_time: 3
+            activation_cost: -1
+    4:
+      shield:
+        hardeners:
+          any:
+            activation_time: 4
+            activation_cost: -3
+    5:
+      shield:
+        hardeners:
+          any:
+            activation_time: 5
+            activation_cost: -5
+
+Armors Operation:
+  Armor Operation:
+    1:
+      armor:
+        repairers:
+          any:
+            activation_time: -2
+    2:
+      armor:
+        repairers:
+          any:
+            activation_time: -4
+            activation_cost: -2
+    3:
+      armor:
+        repairers:
+          any:
+            activation_time: -6
+            activation_cost: -4
+    4:
+      armor:
+        repairers:
+          any:
+            activation_time: -8
+            activation_cost: -7
+    5:
+      armor:
+        repairers:
+          any:
+            activation_time: -10
+            activation_cost: -10
+  Advanced Armor Operation:
+    1:
+      armor:
+        repairers:
+          any:
+            activation_time: -2
+    2:
+      armor:
+        repairers:
+          any:
+            activation_time: -4
+            activation_cost: -2
+    3:
+      armor:
+        repairers:
+          any:
+            activation_time: -6
+            activation_cost: -4
+    4:
+      armor:
+        repairers:
+          any:
+            activation_time: -8
+            activation_cost: -7
+            powergrid: -8
+    5:
+      armor:
+        repairers:
+          any:
+            activation_time: -10
+            activation_cost: -10
+            powergrid: -15
+  Expert Armor Operation:
+    1:
+      armor:
+        repairers:
+          any:
+            activation_time: -1
+    2:
+      armor:
+        repairers:
+          any:
+            activation_time: -2
+            activation_cost: -1
+    3:
+      armor:
+        repairers:
+          any:
+            activation_time: -3
+            activation_cost: -2
+    4:
+      armor:
+        repairers:
+          any:
+            activation_time: -4
+            activation_cost: -3
+            powergrid: -5
+    5:
+      armor:
+        repairers:
+          any:
+            activation_time: -5
+            activation_cost: -5
+            powergrid: -10
+
+  Armor Hardening:
+    1:
+      armor:
+        hardeners:
+          any:
+            activation_time: 3
+    2:
+      armor:
+        hardeners:
+          any:
+            activation_time: 6
+    3:
+      armor:
+        hardeners:
+          any:
+            activation_time: 9
+            activation_cost: -5
+    4:
+      armor:
+        hardeners:
+          any:
+            activation_time: 12
+            activation_cost: -10
+    5:
+      armor:
+        hardeners:
+          any:
+            activation_time: 15
+            activation_cost: -15
+  Advanced Armor Hardening:
+    1:
+      armor:
+        hardeners:
+          any:
+            activation_time: 2
+    2:
+      armor:
+        hardeners:
+          any:
+            activation_time: 4
+    3:
+      armor:
+        hardeners:
+          any:
+            activation_time: 6
+            activation_cost: -3
+    4:
+      armor:
+        hardeners:
+          any:
+            activation_time: 8
+            activation_cost: -6
+    5:
+      armor:
+        hardeners:
+          any:
+            activation_time: 10
+            activation_cost: -10
+  Expert Armor Hardening:
+    1:
+      armor:
+        hardeners:
+          any:
+            activation_time: 1
+    2:
+      armor:
+        hardeners:
+          any:
+            activation_time: 2
+    3:
+      armor:
+        hardeners:
+          any:
+            activation_time: 3
+            activation_cost: -1
+    4:
+      armor:
+        hardeners:
+          any:
+            activation_time: 4
+            activation_cost: -3
+    5:
+      armor:
+        hardeners:
+          any:
+            activation_time: 5
+            activation_cost: -5
+
+Defense Upgrade:
+  Frigate Defense Upgrade:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 10
+    2:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 20
+            armor:
+              value:
+                percent: 0
+                flat: 12
+    3:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 30
+            armor:
+              value:
+                percent: 0
+                flat: 24
+    4:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 40
+            armor:
+              value:
+                percent: 0
+                flat: 36
+            hull:
+              value:
+                percent: 0
+                flat: 25
+    5:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 50
+            armor:
+              value:
+                percent: 0
+                flat: 50
+            hull:
+              value:
+                percent: 0
+                flat: 50
+  Advanced Frigate Defense Upgrade:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+    2:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    3:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 15
+                flat: 0
+            armor:
+              value:
+                percent: 10
+                flat: 0
+    4:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 20
+                flat: 0
+            armor:
+              value:
+                percent: 17.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+    5:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 25
+                flat: 0
+            armor:
+              value:
+                percent: 25
+                flat: 0
+            hull:
+              value:
+                percent: 25
+                flat: 0
+  Expert Frigate Defense Upgrade:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 2.5
+                flat: 0
+    2:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+            armor:
+              value:
+                percent: 2.5
+                flat: 0
+    3:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 7.5
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    4:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 7.5
+                flat: 0
+            hull:
+              value:
+                percent: 5
+                flat: 0
+    5:
+      ship:
+        type: Frigate
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 12.5
+                flat: 0
+            armor:
+              value:
+                percent: 12.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+
+  Destroyer Defense Upgrade:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 50
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 100
+            armor:
+              value:
+                percent: 0
+                flat: 60
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 150
+            armor:
+              value:
+                percent: 0
+                flat: 120
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 200
+            armor:
+              value:
+                percent: 0
+                flat: 180
+            hull:
+              value:
+                percent: 0
+                flat: 125
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 250
+            armor:
+              value:
+                percent: 0
+                flat: 250
+            hull:
+              value:
+                percent: 0
+                flat: 250
+  Advanced Destroyer Defense Upgrade:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 15
+                flat: 0
+            armor:
+              value:
+                percent: 10
+                flat: 0
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 20
+                flat: 0
+            armor:
+              value:
+                percent: 17.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 25
+                flat: 0
+            armor:
+              value:
+                percent: 25
+                flat: 0
+            hull:
+              value:
+                percent: 25
+                flat: 0
+  Expert Destroyer Defense Upgrade:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 2.5
+                flat: 0
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+            armor:
+              value:
+                percent: 2.5
+                flat: 0
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 7.5
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 7.5
+                flat: 0
+            hull:
+              value:
+                percent: 5
+                flat: 0
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 12.5
+                flat: 0
+            armor:
+              value:
+                percent: 12.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+
+  Cruiser Defense Upgrade:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 100
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 200
+            armor:
+              value:
+                percent: 0
+                flat: 125
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 300
+            armor:
+              value:
+                percent: 0
+                flat: 250
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 400
+            armor:
+              value:
+                percent: 0
+                flat: 375
+            hull:
+              value:
+                percent: 0
+                flat: 250
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 500
+            armor:
+              value:
+                percent: 0
+                flat: 500
+            hull:
+              value:
+                percent: 0
+                flat: 500
+  Advanced Cruiser Defense Upgrade:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 15
+                flat: 0
+            armor:
+              value:
+                percent: 10
+                flat: 0
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 20
+                flat: 0
+            armor:
+              value:
+                percent: 17.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 25
+                flat: 0
+            armor:
+              value:
+                percent: 25
+                flat: 0
+            hull:
+              value:
+                percent: 25
+                flat: 0
+  Expert Cruiser Defense Upgrade:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 2.5
+                flat: 0
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+            armor:
+              value:
+                percent: 2.5
+                flat: 0
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 7.5
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 7.5
+                flat: 0
+            hull:
+              value:
+                percent: 5
+                flat: 0
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 12.5
+                flat: 0
+            armor:
+              value:
+                percent: 12.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+
+  Battlecruiser Defense Upgrade:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 200
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 400
+            armor:
+              value:
+                percent: 0
+                flat: 250
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 600
+            armor:
+              value:
+                percent: 0
+                flat: 500
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 800
+            armor:
+              value:
+                percent: 0
+                flat: 750
+            hull:
+              value:
+                percent: 0
+                flat: 500
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 1000
+            armor:
+              value:
+                percent: 0
+                flat: 1000
+            hull:
+              value:
+                percent: 0
+                flat: 1000
+  Advanced Battlecruiser Defense Upgrade:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 15
+                flat: 0
+            armor:
+              value:
+                percent: 10
+                flat: 0
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 20
+                flat: 0
+            armor:
+              value:
+                percent: 17.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 25
+                flat: 0
+            armor:
+              value:
+                percent: 25
+                flat: 0
+            hull:
+              value:
+                percent: 25
+                flat: 0
+  Expert Battlecruiser Defense Upgrade:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 2.5
+                flat: 0
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+            armor:
+              value:
+                percent: 2.5
+                flat: 0
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 7.5
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 7.5
+                flat: 0
+            hull:
+              value:
+                percent: 5
+                flat: 0
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 12.5
+                flat: 0
+            armor:
+              value:
+                percent: 12.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+
+  Battleship Defense Upgrade:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 400
+    2:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 800
+            armor:
+              value:
+                percent: 0
+                flat: 500
+    3:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 1200
+            armor:
+              value:
+                percent: 0
+                flat: 1000
+    4:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 1600
+            armor:
+              value:
+                percent: 0
+                flat: 1500
+            hull:
+              value:
+                percent: 0
+                flat: 1000
+    5:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 2000
+            armor:
+              value:
+                percent: 0
+                flat: 2000
+            hull:
+              value:
+                percent: 0
+                flat: 2000
+  Advanced Battleship Defense Upgrade:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+    2:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    3:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 15
+                flat: 0
+            armor:
+              value:
+                percent: 10
+                flat: 0
+    4:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 20
+                flat: 0
+            armor:
+              value:
+                percent: 17.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+    5:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 25
+                flat: 0
+            armor:
+              value:
+                percent: 25
+                flat: 0
+            hull:
+              value:
+                percent: 25
+                flat: 0
+  Expert Battleship Defense Upgrade:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 2.5
+                flat: 0
+    2:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+            armor:
+              value:
+                percent: 2.5
+                flat: 0
+    3:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 7.5
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    4:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 7.5
+                flat: 0
+            hull:
+              value:
+                percent: 5
+                flat: 0
+    5:
+      ship:
+        type: Battleship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 12.5
+                flat: 0
+            armor:
+              value:
+                percent: 12.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+
+  Industrial Ship Defense Upgrade:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 100
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 200
+            armor:
+              value:
+                percent: 0
+                flat: 125
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 300
+            armor:
+              value:
+                percent: 0
+                flat: 250
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 400
+            armor:
+              value:
+                percent: 0
+                flat: 375
+            hull:
+              value:
+                percent: 0
+                flat: 250
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 0
+                flat: 500
+            armor:
+              value:
+                percent: 0
+                flat: 500
+            hull:
+              value:
+                percent: 0
+                flat: 500
+  Advanced Industrial Ship Defense Upgrade:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 15
+                flat: 0
+            armor:
+              value:
+                percent: 10
+                flat: 0
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 20
+                flat: 0
+            armor:
+              value:
+                percent: 17.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 25
+                flat: 0
+            armor:
+              value:
+                percent: 25
+                flat: 0
+            hull:
+              value:
+                percent: 25
+                flat: 0
+  Expert Industrial Ship Defense Upgrade:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 2.5
+                flat: 0
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 5
+                flat: 0
+            armor:
+              value:
+                percent: 2.5
+                flat: 0
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 7.5
+                flat: 0
+            armor:
+              value:
+                percent: 5
+                flat: 0
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 10
+                flat: 0
+            armor:
+              value:
+                percent: 7.5
+                flat: 0
+            hull:
+              value:
+                percent: 5
+                flat: 0
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          defenses:
+            shield:
+              value:
+                percent: 12.5
+                flat: 0
+            armor:
+              value:
+                percent: 12.5
+                flat: 0
+            hull:
+              value:
+                percent: 12.5
+                flat: 0
+
+Engineering:
+  Frigate Engineering:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 5
+              flat: 0
+    2:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+    3:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 8
+              flat: 0
+    4:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 20
+              flat: 0
+          powergrid:
+            value:
+              percent: 16
+              flat: 0
+    5:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 25
+              flat: 0
+          powergrid:
+            value:
+              percent: 25
+              flat: 0
+  Advanced Frigate Engineering:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 3
+              flat: 0
+    2:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+    3:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 9
+              flat: 0
+          powergrid:
+            value:
+              percent: 5
+              flat: 0
+    4:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 12
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+    5:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 15
+              flat: 0
+  Expert Frigate Engineering:
+    1:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 2
+              flat: 0
+    2:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 4
+              flat: 0
+          powergrid:
+            value:
+              percent: 2
+              flat: 0
+    3:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+          powergrid:
+            value:
+              percent: 4
+              flat: 0
+    4:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 8
+              flat: 0
+          powergrid:
+            value:
+              percent: 7
+              flat: 0
+    5:
+      ship:
+        type: Frigate
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+  Destroyer Engineering:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 5
+              flat: 0
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 8
+              flat: 0
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 20
+              flat: 0
+          powergrid:
+            value:
+              percent: 16
+              flat: 0
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 25
+              flat: 0
+          powergrid:
+            value:
+              percent: 25
+              flat: 0
+  Advanced Destroyer Engineering:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 3
+              flat: 0
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 9
+              flat: 0
+          powergrid:
+            value:
+              percent: 5
+              flat: 0
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 12
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 15
+              flat: 0
+  Expert Destroyer Engineering:
+    1:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 2
+              flat: 0
+    2:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 4
+              flat: 0
+          powergrid:
+            value:
+              percent: 2
+              flat: 0
+    3:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+          powergrid:
+            value:
+              percent: 4
+              flat: 0
+    4:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 8
+              flat: 0
+          powergrid:
+            value:
+              percent: 7
+              flat: 0
+    5:
+      ship:
+        type: Destroyer
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+  Cruiser Engineering:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 5
+              flat: 0
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 8
+              flat: 0
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 20
+              flat: 0
+          powergrid:
+            value:
+              percent: 16
+              flat: 0
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 25
+              flat: 0
+          powergrid:
+            value:
+              percent: 25
+              flat: 0
+  Advanced Cruiser Engineering:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 3
+              flat: 0
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 9
+              flat: 0
+          powergrid:
+            value:
+              percent: 5
+              flat: 0
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 12
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 15
+              flat: 0
+  Expert Cruiser Engineering:
+    1:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 2
+              flat: 0
+    2:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 4
+              flat: 0
+          powergrid:
+            value:
+              percent: 2
+              flat: 0
+    3:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+          powergrid:
+            value:
+              percent: 4
+              flat: 0
+    4:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 8
+              flat: 0
+          powergrid:
+            value:
+              percent: 7
+              flat: 0
+    5:
+      ship:
+        type: Cruiser
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+  Battlecruiser Engineering:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 5
+              flat: 0
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 8
+              flat: 0
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 20
+              flat: 0
+          powergrid:
+            value:
+              percent: 16
+              flat: 0
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 25
+              flat: 0
+          powergrid:
+            value:
+              percent: 25
+              flat: 0
+  Advanced Battlecruiser Engineering:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 3
+              flat: 0
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 9
+              flat: 0
+          powergrid:
+            value:
+              percent: 5
+              flat: 0
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 12
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 15
+              flat: 0
+  Expert Battlecruiser Engineering:
+    1:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 2
+              flat: 0
+    2:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 4
+              flat: 0
+          powergrid:
+            value:
+              percent: 2
+              flat: 0
+    3:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+          powergrid:
+            value:
+              percent: 4
+              flat: 0
+    4:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 8
+              flat: 0
+          powergrid:
+            value:
+              percent: 7
+              flat: 0
+    5:
+      ship:
+        type: Battlecruiser
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+  Battleship Engineering:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 5
+              flat: 0
+    2:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+    3:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 8
+              flat: 0
+    4:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 20
+              flat: 0
+          powergrid:
+            value:
+              percent: 16
+              flat: 0
+    5:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 25
+              flat: 0
+          powergrid:
+            value:
+              percent: 25
+              flat: 0
+  Advanced Battleship Engineering:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 3
+              flat: 0
+    2:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+    3:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 9
+              flat: 0
+          powergrid:
+            value:
+              percent: 5
+              flat: 0
+    4:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 12
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+    5:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 15
+              flat: 0
+  Expert Battleship Engineering:
+    1:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 2
+              flat: 0
+    2:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 4
+              flat: 0
+          powergrid:
+            value:
+              percent: 2
+              flat: 0
+    3:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+          powergrid:
+            value:
+              percent: 4
+              flat: 0
+    4:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 8
+              flat: 0
+          powergrid:
+            value:
+              percent: 7
+              flat: 0
+    5:
+      ship:
+        type: Battleship
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+  Industrial Ship Engineering:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 5
+              flat: 0
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 8
+              flat: 0
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 20
+              flat: 0
+          powergrid:
+            value:
+              percent: 16
+              flat: 0
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 25
+              flat: 0
+          powergrid:
+            value:
+              percent: 25
+              flat: 0
+  Advanced Industrial Ship Engineering:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 3
+              flat: 0
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 9
+              flat: 0
+          powergrid:
+            value:
+              percent: 5
+              flat: 0
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 12
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 15
+              flat: 0
+          powergrid:
+            value:
+              percent: 15
+              flat: 0
+  Expert Industrial Ship Engineering:
+    1:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 2
+              flat: 0
+    2:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 4
+              flat: 0
+          powergrid:
+            value:
+              percent: 2
+              flat: 0
+    3:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 6
+              flat: 0
+          powergrid:
+            value:
+              percent: 4
+              flat: 0
+    4:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 8
+              flat: 0
+          powergrid:
+            value:
+              percent: 7
+              flat: 0
+    5:
+      ship:
+        type: Industrial Ship
+        skill:
+          capacitor:
+            value:
+              percent: 10
+              flat: 0
+          powergrid:
+            value:
+              percent: 10
+              flat: 0
+
+Missiles:
+  Small Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            explosion_radius: -5
+    4:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            explosion_radius: -10
+    5:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            explosion_radius: -15
+  Advanced Small Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    3:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            explosion_radius: -3
+    4:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            explosion_radius: -6
+    5:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            explosion_radius: -10
+  Expert Small Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    3:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            explosion_radius: -3
+    4:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            explosion_radius: -6
+    5:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            explosion_radius: -10
+
+  Small Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+    3:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            flight_time: 4
+    4:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            flight_time: 7
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            flight_time: 10
+            flight_velocity: 4
+  Advanced Small Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            flight_time: 1
+    3:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+            flight_velocity: 1
+    4:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            flight_time: 3
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            flight_time: 5
+            flight_velocity: 3
+  Expert Small Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            flight_time: 1
+    3:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+            flight_velocity: 1
+    4:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            flight_time: 3
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            flight_time: 5
+            flight_velocity: 3
+
+  Medium Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            explosion_radius: -5
+    4:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            explosion_radius: -10
+    5:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            explosion_radius: -15
+  Advanced Medium Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    3:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            explosion_radius: -3
+    4:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            explosion_radius: -6
+    5:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            explosion_radius: -10
+  Expert Medium Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    3:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            explosion_radius: -3
+    4:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            explosion_radius: -6
+    5:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            explosion_radius: -10
+
+  Medium Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+    3:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            flight_time: 4
+    4:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            flight_time: 7
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            flight_time: 10
+            flight_velocity: 4
+  Advanced Medium Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            flight_time: 1
+    3:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+            flight_velocity: 1
+    4:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            flight_time: 3
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            flight_time: 5
+            flight_velocity: 3
+  Expert Medium Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            flight_time: 1
+    3:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+            flight_velocity: 1
+    4:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            flight_time: 3
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            flight_time: 5
+            flight_velocity: 3
+
+  Large Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            explosion_radius: -5
+    4:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            explosion_radius: -10
+    5:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            explosion_radius: -15
+  Advanced Large Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    3:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            explosion_radius: -3
+    4:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            explosion_radius: -6
+    5:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            explosion_radius: -10
+  Expert Large Missile/Torpedo Operation:
+    1:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    3:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            explosion_radius: -3
+    4:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            explosion_radius: -6
+    5:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            explosion_radius: -10
+
+  Large Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+    3:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            flight_time: 4
+    4:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            flight_time: 7
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            flight_time: 10
+            flight_velocity: 4
+  Advanced Large Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            flight_time: 1
+    3:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+            flight_velocity: 1
+    4:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            flight_time: 3
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            flight_time: 5
+            flight_velocity: 3
+  Expert Large Missile/Torpedo Upgrade:
+    1:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            flight_time: 1
+    3:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            flight_time: 2
+            flight_velocity: 1
+    4:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            flight_time: 3
+            flight_velocity: 2
+    5:
+      launchers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            flight_time: 5
+            flight_velocity: 3
+
+Laser:
+  Small Laser Operation:
+    1:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Small Laser Operation:
+    1:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Small Laser Operation:
+    1:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Small Laser Upgrade:
+    1:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Small Laser Upgrade:
+    1:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Small Laser Upgrade:
+    1:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      lasers:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Medium Laser Operation:
+    1:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Medium Laser Operation:
+    1:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Medium Laser Operation:
+    1:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Medium Laser Upgrade:
+    1:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Medium Laser Upgrade:
+    1:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Medium Laser Upgrade:
+    1:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      lasers:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Large Laser Operation:
+    1:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Large Laser Operation:
+    1:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Large Laser Operation:
+    1:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Large Laser Upgrade:
+    1:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Large Laser Upgrade:
+    1:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Large Laser Upgrade:
+    1:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      lasers:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+Railgun:
+  Small Railgun Operation:
+    1:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Small Railgun Operation:
+    1:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Small Railgun Operation:
+    1:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Small Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Small Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Small Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      railguns:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Medium Railgun Operation:
+    1:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Medium Railgun Operation:
+    1:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Medium Railgun Operation:
+    1:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Medium Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Medium Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Medium Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      railguns:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Large Railgun Operation:
+    1:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Large Railgun Operation:
+    1:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Large Railgun Operation:
+    1:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Large Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Large Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Large Railgun Upgrade:
+    1:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      railguns:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+Cannon:
+  Small Cannon Operation:
+    1:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Small Cannon Operation:
+    1:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Small Cannon Operation:
+    1:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Small Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Small Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Small Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      cannons:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Medium Cannon Operation:
+    1:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Medium Cannon Operation:
+    1:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Medium Cannon Operation:
+    1:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Medium Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Medium Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Medium Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      cannons:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Large Cannon Operation:
+    1:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Large Cannon Operation:
+    1:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Large Cannon Operation:
+    1:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Large Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Large Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Large Cannon Upgrade:
+    1:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      cannons:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+Drone:
+  Small Drone Operation:
+    1:
+      drones:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      drones:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      drones:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      drones:
+        any:
+          small:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      drones:
+        any:
+          small:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Small Drone Operation:
+    1:
+      drones:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      drones:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      drones:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      drones:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Small Drone Operation:
+    1:
+      drones:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      drones:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      drones:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      drones:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Small Drone Upgrade:
+    1:
+      drones:
+        any:
+          small:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      drones:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      drones:
+        any:
+          small:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      drones:
+        any:
+          small:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      drones:
+        any:
+          small:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Small Drone Upgrade:
+    1:
+      drones:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      drones:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      drones:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      drones:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Small Drone Upgrade:
+    1:
+      drones:
+        any:
+          small:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          small:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      drones:
+        any:
+          small:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      drones:
+        any:
+          small:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      drones:
+        any:
+          small:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Medium Drone Operation:
+    1:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Medium Drone Operation:
+    1:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+      weapons:
+        damage upgrades:
+          drone damage amplifiers:
+            activation_time: 1
+    5:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+      weapons:
+        damage upgrades:
+          drone damage amplifiers:
+            activation_time: 2
+  Expert Medium Drone Operation:
+    1:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Medium Drone Upgrade:
+    1:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Medium Drone Upgrade:
+    1:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Medium Drone Upgrade:
+    1:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      drones:
+        any:
+          medium:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Large Drone Operation:
+    1:
+      drones:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+    2:
+      drones:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+    3:
+      drones:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            tracking_speed: 3
+    4:
+      drones:
+        any:
+          large:
+            damage:
+              em: 16
+              thermal: 16
+              kinetic: 16
+              explosive: 16
+            tracking_speed: 6
+    5:
+      drones:
+        any:
+          large:
+            damage:
+              em: 20
+              thermal: 20
+              kinetic: 20
+              explosive: 20
+            tracking_speed: 10
+  Advanced Large Drone Operation:
+    1:
+      drones:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 2
+    3:
+      drones:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 4
+    4:
+      drones:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 7
+    5:
+      drones:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 10
+  Expert Large Drone Operation:
+    1:
+      drones:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            tracking_speed: 1
+    3:
+      drones:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            tracking_speed: 2
+    4:
+      drones:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            tracking_speed: 3
+    5:
+      drones:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            tracking_speed: 5
+
+  Large Drone Upgrade:
+    1:
+      drones:
+        any:
+          large:
+            damage:
+              em: 3
+              thermal: 3
+              kinetic: 3
+              explosive: 3
+    2:
+      drones:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+    3:
+      drones:
+        any:
+          large:
+            damage:
+              em: 9
+              thermal: 9
+              kinetic: 9
+              explosive: 9
+            accuracy_falloff: 8
+    4:
+      drones:
+        any:
+          large:
+            damage:
+              em: 12
+              thermal: 12
+              kinetic: 12
+              explosive: 12
+            accuracy_falloff: 12
+            optimal_range: 5
+    5:
+      drones:
+        any:
+          large:
+            damage:
+              em: 15
+              thermal: 15
+              kinetic: 15
+              explosive: 15
+            accuracy_falloff: 15
+            optimal_range: 10
+  Advanced Large Drone Upgrade:
+    1:
+      drones:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      drones:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 3
+    4:
+      drones:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 6
+    5:
+      drones:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 10
+  Expert Large Drone Upgrade:
+    1:
+      drones:
+        any:
+          large:
+            damage:
+              em: 2
+              thermal: 2
+              kinetic: 2
+              explosive: 2
+    2:
+      drones:
+        any:
+          large:
+            damage:
+              em: 4
+              thermal: 4
+              kinetic: 4
+              explosive: 4
+            accuracy_falloff: 2
+    3:
+      drones:
+        any:
+          large:
+            damage:
+              em: 6
+              thermal: 6
+              kinetic: 6
+              explosive: 6
+            accuracy_falloff: 4
+            optimal_range: 2
+    4:
+      drones:
+        any:
+          large:
+            damage:
+              em: 8
+              thermal: 8
+              kinetic: 8
+              explosive: 8
+            accuracy_falloff: 7
+            optimal_range: 3
+    5:
+      drones:
+        any:
+          large:
+            damage:
+              em: 10
+              thermal: 10
+              kinetic: 10
+              explosive: 10
+            accuracy_falloff: 10
+            optimal_range: 5
+
+  Drone:
+    1:
+      drones:
+        any:
+          any:
+            control_range: 1
+    2:
+      drones:
+        any:
+          any:
+            control_range: 2
+    3:
+      drones:
+        any:
+          any:
+            control_range: 3
+    4:
+      drones:
+        any:
+          any:
+            control_range: 4
+    5:
+      drones:
+        any:
+          any:
+            control_range: 5
+  Advanced Drone:
+    1:
+      drones:
+        any:
+          any:
+            control_range: 1
+            defense: 15
+    2:
+      drones:
+        any:
+          any:
+            control_range: 2
+            defense: 30
+    3:
+      drones:
+        any:
+          any:
+            control_range: 3
+            defense: 45
+    4:
+      drones:
+        any:
+          any:
+            control_range: 4
+            defense: 60
+    5:
+      drones:
+        any:
+          any:
+            control_range: 5
+            defense: 100
+  Expert Drone:
+    1:
+      drones:
+        any:
+          any:
+            control_range: 1
+            flight_velocity: 8
+            signature_radius: -4
+    2:
+      drones:
+        any:
+          any:
+            control_range: 2
+            flight_velocity: 16
+            signature_radius: -8
+    3:
+      drones:
+        any:
+          any:
+            control_range: 3
+            flight_velocity: 24
+            signature_radius: -12
+    4:
+      drones:
+        any:
+          any:
+            control_range: 4
+            flight_velocity: 32
+            signature_radius: -16
+    5:
+      drones:
+        any:
+          any:
+            control_range: 5
+            flight_velocity: 50
+            signature_radius: -25

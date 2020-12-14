@@ -1,0 +1,333 @@
+weapon rigs:
+  railgun rigs:
+    damage rigs:
+      Railgun Collision Accelerator I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              damage:
+                em: 12.5
+                thermal: 12.5
+                kinetic: 12.5
+                explosive: 12.5
+      Railgun Collision Accelerator II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              damage:
+                em: 15
+                thermal: 15
+                kinetic: 15
+                explosive: 15
+      Railgun Collision Accelerator III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              damage:
+                em: 17.5
+                thermal: 17.5
+                kinetic: 17.5
+                explosive: 17.5
+      Railgun Collision Accelerator IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              damage:
+                em: 20
+                thermal: 20
+                kinetic: 20
+                explosive: 20
+    accuracy falloff rigs:
+      Railgun Ambit Extension I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              accuracy_falloff: 10
+      Railgun Ambit Extension II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              accuracy_falloff: 15
+      Railgun Ambit Extension III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              accuracy_falloff: 20
+      Railgun Ambit Extension IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              accuracy_falloff: 25
+    activation cost rigs:
+      Railgun Discharge Elutriation I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_cost: -12.5
+      Railgun Discharge Elutriation II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_cost: -15
+      Railgun Discharge Elutriation III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_cost: -17.5
+      Railgun Discharge Elutriation IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_cost: -20
+    activation time rigs:
+      Railgun Burst Aerator I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_time: -7.5
+      Railgun Burst Aerator II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_time: -10
+      Railgun Burst Aerator III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_time: -12.5
+      Railgun Burst Aerator IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              activation_time: -15
+    powergrid rigs:
+      Algid Railgun Administrations Unit I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              powergrid: -12.5
+      Algid Railgun Administrations Unit II:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              powergrid: -15
+      Algid Railgun Administrations Unit III:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              powergrid: -17.5
+      Algid Railgun Administrations Unit IV:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        railguns:
+          any:
+            any:
+              powergrid: -20
+
+  drone rigs:
+    damage rigs:
+      Drone Firepower Augmentor I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              damage:
+                em: 12.5
+                thermal: 12.5
+                kinetic: 12.5
+                explosive: 12.5
+      Drone Firepower Augmentor II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              damage:
+                em: 15
+                thermal: 15
+                kinetic: 15
+                explosive: 15
+      Drone Firepower Augmentor III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              damage:
+                em: 17.5
+                thermal: 17.5
+                kinetic: 17.5
+                explosive: 17.5
+      Drone Firepower Augmentor IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              damage:
+                em: 20
+                thermal: 20
+                kinetic: 20
+                explosive: 20
+    accuracy falloff rigs:
+      Drone Scope Chip I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              accuracy_falloff: 10
+      Drone Scope Chip II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              accuracy_falloff: 15
+      Drone Scope Chip III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              accuracy_falloff: 20
+      Drone Scope Chip IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              accuracy_falloff: 25
+    activation time rigs:
+      Drone Speed Augmentor I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              activation_time: -7.5
+      Drone Speed Augmentor II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              activation_time: -10
+      Drone Speed Augmentor III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              activation_time: -12.5
+      Drone Speed Augmentor IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              activation_time: -15
+    control range rigs:
+      Drone Control Range Augmentor I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              control_range: 5
+      Drone Control Range Augmentor II:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              control_range: 10
+      Drone Control Range Augmentor III:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              control_range: 15
+      Drone Control Range Augmentor IV:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        drones:
+          any:
+            any:
+              control_range: 20

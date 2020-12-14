@@ -1,0 +1,4089 @@
+launchers:
+  missiles:
+    small:
+      MK1 Small Missile Launcher:
+        damage:
+          em: 35.17
+          thermal: 35.17
+          kinetic: 35.17
+          explosive: 35.17
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        flight_velocity: 3750
+        powergrid: 5
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK3 Small Missile Launcher:
+        damage:
+          em: 47.64
+          thermal: 47.64
+          kinetic: 47.64
+          explosive: 47.64
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        flight_velocity: 3750
+        powergrid: 5
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK5 Small Missile Launcher:
+        damage:
+          em: 54.95
+          thermal: 54.95
+          kinetic: 54.95
+          explosive: 54.95
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        flight_velocity: 3750
+        powergrid: 5
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK7 Small Missile Launcher:
+        damage:
+          em: 60.13
+          thermal: 60.13
+          kinetic: 60.13
+          explosive: 60.13
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 3750
+        powergrid: 6
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK9 Small Missile Launcher:
+        damage:
+          em: 64.12
+          thermal: 64.12
+          kinetic: 64.12
+          explosive: 64.12
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 3750
+        powergrid: 6
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Gallows Small Missile Launcher:
+        damage:
+          em: 67.41
+          thermal: 67.41
+          kinetic: 67.41
+          explosive: 67.41
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 3750
+        powergrid: 6
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Caldari Navy Small Missile Launcher:
+        damage:
+          em: 70.18
+          thermal: 70.18
+          kinetic: 70.18
+          explosive: 70.18
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Republic Fleet Small Missile Launcher:
+        damage:
+          em: 70.18
+          thermal: 70.18
+          kinetic: 70.18
+          explosive: 70.18
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      True Sansha Small Missile Launcher:
+        damage:
+          em: 72.59
+          thermal: 72.59
+          kinetic: 72.59
+          explosive: 72.59
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Dread Guristas Small Missile Launcher:
+        damage:
+          em: 72.59
+          thermal: 72.59
+          kinetic: 72.59
+          explosive: 72.59
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Domination Small Missile Launcher:
+        damage:
+          em: 72.59
+          thermal: 72.59
+          kinetic: 72.59
+          explosive: 72.59
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Discipline Small Missile Launcher:
+        damage:
+          em: 74.72
+          thermal: 74.72
+          kinetic: 74.72
+          explosive: 74.72
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Pithi C-Type Small Missile Launcher:
+        damage:
+          em: 79.87
+          thermal: 79.87
+          kinetic: 79.87
+          explosive: 79.87
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 3750
+        powergrid: 8
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+    medium:
+      MK5 Medium Missile Launcher:
+        damage:
+          em: 88.97
+          thermal: 88.97
+          kinetic: 88.97
+          explosive: 88.97
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        flight_velocity: 4300
+        powergrid: 41
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      MK7 Medium Missile Launcher:
+        damage:
+          em: 97.35
+          thermal: 97.35
+          kinetic: 97.35
+          explosive: 97.35
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 4300
+        powergrid: 43
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      MK9 Medium Missile Launcher:
+        damage:
+          em: 104
+          thermal: 104
+          kinetic: 104
+          explosive: 104
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 4300
+        powergrid: 45
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Challenger Medium Missile Launcher:
+        damage:
+          em: 109
+          thermal: 109
+          kinetic: 109
+          explosive: 109
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 4300
+        powergrid: 47
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Caldari Navy Medium Missile Launcher:
+        damage:
+          em: 114
+          thermal: 114
+          kinetic: 114
+          explosive: 114
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 49
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Republic Fleet Medium Missile Launcher:
+        damage:
+          em: 114
+          thermal: 114
+          kinetic: 114
+          explosive: 114
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 49
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      True Sansha Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Dread Guristas Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Domination Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Discipline Medium Missile Launcher:
+        damage:
+          em: 121
+          thermal: 121
+          kinetic: 121
+          explosive: 121
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 4300
+        powergrid: 52
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Pithum C-Type Medium Missile Launcher:
+        damage:
+          em: 129
+          thermal: 129
+          kinetic: 129
+          explosive: 129
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 4300
+        powergrid: 58
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+    large:
+      MK7 Large Missile Launcher:
+        damage:
+          em: 181
+          thermal: 181
+          kinetic: 181
+          explosive: 181
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 4700
+        powergrid: 437
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      MK9 Large Missile Launcher:
+        damage:
+          em: 193
+          thermal: 193
+          kinetic: 193
+          explosive: 193
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 4700
+        powergrid: 456
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Gallows Large Missile Launcher:
+        damage:
+          em: 203
+          thermal: 203
+          kinetic: 203
+          explosive: 203
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 4700
+        powergrid: 475
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Caldari Navy Large Missile Launcher:
+        damage:
+          em: 211
+          thermal: 211
+          kinetic: 211
+          explosive: 211
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 494
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Republic Fleet Large Missile Launcher:
+        damage:
+          em: 211
+          thermal: 211
+          kinetic: 211
+          explosive: 211
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 494
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      True Sansha Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Dread Guristas Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Domination Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Hurricane Large Missile Launcher:
+        damage:
+          em: 225
+          thermal: 225
+          kinetic: 225
+          explosive: 225
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 4700
+        powergrid: 532
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Pith C-Type Large Missile Launcher:
+        damage:
+          em: 241
+          thermal: 241
+          kinetic: 241
+          explosive: 241
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 4700
+        powergrid: 590
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+  torpedos:
+    small:
+      MK1 Small Missile Launcher:
+        damage:
+          em: 35.17
+          thermal: 35.17
+          kinetic: 35.17
+          explosive: 35.17
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        flight_velocity: 3750
+        powergrid: 5
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK3 Small Missile Launcher:
+        damage:
+          em: 47.64
+          thermal: 47.64
+          kinetic: 47.64
+          explosive: 47.64
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        flight_velocity: 3750
+        powergrid: 5
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK5 Small Missile Launcher:
+        damage:
+          em: 54.95
+          thermal: 54.95
+          kinetic: 54.95
+          explosive: 54.95
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        flight_velocity: 3750
+        powergrid: 5
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK7 Small Missile Launcher:
+        damage:
+          em: 60.13
+          thermal: 60.13
+          kinetic: 60.13
+          explosive: 60.13
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 3750
+        powergrid: 6
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      MK9 Small Missile Launcher:
+        damage:
+          em: 64.12
+          thermal: 64.12
+          kinetic: 64.12
+          explosive: 64.12
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 3750
+        powergrid: 6
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Gallows Small Missile Launcher:
+        damage:
+          em: 67.41
+          thermal: 67.41
+          kinetic: 67.41
+          explosive: 67.41
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 3750
+        powergrid: 6
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Caldari Navy Small Missile Launcher:
+        damage:
+          em: 70.18
+          thermal: 70.18
+          kinetic: 70.18
+          explosive: 70.18
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Republic Fleet Small Missile Launcher:
+        damage:
+          em: 70.18
+          thermal: 70.18
+          kinetic: 70.18
+          explosive: 70.18
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      True Sansha Small Missile Launcher:
+        damage:
+          em: 72.59
+          thermal: 72.59
+          kinetic: 72.59
+          explosive: 72.59
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Dread Guristas Small Missile Launcher:
+        damage:
+          em: 72.59
+          thermal: 72.59
+          kinetic: 72.59
+          explosive: 72.59
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Domination Small Missile Launcher:
+        damage:
+          em: 72.59
+          thermal: 72.59
+          kinetic: 72.59
+          explosive: 72.59
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Discipline Small Missile Launcher:
+        damage:
+          em: 74.72
+          thermal: 74.72
+          kinetic: 74.72
+          explosive: 74.72
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 3750
+        powergrid: 7
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+      Pithi C-Type Small Missile Launcher:
+        damage:
+          em: 79.87
+          thermal: 79.87
+          kinetic: 79.87
+          explosive: 79.87
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 3750
+        powergrid: 8
+        activation_time: 12.8
+        explosion_velocity: 170
+        explosion_radius: 40
+        flight_time: 4
+        reload_time: 10
+    medium:
+      MK5 Medium Missile Launcher:
+        damage:
+          em: 88.97
+          thermal: 88.97
+          kinetic: 88.97
+          explosive: 88.97
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        flight_velocity: 4300
+        powergrid: 41
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      MK7 Medium Missile Launcher:
+        damage:
+          em: 97.35
+          thermal: 97.35
+          kinetic: 97.35
+          explosive: 97.35
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 4300
+        powergrid: 43
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      MK9 Medium Missile Launcher:
+        damage:
+          em: 104
+          thermal: 104
+          kinetic: 104
+          explosive: 104
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 4300
+        powergrid: 45
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Challenger Medium Missile Launcher:
+        damage:
+          em: 109
+          thermal: 109
+          kinetic: 109
+          explosive: 109
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 4300
+        powergrid: 47
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Caldari Navy Medium Missile Launcher:
+        damage:
+          em: 114
+          thermal: 114
+          kinetic: 114
+          explosive: 114
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 49
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Republic Fleet Medium Missile Launcher:
+        damage:
+          em: 114
+          thermal: 114
+          kinetic: 114
+          explosive: 114
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 49
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      True Sansha Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Dread Guristas Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Domination Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Discipline Medium Missile Launcher:
+        damage:
+          em: 121
+          thermal: 121
+          kinetic: 121
+          explosive: 121
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 4300
+        powergrid: 52
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Pithum C-Type Medium Missile Launcher:
+        damage:
+          em: 129
+          thermal: 129
+          kinetic: 129
+          explosive: 129
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 4300
+        powergrid: 58
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+    large:
+      MK7 Large Missile Launcher:
+        damage:
+          em: 181
+          thermal: 181
+          kinetic: 181
+          explosive: 181
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 4700
+        powergrid: 437
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      MK9 Large Missile Launcher:
+        damage:
+          em: 193
+          thermal: 193
+          kinetic: 193
+          explosive: 193
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 4700
+        powergrid: 456
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Gallows Large Missile Launcher:
+        damage:
+          em: 203
+          thermal: 203
+          kinetic: 203
+          explosive: 203
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 4700
+        powergrid: 475
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Caldari Navy Large Missile Launcher:
+        damage:
+          em: 211
+          thermal: 211
+          kinetic: 211
+          explosive: 211
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 494
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Republic Fleet Large Missile Launcher:
+        damage:
+          em: 211
+          thermal: 211
+          kinetic: 211
+          explosive: 211
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 494
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      True Sansha Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Dread Guristas Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Domination Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Hurricane Large Missile Launcher:
+        damage:
+          em: 225
+          thermal: 225
+          kinetic: 225
+          explosive: 225
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 4700
+        powergrid: 532
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Pith C-Type Large Missile Launcher:
+        damage:
+          em: 241
+          thermal: 241
+          kinetic: 241
+          explosive: 241
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 4700
+        powergrid: 590
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+  rapids:
+    medium:
+      MK5 Medium Missile Launcher:
+        damage:
+          em: 88.97
+          thermal: 88.97
+          kinetic: 88.97
+          explosive: 88.97
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        flight_velocity: 4300
+        powergrid: 41
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      MK7 Medium Missile Launcher:
+        damage:
+          em: 97.35
+          thermal: 97.35
+          kinetic: 97.35
+          explosive: 97.35
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 4300
+        powergrid: 43
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      MK9 Medium Missile Launcher:
+        damage:
+          em: 104
+          thermal: 104
+          kinetic: 104
+          explosive: 104
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 4300
+        powergrid: 45
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Challenger Medium Missile Launcher:
+        damage:
+          em: 109
+          thermal: 109
+          kinetic: 109
+          explosive: 109
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 4300
+        powergrid: 47
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Caldari Navy Medium Missile Launcher:
+        damage:
+          em: 114
+          thermal: 114
+          kinetic: 114
+          explosive: 114
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 49
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Republic Fleet Medium Missile Launcher:
+        damage:
+          em: 114
+          thermal: 114
+          kinetic: 114
+          explosive: 114
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 49
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      True Sansha Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Dread Guristas Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Domination Medium Missile Launcher:
+        damage:
+          em: 118
+          thermal: 118
+          kinetic: 118
+          explosive: 118
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4300
+        powergrid: 51
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Discipline Medium Missile Launcher:
+        damage:
+          em: 121
+          thermal: 121
+          kinetic: 121
+          explosive: 121
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 4300
+        powergrid: 52
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+      Pithum C-Type Medium Missile Launcher:
+        damage:
+          em: 129
+          thermal: 129
+          kinetic: 129
+          explosive: 129
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 4300
+        powergrid: 58
+        activation_time: 12
+        explosion_velocity: 81
+        explosion_radius: 140
+        flight_time: 6.5
+        reload_time: 10
+    large:
+      MK7 Large Missile Launcher:
+        damage:
+          em: 181
+          thermal: 181
+          kinetic: 181
+          explosive: 181
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        flight_velocity: 4700
+        powergrid: 437
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      MK9 Large Missile Launcher:
+        damage:
+          em: 193
+          thermal: 193
+          kinetic: 193
+          explosive: 193
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        flight_velocity: 4700
+        powergrid: 456
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Gallows Large Missile Launcher:
+        damage:
+          em: 203
+          thermal: 203
+          kinetic: 203
+          explosive: 203
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        flight_velocity: 4700
+        powergrid: 475
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Caldari Navy Large Missile Launcher:
+        damage:
+          em: 211
+          thermal: 211
+          kinetic: 211
+          explosive: 211
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 494
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Republic Fleet Large Missile Launcher:
+        damage:
+          em: 211
+          thermal: 211
+          kinetic: 211
+          explosive: 211
+        tech_level: 6
+        metalevel: 0
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 494
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      True Sansha Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Dread Guristas Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Domination Large Missile Launcher:
+        damage:
+          em: 219
+          thermal: 219
+          kinetic: 219
+          explosive: 219
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        flight_velocity: 4700
+        powergrid: 513
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Hurricane Large Missile Launcher:
+        damage:
+          em: 225
+          thermal: 225
+          kinetic: 225
+          explosive: 225
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        flight_velocity: 4700
+        powergrid: 532
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+      Pith C-Type Large Missile Launcher:
+        damage:
+          em: 241
+          thermal: 241
+          kinetic: 241
+          explosive: 241
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        flight_velocity: 4700
+        powergrid: 590
+        activation_time: 16.54
+        explosion_velocity: 69
+        explosion_radius: 330
+        flight_time: 14
+        reload_time: 10
+lasers:
+  pulse:
+    small:
+      MK1 Small Pulse Laser:
+        damage:
+          em: 30.76
+          thermal: 18.8
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 8
+        activation_cost: 3.3
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      MK3 Small Pulse Laser:
+        damage:
+          em: 41.67
+          thermal: 25.47
+          kinetic: 0
+          explosive: 0
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 8
+        activation_cost: 3.4
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      MK5 Small Pulse Laser:
+        damage:
+          em: 48.04
+          thermal: 29.36
+          kinetic: 0
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 9
+        activation_cost: 3.4
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      MK7 Small Pulse Laser:
+        damage:
+          em: 52.28
+          thermal: 32.13
+          kinetic: 0
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 9
+        activation_cost: 3.5
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      MK9 Small Pulse Laser:
+        damage:
+          em: 56.09
+          thermal: 34.28
+          kinetic: 0
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 10
+        activation_cost: 3.5
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      Longbow Small Pulse Laser:
+        damage:
+          em: 58.95
+          thermal: 36.03
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 10
+        activation_cost: 3.5
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      Imperial Navy Small Pulse Laser:
+        damage:
+          em: 61.38
+          thermal: 37.51
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 11
+        activation_cost: 3.6
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      True Sansha Small Pulse Laser:
+        damage:
+          em: 63.49
+          thermal: 38.8
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 11
+        activation_cost: 3.6
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      Dark Blood Small Pulse Laser:
+        damage:
+          em: 63.49
+          thermal: 38.8
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 11
+        activation_cost: 3.6
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      Rebel Small Pulse Laser:
+        damage:
+          em: 65.34
+          thermal: 39.93
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 11
+        activation_cost: 3.7
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      Centii C-Type Small Pulse Laser:
+        damage:
+          em: 69.88
+          thermal: 42.7
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 13
+        activation_cost: 3.8
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+      Corpii C-Type Small Pulse Laser:
+        damage:
+          em: 69.88
+          thermal: 42.7
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 13
+        activation_cost: 3.8
+        activation_time: 4
+        optimal_range: 5.25
+        accuracy_falloff: 2.5
+        tracking_speed: 384
+    medium:
+      MK5 Medium Pulse Laser:
+        damage:
+          em: 88.49
+          thermal: 54.08
+          kinetic: 0
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 83
+        activation_cost: 13.6
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      MK7 Medium Pulse Laser:
+        damage:
+          em: 96.84
+          thermal: 59.18
+          kinetic: 0
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 86
+        activation_cost: 13.7
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      MK9 Medium Pulse Laser:
+        damage:
+          em: 103
+          thermal: 63.14
+          kinetic: 0
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 90
+        activation_cost: 13.9
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      Joust Medium Pulse Laser:
+        damage:
+          em: 109
+          thermal: 66.37
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 94
+        activation_cost: 14.1
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      Imperial Navy Medium Pulse Laser:
+        damage:
+          em: 113
+          thermal: 69.1
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 98
+        activation_cost: 14.2
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      True Sansha Medium Pulse Laser:
+        damage:
+          em: 117
+          thermal: 71.46
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 102
+        activation_cost: 14.4
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      Dark Blood Medium Pulse Laser:
+        damage:
+          em: 117
+          thermal: 71.46
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 102
+        activation_cost: 14.4
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      Ritual Medium Pulse Laser:
+        damage:
+          em: 120
+          thermal: 73.55
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 105
+        activation_cost: 14.6
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      Centum C-Type Medium Pulse Laser:
+        damage:
+          em: 129
+          thermal: 78.65
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 117
+        activation_cost: 15.1
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+      Corpum C-Type Medium Pulse Laser:
+        damage:
+          em: 129
+          thermal: 78.65
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 117
+        activation_cost: 15.1
+        activation_time: 5.25
+        optimal_range: 12.6
+        accuracy_falloff: 5
+        tracking_speed: 40.56
+    large:
+      MK7 Large Pulse Laser:
+        damage:
+          em: 220
+          thermal: 134
+          kinetic: 0
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 791
+        activation_cost: 38.6
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      MK9 Large Pulse Laser:
+        damage:
+          em: 235
+          thermal: 143
+          kinetic: 0
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 826
+        activation_cost: 39.1
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      Halberd Large Pulse Laser:
+        damage:
+          em: 247
+          thermal: 151
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 860
+        activation_cost: 39.5
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      Imperial Navy Large Pulse Laser:
+        damage:
+          em: 257
+          thermal: 157
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 895
+        activation_cost: 40
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      True Sansha Large Pulse Laser:
+        damage:
+          em: 266
+          thermal: 162
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 929
+        activation_cost: 40.5
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      Dark Blood Large Pulse Laser:
+        damage:
+          em: 266
+          thermal: 162
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 929
+        activation_cost: 40.5
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      Ruin Large Pulse Laser:
+        damage:
+          em: 273
+          thermal: 167
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 963
+        activation_cost: 40.9
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      Centus C-Type Large Pulse Laser:
+        damage:
+          em: 292
+          thermal: 179
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1067
+        activation_cost: 42.3
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+      Corpus C-Type Large Pulse Laser:
+        damage:
+          em: 292
+          thermal: 179
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1067
+        activation_cost: 42.3
+        activation_time: 7.85
+        optimal_range: 25.2
+        accuracy_falloff: 5
+        tracking_speed: 5.79
+  beam:
+    small:
+      MK1 Small Beam Laser:
+        damage:
+          em: 31.5
+          thermal: 19.25
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 10
+        activation_cost: 6
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      MK3 Small Beam Laser:
+        damage:
+          em: 42.68
+          thermal: 26.08
+          kinetic: 0
+          explosive: 0
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 10
+        activation_cost: 6
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      MK5 Small Beam Laser:
+        damage:
+          em: 49.21
+          thermal: 30.07
+          kinetic: 0
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 11
+        activation_cost: 6.1
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      MK7 Small Beam Laser:
+        damage:
+          em: 53.86
+          thermal: 32.91
+          kinetic: 0
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 11
+        activation_cost: 6.2
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      MK9 Small Beam Laser:
+        damage:
+          em: 57.46
+          thermal: 35.11
+          kinetic: 0
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 12
+        activation_cost: 6.2
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      Mace Small Beam Laser:
+        damage:
+          em: 60.39
+          thermal: 36.91
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 12
+        activation_cost: 6.3
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      Imperial Navy Small Beam Laser:
+        damage:
+          em: 62.87
+          thermal: 38.42
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 13
+        activation_cost: 6.4
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      True Sansha Small Beam Laser:
+        damage:
+          em: 65.02
+          thermal: 39.73
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 13
+        activation_cost: 6.5
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      Dark Blood Small Beam Laser:
+        damage:
+          em: 65.02
+          thermal: 39.73
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 13
+        activation_cost: 6.5
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      Rebel Small Beam Laser:
+        damage:
+          em: 66.92
+          thermal: 40.9
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 14
+        activation_cost: 6.5
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      Centii C-Type Small Beam Laser:
+        damage:
+          em: 71.57
+          thermal: 43.74
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 15
+        activation_cost: 6.8
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+      Corpii C-Type Small Beam Laser:
+        damage:
+          em: 71.57
+          thermal: 43.74
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 15
+        activation_cost: 6.8
+        activation_time: 5
+        optimal_range: 11
+        accuracy_falloff: 2.5
+        tracking_speed: 129
+    medium:
+      MK5 Medium Beam Laser:
+        damage:
+          em: 83.45
+          thermal: 51
+          kinetic: 0
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 99
+        activation_cost: 22.1
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      MK7 Medium Beam Laser:
+        damage:
+          em: 91.3
+          thermal: 55.79
+          kinetic: 0
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 103
+        activation_cost: 22.4
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      MK9 Medium Beam Laser:
+        damage:
+          em: 97.42
+          thermal: 59.53
+          kinetic: 0
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 107
+        activation_cost: 22.6
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      Crossbow Medium Beam Laser:
+        damage:
+          em: 102
+          thermal: 62.57
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 112
+        activation_cost: 22.9
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      Imperial Navy Medium Beam Laser:
+        damage:
+          em: 107
+          thermal: 65.14
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 117
+        activation_cost: 23.2
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      True Sansha Medium Beam Laser:
+        damage:
+          em: 110
+          thermal: 67.36
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 121
+        activation_cost: 23.4
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      Dark Blood Medium Beam Laser:
+        damage:
+          em: 110
+          thermal: 67.36
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 121
+        activation_cost: 23.4
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      Ritual Medium Beam Laser:
+        damage:
+          em: 113
+          thermal: 69.34
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 126
+        activation_cost: 23.7
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      Centum C-Type Medium Beam Laser:
+        damage:
+          em: 121
+          thermal: 74.14
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 139
+        activation_cost: 24.5
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+      Corpum C-Type Medium Beam Laser:
+        damage:
+          em: 121
+          thermal: 74.14
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 139
+        activation_cost: 24.5
+        activation_time: 6
+        optimal_range: 22
+        accuracy_falloff: 8
+        tracking_speed: 17.05
+    large:
+      MK7 Large Beam Laser:
+        damage:
+          em: 211
+          thermal: 129
+          kinetic: 0
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 931
+        activation_cost: 56
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      MK9 Large Beam Laser:
+        damage:
+          em: 225
+          thermal: 137
+          kinetic: 0
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 972
+        activation_cost: 56.6
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      Catapult Large Beam Laser:
+        damage:
+          em: 236
+          thermal: 144
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 1012
+        activation_cost: 57.3
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      Imperial Navy Large Beam Laser:
+        damage:
+          em: 246
+          thermal: 150
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1053
+        activation_cost: 58
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      True Sansha Large Beam Laser:
+        damage:
+          em: 254
+          thermal: 155
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1093
+        activation_cost: 58.7
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      Dark Blood Large Beam Laser:
+        damage:
+          em: 254
+          thermal: 155
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1093
+        activation_cost: 58.7
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      Ruin Large Beam Laser:
+        damage:
+          em: 262
+          thermal: 160
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 1134
+        activation_cost: 59.4
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      Centus C-Type Large Beam Laser:
+        damage:
+          em: 280
+          thermal: 171
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1255
+        activation_cost: 61.4
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+      Corpus C-Type Large Beam Laser:
+        damage:
+          em: 280
+          thermal: 171
+          kinetic: 0
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1255
+        activation_cost: 61.4
+        activation_time: 9
+        optimal_range: 48
+        accuracy_falloff: 16
+        tracking_speed: 2.29
+railguns:
+  rifled:
+    small:
+      MK1 Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 16.53
+          kinetic: 27.05
+          explosive: 0
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 7
+        activation_cost: 1.4
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      MK3 Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 22.41
+          kinetic: 36.67
+          explosive: 0
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 8
+        activation_cost: 1.4
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      MK5 Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 25.84
+          kinetic: 42.28
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 8
+        activation_cost: 1.4
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      MK7 Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 28.27
+          kinetic: 46.26
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 8
+        activation_cost: 1.5
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      MK9 Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 30.14
+          kinetic: 49.36
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 9
+        activation_cost: 1.5
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      Musket Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 31.7
+          kinetic: 51.88
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 9
+        activation_cost: 1.5
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      Caldari Navy Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 33.01
+          kinetic: 54.02
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 10
+        activation_cost: 1.5
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      Federation Navy Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 33.01
+          kinetic: 54.02
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 10
+        activation_cost: 1.5
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      Dread Guristas Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 34.13
+          kinetic: 55.85
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 10
+        activation_cost: 1.5
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      Shadow Serpentis Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 34.13
+          kinetic: 55.85
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 10
+        activation_cost: 1.5
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      Quafe Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 35.13
+          kinetic: 57.49
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: story
+        powergrid: 10
+        activation_cost: 1.6
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+      Coreli C-Type Small Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 37.57
+          kinetic: 61.47
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 11
+        activation_cost: 1.6
+        activation_time: 4
+        optimal_range: 9
+        accuracy_falloff: 5
+        tracking_speed: 116
+        reload_time: 5
+    medium:
+      MK5 Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 44.13
+          kinetic: 72.22
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 83
+        activation_cost: 5.4
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      MK7 Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 48.29
+          kinetic: 79.02
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 86
+        activation_cost: 5.5
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      MK9 Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 51.5
+          kinetic: 84.28
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 90
+        activation_cost: 5.6
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      Flintlock Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 54.14
+          kinetic: 88.6
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 94
+        activation_cost: 5.6
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      Caldari Navy Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 56.36
+          kinetic: 92.23
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 98
+        activation_cost: 5.7
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      Federation Navy Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 56.36
+          kinetic: 92.23
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 98
+        activation_cost: 5.7
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      Dread Guristas Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 58.3
+          kinetic: 95.4
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 102
+        activation_cost: 5.8
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      Shadow Serpentis Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 58.3
+          kinetic: 95.4
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 102
+        activation_cost: 5.8
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      Magnate Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 59.99
+          kinetic: 98.17
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: story
+        powergrid: 105
+        activation_cost: 5.8
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+      Corelum C-Type Medium Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 64.15
+          kinetic: 105
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 117
+        activation_cost: 6
+        activation_time: 4.46
+        optimal_range: 18
+        accuracy_falloff: 10
+        tracking_speed: 10.4
+        reload_time: 5
+    large:
+      MK7 Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 113
+          kinetic: 189
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 670
+        activation_cost: 17.3
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      MK9 Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 120
+          kinetic: 201
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 699
+        activation_cost: 17.5
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      Popper Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 126
+          kinetic: 211
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 728
+        activation_cost: 17.7
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      Caldari Navy Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 131
+          kinetic: 220
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 758
+        activation_cost: 17.9
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      Federation Navy Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 131
+          kinetic: 220
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 758
+        activation_cost: 17.9
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      Dread Guristas Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 136
+          kinetic: 228
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 787
+        activation_cost: 18.1
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      Shadow Serpentis Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 136
+          kinetic: 228
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 787
+        activation_cost: 18.1
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      Poison Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 140
+          kinetic: 234
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: story
+        powergrid: 816
+        activation_cost: 18.3
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+      Core C-Type Large Rifled Railgun:
+        damage:
+          em: 0
+          thermal: 150
+          kinetic: 251
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 903
+        activation_cost: 18.9
+        activation_time: 7.31
+        optimal_range: 36
+        accuracy_falloff: 20
+        tracking_speed: 1.67
+        reload_time: 5
+  snubnosed:
+    small:
+      MK1 Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 23.17
+          kinetic: 37.91
+          explosive: 0
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 6
+        activation_cost: 1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      MK3 Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 31.39
+          kinetic: 51.37
+          explosive: 0
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 7
+        activation_cost: 1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      MK5 Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 36.2
+          kinetic: 59.24
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 7
+        activation_cost: 1.1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      MK7 Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 39.61
+          kinetic: 64.82
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 7
+        activation_cost: 1.1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      MK9 Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 42.26
+          kinetic: 69.16
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 8
+        activation_cost: 1.1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      Dealer Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 44.42
+          kinetic: 72.67
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 8
+        activation_cost: 1.1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      Federation Navy Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 46.24
+          kinetic: 75.67
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 8
+        activation_cost: 1.1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      Shadow Serpentis Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 47.83
+          kinetic: 78.26
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 9
+        activation_cost: 1.1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      Quafe Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 49.22
+          kinetic: 80.55
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: story
+        powergrid: 9
+        activation_cost: 1.1
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+      Coreli C-Type Small Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 52.64
+          kinetic: 86.13
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 10
+        activation_cost: 1.2
+        activation_time: 4
+        optimal_range: 1.8
+        accuracy_falloff: 2.4
+        tracking_speed: 550
+        reload_time: 5
+    medium:
+      MK5 Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 57.42
+          kinetic: 93.96
+          explosive: 0
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 74
+        activation_cost: 3.7
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+      MK7 Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 62.83
+          kinetic: 103
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 77
+        activation_cost: 3.7
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+      MK9 Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 67.03
+          kinetic: 110
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 81
+        activation_cost: 3.8
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+      Hustler Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 70.47
+          kinetic: 115
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 84
+        activation_cost: 3.8
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+      Federation Navy Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 73.37
+          kinetic: 120
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 87
+        activation_cost: 3.9
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+      Shadow Serpentis Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 75.88
+          kinetic: 124
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 91
+        activation_cost: 3.9
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+      Magnate Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 78.1
+          kinetic: 128
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: story
+        powergrid: 94
+        activation_cost: 3.4
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+      Corelum C-Type Medium Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 83.51
+          kinetic: 137
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 104
+        activation_cost: 4.1
+        activation_time: 4.5
+        optimal_range: 3.6
+        accuracy_falloff: 4.8
+        tracking_speed: 60.4
+        reload_time: 5
+    large:
+      MK7 Large Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 168
+          kinetic: 281
+          explosive: 0
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 605
+        activation_cost: 13.7
+        activation_time: 7.88
+        optimal_range: 7.2
+        accuracy_falloff: 10
+        tracking_speed: 7.09
+        reload_time: 5
+      MK9 Large Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 179
+          kinetic: 300
+          explosive: 0
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 631
+        activation_cost: 13.8
+        activation_time: 7.88
+        optimal_range: 7.2
+        accuracy_falloff: 10
+        tracking_speed: 7.09
+        reload_time: 5
+      Swindler Large Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 188
+          kinetic: 315
+          explosive: 0
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 658
+        activation_cost: 14
+        activation_time: 7.88
+        optimal_range: 7.2
+        accuracy_falloff: 10
+        tracking_speed: 7.09
+        reload_time: 5
+      Federation Navy Large Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 196
+          kinetic: 328
+          explosive: 0
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 684
+        activation_cost: 14.2
+        activation_time: 7.88
+        optimal_range: 7.2
+        accuracy_falloff: 10
+        tracking_speed: 7.09
+        reload_time: 5
+      Shadow Serpentis Large Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 202
+          kinetic: 339
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 710
+        activation_cost: 14.3
+        activation_time: 7.88
+        optimal_range: 7.2
+        accuracy_falloff: 10
+        tracking_speed: 7.09
+        reload_time: 5
+      Poison Large Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 208
+          kinetic: 349
+          explosive: 0
+        tech_level: 1
+        metalevel: 7
+        faction: story
+        powergrid: 737
+        activation_cost: 14.5
+        activation_time: 7.88
+        optimal_range: 7.2
+        accuracy_falloff: 10
+        tracking_speed: 7.09
+        reload_time: 5
+      Core C-Type Large Snubnosed Railgun:
+        damage:
+          em: 0
+          thermal: 223
+          kinetic: 373
+          explosive: 0
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 816
+        activation_cost: 15
+        activation_time: 7.88
+        optimal_range: 7.2
+        accuracy_falloff: 10
+        tracking_speed: 7.09
+        reload_time: 5
+cannons:
+  auto:
+    small:
+      MK1 Small Autocannon:
+        damage:
+          em: 0
+          thermal: 19.75
+          kinetic: 13.17
+          explosive: 19.75
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 3
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      MK3 Small Autocannon:
+        damage:
+          em: 0
+          thermal: 26.75
+          kinetic: 17.83
+          explosive: 26.75
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 3
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      MK5 Small Autocannon:
+        damage:
+          em: 0
+          thermal: 30.85
+          kinetic: 20.57
+          explosive: 30.85
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 3
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      MK7 Small Autocannon:
+        damage:
+          em: 0
+          thermal: 33.76
+          kinetic: 22.5
+          explosive: 33.76
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 3
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      MK9 Small Autocannon:
+        damage:
+          em: 0
+          thermal: 36.01
+          kinetic: 24.01
+          explosive: 36.01
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 3
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      Jolt Small Autocannon:
+        damage:
+          em: 0
+          thermal: 37.86
+          kinetic: 25.24
+          explosive: 37.86
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 3
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      Republic Fleet Small Autocannon:
+        damage:
+          em: 0
+          thermal: 39.41
+          kinetic: 26.27
+          explosive: 39.41
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 4
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      Domination Small Autocannon:
+        damage:
+          em: 0
+          thermal: 40.76
+          kinetic: 27.18
+          explosive: 40.76
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 4
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      Criminal Small Autocannon:
+        damage:
+          em: 0
+          thermal: 41.95
+          kinetic: 27.97
+          explosive: 41.95
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 4
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+      Gistii C-Type Small Autocannon:
+        damage:
+          em: 0
+          thermal: 44.86
+          kinetic: 29.9
+          explosive: 44.86
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 4
+        activation_time: 4
+        activation_cost: 0
+        optimal_range: 1.2
+        accuracy_falloff: 5.16
+        tracking_speed: 410
+        reload_time: 10
+    medium:
+      MK5 Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 62.1
+          kinetic: 42.23
+          explosive: 62.1
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 61
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+      MK7 Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 67.95
+          kinetic: 46.21
+          explosive: 67.95
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 64
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+      MK9 Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 72.47
+          kinetic: 49.28
+          explosive: 72.47
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 66
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+      Jolt Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 76.2
+          kinetic: 51.82
+          explosive: 76.2
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 69
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+      Republic Fleet Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 79.33
+          kinetic: 53.94
+          explosive: 79.33
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 72
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+      Domination Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 82.05
+          kinetic: 55.79
+          explosive: 82.05
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 75
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+      Free Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 84.45
+          kinetic: 57.43
+          explosive: 84.45
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 78
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+      Gistum C-Type Medium Autocannon:
+        damage:
+          em: 0
+          thermal: 90.3
+          kinetic: 61.4
+          explosive: 90.3
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 86
+        activation_time: 5.63
+        activation_cost: 0
+        optimal_range: 2.4
+        accuracy_falloff: 10.32
+        tracking_speed: 50.74
+        reload_time: 10
+    large:
+      MK7 Large Autocannon:
+        damage:
+          em: 0
+          thermal: 146
+          kinetic: 96.1
+          explosive: 146
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 633
+        activation_time: 7.88
+        activation_cost: 0
+        optimal_range: 4.8
+        accuracy_falloff: 20.64
+        tracking_speed: 5.9
+        reload_time: 10
+      MK9 Large Autocannon:
+        damage:
+          em: 0
+          thermal: 155
+          kinetic: 102
+          explosive: 155
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 660
+        activation_time: 7.88
+        activation_cost: 0
+        optimal_range: 4.8
+        accuracy_falloff: 20.64
+        tracking_speed: 5.9
+        reload_time: 10
+      Jolt Large Autocannon:
+        damage:
+          em: 0
+          thermal: 163
+          kinetic: 108
+          explosive: 163
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 688
+        activation_time: 7.88
+        activation_cost: 0
+        optimal_range: 4.8
+        accuracy_falloff: 20.64
+        tracking_speed: 5.9
+        reload_time: 10
+      Republic Fleet Large Autocannon:
+        damage:
+          em: 0
+          thermal: 170
+          kinetic: 112
+          explosive: 170
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 716
+        activation_time: 7.88
+        activation_cost: 0
+        optimal_range: 4.8
+        accuracy_falloff: 20.64
+        tracking_speed: 5.9
+        reload_time: 10
+      Domination Large Autocannon:
+        damage:
+          em: 0
+          thermal: 176
+          kinetic: 116
+          explosive: 176
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 743
+        activation_time: 7.88
+        activation_cost: 0
+        optimal_range: 4.8
+        accuracy_falloff: 20.64
+        tracking_speed: 5.9
+        reload_time: 10
+      Elder Large Autocannon:
+        damage:
+          em: 0
+          thermal: 181
+          kinetic: 119
+          explosive: 181
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 771
+        activation_time: 7.88
+        activation_cost: 0
+        optimal_range: 4.8
+        accuracy_falloff: 20.64
+        tracking_speed: 5.9
+        reload_time: 10
+      Gist C-Type Large Autocannon:
+        damage:
+          em: 0
+          thermal: 183
+          kinetic: 128
+          explosive: 183
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 853
+        activation_time: 7.88
+        activation_cost: 0
+        optimal_range: 4.8
+        accuracy_falloff: 20.64
+        tracking_speed: 5.9
+        reload_time: 10
+  strike:
+    small:
+      MK1 Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 26.64
+          kinetic: 17.76
+          explosive: 26.64
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 8
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      MK3 Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 36.08
+          kinetic: 24.06
+          explosive: 36.08
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 8
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      MK5 Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 41.62
+          kinetic: 27.74
+          explosive: 41.62
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 9
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      MK7 Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 45.54
+          kinetic: 30.36
+          explosive: 45.54
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 9
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      MK9 Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 48.58
+          kinetic: 32.38
+          explosive: 48.58
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 10
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      Jolt Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 51.06
+          kinetic: 34.04
+          explosive: 51.06
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 10
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      Republic Fleet Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 53.17
+          kinetic: 35.45
+          explosive: 53.17
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 11
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      Domination Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 54.98
+          kinetic: 36.66
+          explosive: 54.98
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 11
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      Criminal Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 56.59
+          kinetic: 37.73
+          explosive: 56.59
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 11
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+      Gistii C-Type Small Strike Cannon:
+        damage:
+          em: 0
+          thermal: 60.52
+          kinetic: 40.34
+          explosive: 60.52
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 13
+        activation_time: 8.5
+        activation_cost: 0
+        optimal_range: 8.05
+        accuracy_falloff: 8.75
+        tracking_speed: 109
+        reload_time: 10
+    medium:
+      MK5 Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 78.83
+          kinetic: 53.6
+          explosive: 78.83
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 99
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+      MK7 Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 86.25
+          kinetic: 58.65
+          explosive: 86.25
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 103
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+      MK9 Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 92.03
+          kinetic: 62.58
+          explosive: 92.03
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 107
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+      Jolt Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 96.73
+          kinetic: 65.77
+          explosive: 96.73
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 112
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+      Republic Fleet Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 101
+          kinetic: 68.48
+          explosive: 101
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 117
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+      Domination Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 104
+          kinetic: 70.82
+          explosive: 104
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 121
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+      Free Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 107
+          kinetic: 72.9
+          explosive: 107
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 126
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+      Gistum C-Type Medium Strike Cannon:
+        damage:
+          em: 0
+          thermal: 115
+          kinetic: 77.94
+          explosive: 115
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 139
+        activation_time: 11.48
+        activation_cost: 0
+        optimal_range: 19.32
+        accuracy_falloff: 17.5
+        tracking_speed: 9.69
+        reload_time: 10
+    large:
+      MK7 Large Strike Cannon:
+        damage:
+          em: 0
+          thermal: 240
+          kinetic: 158
+          explosive: 240
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1033
+        activation_time: 21.04
+        activation_cost: 0
+        optimal_range: 38.64
+        accuracy_falloff: 35
+        tracking_speed: 1.54
+        reload_time: 10
+      MK9 Large Strike Cannon:
+        damage:
+          em: 0
+          thermal: 256
+          kinetic: 169
+          explosive: 256
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 1078
+        activation_time: 21.04
+        activation_cost: 0
+        optimal_range: 38.64
+        accuracy_falloff: 35
+        tracking_speed: 1.54
+        reload_time: 10
+      Jolt Large Strike Cannon:
+        damage:
+          em: 0
+          thermal: 269
+          kinetic: 178
+          explosive: 269
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 1123
+        activation_time: 21.04
+        activation_cost: 0
+        optimal_range: 38.64
+        accuracy_falloff: 35
+        tracking_speed: 1.54
+        reload_time: 10
+      Republic Fleet Large Strike Cannon:
+        damage:
+          em: 0
+          thermal: 280
+          kinetic: 185
+          explosive: 280
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1168
+        activation_time: 21.04
+        activation_cost: 0
+        optimal_range: 38.64
+        accuracy_falloff: 35
+        tracking_speed: 1.54
+        reload_time: 10
+      Domination Large Strike Cannon:
+        damage:
+          em: 0
+          thermal: 290
+          kinetic: 191
+          explosive: 290
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1213
+        activation_time: 21.04
+        activation_cost: 0
+        optimal_range: 38.64
+        accuracy_falloff: 35
+        tracking_speed: 1.54
+        reload_time: 10
+      Elder Large Strike Cannon:
+        damage:
+          em: 0
+          thermal: 298
+          kinetic: 197
+          explosive: 298
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 1258
+        activation_time: 21.04
+        activation_cost: 0
+        optimal_range: 38.64
+        accuracy_falloff: 35
+        tracking_speed: 1.54
+        reload_time: 10
+      Gist C-Type Large Strike Cannon:
+        damage:
+          em: 0
+          thermal: 319
+          kinetic: 210
+          explosive: 319
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1393
+        activation_time: 21.04
+        activation_cost: 0
+        optimal_range: 38.64
+        accuracy_falloff: 35
+        tracking_speed: 1.54
+        reload_time: 10

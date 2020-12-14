@@ -1,0 +1,56 @@
+small:
+    launchers:
+        missiles:
+            MK7 Small Missile Launcher:
+                damage:
+                    em: 60.13
+                    thermal: 60.13
+                    kinetic: 60.13
+                    explosive: 60.13
+                tech_level: 7
+                metalevel: 3
+                faction: none
+                flight_velocity: 3750
+                powergrid: 6
+                activation_time: 12.8
+                explosion_velocity: 170
+                explosion_radius: 40
+                flight_time: 4
+                reload_time: 10
+            MK9 Small Missile Launcher:
+                damage:
+                    em: 70.13
+                    thermal: 70.13
+                    kinetic: 70.13
+                    explosive: 70.13
+                tech_level: 7
+                metalevel: 3
+                faction: none
+                flight_velocity: 3750
+                powergrid: 6
+                activation_time: 12.8
+                explosion_velocity: 170
+                explosion_radius: 40
+                flight_time: 4
+                reload_time: 10
+
+medium:
+    launchers:
+        missiles:
+            MK7 Medium Missile Launcher:
+                damage:
+                    em: 97.35
+                    thermal: 97.35
+                    kinetic: 97.35
+                    explosive: 97.35
+                tech_level: 7
+                metalevel: 3
+                faction: none
+                flight_velocity: 4300
+                powergrid: 43
+                activation_time: 12
+                explosion_velocity: 81
+                explosion_radius: 140
+                flight_time: 6.5
+                reload_time: 10
+

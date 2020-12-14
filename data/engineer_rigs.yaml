@@ -1,0 +1,154 @@
+engineer rigs:
+  engineering rigs:
+    capacitor value:
+      Semiconductor Memory Cell Prototype:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            value:
+                flat: 0
+                percent: 10.5
+      Semiconductor Memory Cell I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            value:
+                flat: 0
+                percent: 17.5
+      Semiconductor Memory Cell II:
+        metalevel: 1
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            value:
+                flat: 0
+                percent: 20
+      Semiconductor Memory Cell III:
+        metalevel: 2
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            value:
+                flat: 0
+                percent: 22.5
+      Semiconductor Memory Cell IV:
+        metalevel: 3
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            value:
+                flat: 0
+                percent: 25
+
+    capacitor recharge:
+      Capacitor Control Circuit Prototype:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            recharge: -7.5
+      Capacitor Control Circuit I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            recharge: -12.5
+      Capacitor Control Circuit II:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            recharge: -15
+      Capacitor Control Circuit III:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            recharge: -17.5
+      Capacitor Control Circuit IV:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          capacitor:
+            recharge: -20
+
+    powergrid rigs:
+      Ancilliary Powergrid Router I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          powergrid:
+            value:
+              flat: 0
+              percent: 7.5
+      Ancilliary Powergrid Router II:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          powergrid:
+            value:
+              flat: 0
+              percent: 10
+      Ancilliary Powergrid Router III:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          powergrid:
+            value:
+              flat: 0
+              percent: 12.5
+      Ancilliary Powergrid Router IV:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          powergrid:
+            value:
+              flat: 0
+              percent: 15
+
+    targeting rigs:
+      Targeting System Subcontroller I:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          targeting:
+            scan: 20
+      Targeting System Subcontroller II:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          targeting:
+            scan: 25
+      Targeting System Subcontroller III:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          targeting:
+            scan: 30
+      Targeting System Subcontroller IV:
+        metalevel: 0
+        faction: none
+        powergrid: 0
+        ship:
+          targeting:
+            scan: 35
+

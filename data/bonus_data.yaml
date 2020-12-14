@@ -1,0 +1,816 @@
+launchers:
+  missiles:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+  torpedos:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+  rapids:
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      flight_velocity: 0
+      powergrid: 0
+      activation_time: 0
+      explosion_velocity: 0
+      explosion_radius: 0
+      flight_time: 0
+      reload_time: 0
+
+lasers:
+  pulse:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+  beam:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+
+railguns:
+  rifled:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+  snubnosed:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+
+cannons:
+  auto:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+  strike:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      powergrid: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      reload_time: 0
+
+drones:
+  scout:
+    small:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      defense: 0
+      signature_radius: 0
+      control_range: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      flight_velocity: 0
+      orbital_speed: 0
+    medium:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      defense: 0
+      signature_radius: 0
+      control_range: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      flight_velocity: 0
+      orbital_speed: 0
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      defense: 0
+      signature_radius: 0
+      control_range: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      flight_velocity: 0
+      orbital_speed: 0
+  sentry:
+    large:
+      damage:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+      defense: 0
+      signature_radius: 0
+      control_range: 0
+      activation_time: 0
+      optimal_range: 0
+      accuracy_falloff: 0
+      tracking_speed: 0
+      flight_velocity: 0
+      orbital_speed: 0
+
+shield:
+  boosters:
+    small:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      amount: 0
+    medium:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      amount: 0
+    large:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      amount: 0
+  extenders:
+    small:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          shield:
+            value:
+              flat: 0
+              percent: 0
+        targeting:
+          signature:  0
+    medium:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          shield:
+            value:
+              flat: 0
+              percent: 0
+        targeting:
+          signature:  0
+    large:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          shield:
+            value:
+              flat: 0
+              percent: 0
+        targeting:
+          signature:  0
+  hardeners:
+    reactive:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          shield:
+            resists:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+    adaptive:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          shield:
+            resists:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+armor:
+  repairers:
+    small:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      amount: 0
+    medium:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      amount: 0
+    large:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      amount: 0
+  plates:
+    powergrid: 0
+    activation_cost: 0
+    activation_time: 0
+    ship:
+      defenses:
+        armor:
+          value:
+            flat: 0
+            percent: 0
+      navigation:
+        mass:  0
+  hardeners:
+    reactive:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          armor:
+            resists:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+    adaptive:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          armor:
+            resists:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+weapons:
+  damage upgrades:
+    heat sinks:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      lasers:
+        any:
+          any:
+            damage:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+            activation_time: 0
+    magnetic field stabilizers:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      railguns:
+        any:
+          any:
+            damage:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+            activation_time: 0
+    gyrostabilizers:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      cannons:
+        any:
+          any:
+            damage:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+            activation_time: 0
+    ballistic control systems:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      launchers:
+        any:
+          any:
+            damage:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+            activation_time: 0
+    drone damage amplifiers:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      drones:
+        any:
+          any:
+            damage:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+            activation_time: 0
+
+capacitor:
+  batteries:
+    small:
+      powergrid: 0
+      activation_time: 0
+      ship:
+        capacitor:
+          value:
+            flat: 0
+            percent: 0
+    medium:
+      powergrid: 0
+      activation_time: 0
+      ship:
+        capacitor:
+          value:
+            flat: 0
+            percent: 0
+    large:
+      powergrid: 0
+      activation_time: 0
+      ship:
+        capacitor:
+          value:
+            flat: 0
+            percent: 0
+
+damage control:
+  dcus:
+    damage control units:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          shield:
+            resists:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+          armor:
+            resists:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+          hull:
+            resists:
+              em: 0
+              thermal: 0
+              kinetic: 0
+              explosive: 0
+
+weapon rigs:
+  railgun rigs:
+    damage rigs:
+      railguns:
+          any:
+            any:
+              damage:
+                em: 0
+                thermal: 0
+                kinetic: 0
+                explosive: 0
+    accuracy fallof rigs:
+      railguns:
+        any:
+          any:
+            accuracy_falloff: 0
+    activation cost rigs:
+      railguns:
+        any:
+          any:
+            activation_cost: 0
+    activation time rigs:
+      railguns:
+        any:
+          any:
+            activation_time: 0
+    powergrid rigs:
+      railguns:
+        any:
+          any:
+            powergrid: 0
+  drone rigs:
+    damage rigs:
+      drones:
+          any:
+            any:
+              damage:
+                em: 0
+                thermal: 0
+                kinetic: 0
+                explosive: 0
+    accuracy fallof rigs:
+      drones:
+        any:
+          any:
+            accuracy_falloff: 0
+    activation time rigs:
+      drones:
+        any:
+          any:
+            activation_time: 0
+    control range rigs:
+      drones:
+        any:
+          any:
+            control_range: 0
+
+engineer rigs:
+  engineering rigs:
+    capacitor value:
+      ship:
+        capacitor:
+          value:
+              flat: 0
+              percent: 0
+    capacitor recharge:
+      ship:
+        capacitor:
+          value:
+              flat: 0
+              percent: 0
+    powergrid rigs:
+      ship:
+        powergrid:
+          value:
+            flat: 0
+            percent: 0
+    targeting rigs:
+      ship:
+        targeting:
+          scan: 0
+
+propulsion:
+  afterburners:
+    small:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        navigation:
+          mass: 0
+          flight_velocity: 0
+    medium:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        navigation:
+          mass: 0
+          flight_velocity: 0
+
+ship:
+  cargo:
+    value:
+      percent: 0
+      flat: 0
+  powergrid:
+    value:
+      percent: 0
+      flat: 0
+  capacitor:
+    value:
+      percent: 0
+      flat: 0
+    recharge: 0
+  targeting:
+    signature: 0
+    scan: 0
+    strenght: 0
+    targets: 0
+  navigation:
+    flight_velocity: 0
+    warp_speed: 0
+    mass: 0
+    inertia_modifier: 0
+  defenses:
+    shield:
+      value:
+        percent: 0
+        flat: 0
+      recharge: 0
+      resists:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+    armor:
+      value:
+        percent: 0
+        flat: 0
+      resists:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0
+    hull:
+      value:
+        percent: 0
+        flat: 0
+      resists:
+        em: 0
+        thermal: 0
+        kinetic: 0
+        explosive: 0

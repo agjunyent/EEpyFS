@@ -1,0 +1,68 @@
+drones:
+  scout:
+    small:
+      MK7 Acolyte:
+        damage:
+          em: 47.04
+          thermal: 0
+          kinetic: 0
+          explosive: 0
+        defense: 612
+        signature_radius: 25
+        control_range: 25
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        capacitor: 0
+        activation_cost: 0
+        activation_time: 4
+        optimal_range: 2.4
+        accuracy_falloff: 2
+        tracking_speed: 2.99
+        flight_velocity: 4620
+        orbital_speed: 996
+    medium:
+      MK7 Infiltrator:
+        damage:
+          em: 80.29
+          thermal: 0
+          kinetic: 0
+          explosive: 0
+        defense: 1839
+        signature_radius: 25
+        control_range: 25
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        capacitor: 0
+        activation_cost: 0
+        activation_time: 4
+        optimal_range: 4.8
+        accuracy_falloff: 3
+        tracking_speed: 0.96
+        flight_velocity: 2760
+        orbital_speed: 630
+    large:
+      MK9 Infiltrator:
+        damage:
+          em: 80.29
+          thermal: 0
+          kinetic: 0
+          explosive: 0
+        defense: 1839
+        signature_radius: 25
+        control_range: 25
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        capacitor: 0
+        activation_cost: 0
+        activation_time: 4
+        optimal_range: 4.8
+        accuracy_falloff: 3
+        tracking_speed: 0.96
+        flight_velocity: 2760
+        orbital_speed: 630

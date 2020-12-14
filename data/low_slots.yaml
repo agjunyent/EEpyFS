@@ -1,0 +1,3434 @@
+shield:
+  boosters:
+    small:
+      MK1 Small Shield Booster:
+        tech_level: 1
+        metalevel: 1
+        faction: none
+        powergrid: 4
+        activation_cost: 32
+        activation_time: 4
+        amount: 63
+      MK3 Small Shield Booster:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 4
+        activation_cost: 32.3
+        activation_time: 4
+        amount: 66
+      MK5 Small Shield Booster:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 4
+        activation_cost: 32.7
+        activation_time: 4
+        amount: 69
+      MK7 Small Shield Booster:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 4
+        activation_cost: 33.2
+        activation_time: 4
+        amount: 73
+      MK9 Small Shield Booster:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 4
+        activation_cost: 33.6
+        activation_time: 4
+        amount: 77
+      Settler Small Shield Booster:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 5
+        activation_cost: 34
+        activation_time: 4
+        amount: 81
+      Caldari Navy Small Shield Booster:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 5
+        activation_cost: 34.3
+        activation_time: 4
+        amount: 85
+      Republic Fleet Small Shield Booster:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 5
+        activation_cost: 34.3
+        activation_time: 4
+        amount: 85
+      True Sansha Small Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 5
+        activation_cost: 34.7
+        activation_time: 4
+        amount: 89
+      Dread Guristas Small Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 5
+        activation_cost: 34.7
+        activation_time: 4
+        amount: 89
+      Domination Small Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 5
+        activation_cost: 34.7
+        activation_time: 4
+        amount: 89
+      Veteran Small Shield Booster:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 5
+        activation_cost: 35.2
+        activation_time: 4
+        amount: 94
+      Centii C-Type Small Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 6
+        activation_cost: 36.3
+        activation_time: 4
+        amount: 109
+      Pithi C-Type Small Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 6
+        activation_cost: 36.3
+        activation_time: 4
+        amount: 109
+      Gistii C-Type Small Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 6
+        activation_cost: 36.3
+        activation_time: 4
+        amount: 109
+    medium:
+      MK5 Medium Shield Booster:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 39
+        activation_cost: 148
+        activation_time: 6
+        amount: 232
+      MK7 Medium Shield Booster:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 41
+        activation_cost: 149
+        activation_time: 6
+        amount: 244
+      MK9 Medium Shield Booster:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 43
+        activation_cost: 151
+        activation_time: 6
+        amount: 257
+      Lone Ranger Medium Shield Booster:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 45
+        activation_cost: 153
+        activation_time: 6
+        amount: 270
+      Caldari Navy Medium Shield Booster:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 46
+        activation_cost: 155
+        activation_time: 6
+        amount: 254
+      Republic Fleet Medium Shield Booster:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 46
+        activation_cost: 155
+        activation_time: 6
+        amount: 254
+      True Sansha Medium Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 48
+        activation_cost: 157
+        activation_time: 6
+        amount: 299
+      Dread Guristas Medium Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 48
+        activation_cost: 157
+        activation_time: 6
+        amount: 299
+      Domination Medium Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 48
+        activation_cost: 157
+        activation_time: 6
+        amount: 299
+      Disaster Medium Shield Booster:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 50
+        activation_cost: 158
+        activation_time: 6
+        amount: 314
+      Centum C-Type Medium Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 55
+        activation_cost: 164
+        activation_time: 6
+        amount: 365
+      Pithum C-Type Medium Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 55
+        activation_cost: 164
+        activation_time: 6
+        amount: 365
+      Gistum C-Type Medium Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 55
+        activation_cost: 164
+        activation_time: 6
+        amount: 365
+    large:
+      MK9 Large Shield Booster:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 388
+        activation_cost: 420
+        activation_time: 8
+        amount: 642
+      Outlaw Large Shield Booster:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 405
+        activation_cost: 425
+        activation_time: 8
+        amount: 676
+      Caldari Navy Large Shield Booster:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 421
+        activation_cost: 430
+        activation_time: 8
+        amount: 711
+      Republic Fleet Large Shield Booster:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 421
+        activation_cost: 430
+        activation_time: 8
+        amount: 711
+      True Sansha Large Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 437
+        activation_cost: 435
+        activation_time: 8
+        amount: 747
+      Dread Guristas Large Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 437
+        activation_cost: 435
+        activation_time: 8
+        amount: 747
+      Domination Large Shield Booster:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 437
+        activation_cost: 435
+        activation_time: 8
+        amount: 747
+      Seeker Large Shield Booster:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 453
+        activation_cost: 440
+        activation_time: 8
+        amount: 786
+      Centus C-Type Large Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 502
+        activation_cost: 455
+        activation_time: 8
+        amount: 914
+      Pith C-Type Large Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 502
+        activation_cost: 455
+        activation_time: 8
+        amount: 914
+      Gist C-Type Large Shield Booster:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 502
+        activation_cost: 455
+        activation_time: 8
+        amount: 914
+  extenders:
+    small:
+      MK1 Small Shield Extender:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 6
+        activation_cost: 135
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 420
+                percent: 0
+          targeting:
+            signature:  2
+      MK3 Small Shield Extender:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 6
+        activation_cost: 137
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 442
+                percent: 0
+          targeting:
+            signature:  2
+      MK5 Small Shield Extender:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 6
+        activation_cost: 138
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 465
+                percent: 0
+          targeting:
+            signature:  2
+      MK7 Small Shield Extender:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 6
+        activation_cost: 140
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 489
+                percent: 0
+          targeting:
+            signature:  2
+      MK9 Small Shield Extender:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 7
+        activation_cost: 142
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 514
+                percent: 0
+          targeting:
+            signature:  2
+      Wolf Small Shield Extender:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 7
+        activation_cost: 143
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 540
+                percent: 0
+          targeting:
+            signature:  2
+      Caldari Navy Small Shield Extender:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 6
+        activation_cost: 145
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 568
+                percent: 0
+          targeting:
+            signature:  2
+      Republic Fleet Small Shield Extender:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 6
+        activation_cost: 145
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 568
+                percent: 0
+          targeting:
+            signature:  2
+      Dread Guristas Small Shield Extender:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 8
+        activation_cost: 147
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 598
+                percent: 0
+          targeting:
+            signature:  2
+      Trapper Small Shield Extender:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 8
+        activation_cost: 149
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 629
+                percent: 0
+          targeting:
+            signature:  2
+    medium:
+      MK5 Medium Shield Extender:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 29
+        activation_cost: 553
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1744
+                percent: 0
+          targeting:
+            signature:  7
+      MK7 Medium Shield Extender:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 62
+        activation_cost: 560
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1834
+                percent: 0
+          targeting:
+            signature:  7
+      MK9 Medium Shield Extender:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 64
+        activation_cost: 567
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1928
+                percent: 0
+          targeting:
+            signature:  7
+      Canyon Medium Shield Extender:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 67
+        activation_cost: 574
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2028
+                percent: 0
+          targeting:
+            signature:  7
+      Caldari Navy Medium Shield Extender:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 70
+        activation_cost: 580
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2133
+                percent: 0
+          targeting:
+            signature:  7
+      Republic Fleet Medium Shield Extender:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 70
+        activation_cost: 580
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2133
+                percent: 0
+          targeting:
+            signature:  7
+      Dread Guristas Medium Shield Extender:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 72
+        activation_cost: 587
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2243
+                percent: 0
+          targeting:
+            signature:  7
+      Patriot Medium Shield Extender:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 75
+        activation_cost: 594
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2358
+                percent: 0
+          targeting:
+            signature:  7
+    large:
+      MK9 Large Shield Extender:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 583
+        activation_cost: 1181
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 3857
+                percent: 0
+          targeting:
+            signature:  25
+      Sheriff Large Shield Extender:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 607
+        activation_cost: 1195
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4056
+                percent: 0
+          targeting:
+            signature:  25
+      Caldari Navy Large Shield Extender:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 631
+        activation_cost: 1209
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4266
+                percent: 0
+          targeting:
+            signature:  25
+      Republic Fleet Large Shield Extender:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 631
+        activation_cost: 1209
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4266
+                percent: 0
+          targeting:
+            signature:  25
+      Dread Guristas Large Shield Extender:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 656
+        activation_cost: 1223
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4486
+                percent: 0
+          targeting:
+            signature:  25
+      Protector Large Shield Extender:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 680
+        activation_cost: 1238
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4717
+                percent: 0
+          targeting:
+            signature:  25
+  hardeners:
+    reactive:
+      MK1 Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 1
+        faction: none
+        powergrid: 1
+        activation_cost: 25
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 10
+                thermal: 10
+                kinetic: 10
+                explosive: 10
+      MK3 Reactive Shield Hardener:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 1
+        activation_cost: 25.3
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 12.3
+                thermal: 12.3
+                kinetic: 12.3
+                explosive: 12.3
+      MK5 Reactive Shield Hardener:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 1
+        activation_cost: 25.6
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 13.64
+                thermal: 13.64
+                kinetic: 13.64
+                explosive: 13.64
+      MK7 Reactive Shield Hardener:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        activation_cost: 25.9
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 14.6
+                thermal: 14.6
+                kinetic: 14.6
+                explosive: 14.6
+      MK9 Reactive Shield Hardener:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 1
+        activation_cost: 26.2
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 15.34
+                thermal: 15.34
+                kinetic: 15.34
+                explosive: 15.34
+      Challenger Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 1
+        activation_cost: 26.5
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 15.94
+                thermal: 15.94
+                kinetic: 15.94
+                explosive: 15.94
+      Caldari Navy Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 26.8
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 16.46
+                thermal: 16.46
+                kinetic: 16.46
+                explosive: 16.46
+      Republic Fleet Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 26.8
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 16.46
+                thermal: 16.46
+                kinetic: 16.46
+                explosive: 16.46
+      True Sansha Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 27.1
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 16.9
+                thermal: 16.9
+                kinetic: 16.9
+                explosive: 16.9
+      Dread Guristas Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 27.1
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 16.9
+                thermal: 16.9
+                kinetic: 16.9
+                explosive: 16.9
+      Domination Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 27.1
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 16.9
+                thermal: 16.9
+                kinetic: 16.9
+                explosive: 16.9
+      Enterprise Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 1
+        activation_cost: 27.5
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 17.29
+                thermal: 17.29
+                kinetic: 17.29
+                explosive: 17.29
+      Pithum C-Type Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 28.4
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 18.24
+                thermal: 18.24
+                kinetic: 18.24
+                explosive: 18.24
+      Gistum C-Type Reactive Shield Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 28.4
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 18.24
+                thermal: 18.24
+                kinetic: 18.24
+                explosive: 18.24
+    adaptive:
+      MK5 Adaptive Shield Hardener:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 1
+        activation_cost: 30.7
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 27.29
+                thermal: 27.29
+                kinetic: 27.29
+                explosive: 27.29
+      MK7 Adaptive Shield Hardener:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        activation_cost: 31.1
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 29.2
+                thermal: 29.2
+                kinetic: 29.2
+                explosive: 29.2
+      MK9 Adaptive Shield Hardener:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 1
+        activation_cost: 31.5
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 30.68
+                thermal: 30.68
+                kinetic: 30.68
+                explosive: 30.68
+      Posse Adaptive Shield Hardener:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 1
+        activation_cost: 31.8
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 31.89
+                thermal: 31.89
+                kinetic: 31.89
+                explosive: 31.89
+      Caldari Navy Adaptive Shield Hardener:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 32.2
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 32.92
+                thermal: 32.92
+                kinetic: 32.92
+                explosive: 32.92
+      Dread Guristas Adaptive Shield Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 32.6
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 33.8
+                thermal: 33.8
+                kinetic: 33.8
+                explosive: 33.8
+      Domination Adaptive Shield Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 32.6
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 33.8
+                thermal: 33.8
+                kinetic: 33.8
+                explosive: 33.8
+      Enterprise Adaptive Shield Hardener:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 1
+        activation_cost: 33
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 34.58
+                thermal: 34.58
+                kinetic: 34.58
+                explosive: 34.58
+      Pith C-Type Adaptive Shield Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 34.1
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 36.49
+                thermal: 36.49
+                kinetic: 36.49
+                explosive: 36.49
+      Gist C-Type Adaptive Shield Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 34.1
+        activation_time: 10
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 36.49
+                thermal: 36.49
+                kinetic: 36.49
+                explosive: 36.49
+
+armor:
+  repairers:
+    small:
+      MK1 Small Armor Repairer:
+        tech_level: 1
+        metalevel: 1
+        faction: none
+        powergrid: 8
+        activation_cost: 33
+        activation_time: 6
+        amount: 94
+      MK3 Small Armor Repairer:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 8
+        activation_cost: 33.4
+        activation_time: 6
+        amount: 99
+      MK5 Small Armor Repairer:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 8
+        activation_cost: 33.8
+        activation_time: 6
+        amount: 104
+      MK7 Small Armor Repairer:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 9
+        activation_cost: 34.2
+        activation_time: 6
+        amount: 110
+      MK9 Small Armor Repairer:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 9
+        activation_cost: 34.6
+        activation_time: 6
+        amount: 115
+      Gorget Small Armor Repairer:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 10
+        activation_cost: 35
+        activation_time: 6
+        amount: 12
+      Imperial Navy Small Armor Repairer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 10
+        activation_cost: 35.4
+        activation_time: 6
+        amount: 127
+      Federation Navy Small Armor Repairer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 10
+        activation_cost: 35.4
+        activation_time: 6
+        amount: 127
+      Dark Blood Small Armor Repairer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 10
+        activation_cost: 35.8
+        activation_time: 6
+        amount: 134
+      Shadow Serpentis Small Armor Repairer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 10
+        activation_cost: 35.8
+        activation_time: 6
+        amount: 134
+      Knight Small Armor Repairer:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 11
+        activation_cost: 36.3
+        activation_time: 6
+        amount: 141
+      Corpii C-Type Small Armor Repairer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 12
+        activation_cost: 37.5
+        activation_time: 6
+        amount: 164
+      Coreli C-Type Small Armor Repairer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 12
+        activation_cost: 37.5
+        activation_time: 6
+        amount: 164
+    medium:
+      MK5 Medium Armor Repairer:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 79
+        activation_cost: 125
+        activation_time: 9
+        amount: 348
+      MK7 Medium Armor Repairer:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 82
+        activation_cost: 126
+        activation_time: 9
+        amount: 366
+      MK9 Medium Armor Repairer:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 86
+        activation_cost: 128
+        activation_time: 9
+        amount: 385
+      Gorget Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 90
+        activation_cost: 129
+        activation_time: 9
+        amount: 405
+      Imperial Navy Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 93
+        activation_cost: 131
+        activation_time: 9
+        amount: 426
+      Federation Navy Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 93
+        activation_cost: 131
+        activation_time: 9
+        amount: 426
+      Dark Blood Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 97
+        activation_cost: 132
+        activation_time: 9
+        amount: 448
+      Shadow Serpentis Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 97
+        activation_cost: 132
+        activation_time: 9
+        amount: 448
+      Knight Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 100
+        activation_cost: 134
+        activation_time: 9
+        amount: 471
+      Corpum C-Type Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 111
+        activation_cost: 138
+        activation_time: 9
+        amount: 548
+      Corelum C-Type Medium Armor Repairer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 111
+        activation_cost: 138
+        activation_time: 9
+        amount: 548
+    large:
+      MK9 Large Armor Repairer:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 777
+        activation_cost: 433
+        activation_time: 15
+        amount: 964
+      Gorget Large Armor Repairer:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 810
+        activation_cost: 438
+        activation_time: 15
+        amount: 1014
+      Imperial Navy Large Armor Repairer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 842
+        activation_cost: 443
+        activation_time: 15
+        amount: 1066
+      Federation Navy Large Armor Repairer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 842
+        activation_cost: 443
+        activation_time: 15
+        amount: 1066
+      Dark Blood Large Armor Repairer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 874
+        activation_cost: 449
+        activation_time: 15
+        amount: 1121
+      Shadow Serpentis Large Armor Repairer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 874
+        activation_cost: 449
+        activation_time: 15
+        amount: 11217
+      Chivalry Large Armor Repairer:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 907
+        activation_cost: 454
+        activation_time: 15
+        amount: 1179
+      Corpus C-Type Large Armor Repairer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1004
+        activation_cost: 469
+        activation_time: 15
+        amount: 1371
+      Core C-Type Large Armor Repairer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1004
+        activation_cost: 469
+        activation_time: 15
+        amount: 1371
+  plates:
+    small:
+      MK1 100mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 4
+        activation_cost: 135
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 210
+                percent: 0
+          navigation:
+            mass: 35000
+      MK3 100mm Reinforced Steel Plate:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 4
+        activation_cost: 137
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 221
+                percent: 0
+          navigation:
+            mass: 35000
+      MK5 100mm Reinforced Steel Plate:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 4
+        activation_cost: 138
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 232
+                percent: 0
+          navigation:
+            mass: 35000
+      MK7 100mm Reinforced Steel Plate:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 4
+        activation_cost: 140
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 244
+                percent: 0
+          navigation:
+            mass: 35000
+      MK9 100mm Reinforced Steel Plate:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 4
+        activation_cost: 142
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 257
+                percent: 0
+          navigation:
+            mass: 35000
+      Abatis 100mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 4
+        activation_cost: 143
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 270
+                percent: 0
+          navigation:
+            mass: 35000
+      Imperial Navy 100mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 5
+        activation_cost: 145
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 284
+                percent: 0
+          navigation:
+            mass: 35000
+      Federation Navy 100mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 5
+        activation_cost: 145
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 284
+                percent: 0
+          navigation:
+            mass: 35000
+      Dark Blood 100mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 5
+        activation_cost: 147
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 299
+                percent: 0
+          navigation:
+            mass: 35000
+      Fort 100mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 5
+        activation_cost: 149
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 314
+                percent: 0
+          navigation:
+            mass: 35000
+      MK3 200mm Reinforced Steel Plate:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 8
+        activation_cost: 137
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 497
+                percent: 0
+          navigation:
+            mass: 140000
+      MK5 200mm Reinforced Steel Plate:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 8
+        activation_cost: 138
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 523
+                percent: 0
+          navigation:
+            mass: 140000
+      MK7 200mm Reinforced Steel Plate:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 9
+        activation_cost: 140
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 550
+                percent: 0
+          navigation:
+            mass: 140000
+      MK9 200mm Reinforced Steel Plate:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 9
+        activation_cost: 142
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 578
+                percent: 0
+          navigation:
+            mass: 140000
+      Abatis 200mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 10
+        activation_cost: 143
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 608
+                percent: 0
+          navigation:
+            mass: 140000
+      Imperial Navy 200mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 10
+        activation_cost: 145
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 639
+                percent: 0
+          navigation:
+            mass: 140000
+      Federation Navy 200mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 10
+        activation_cost: 145
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 639
+                percent: 0
+          navigation:
+            mass: 140000
+      Dark Blood 200mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 10
+        activation_cost: 147
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 672
+                percent: 0
+          navigation:
+            mass: 140000
+      Citadella 200mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 11
+        activation_cost: 149
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 707
+                percent: 0
+          navigation:
+            mass: 140000
+    medium:
+      MK5 400mm Reinforced Steel Plate:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 59
+        activation_cost: 553
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1046
+                percent: 0
+          navigation:
+            mass: 350000
+      MK7 400mm Reinforced Steel Plate:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 62
+        activation_cost: 560
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1100
+                percent: 0
+          navigation:
+            mass: 350000
+      MK9 400mm Reinforced Steel Plate:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 64
+        activation_cost: 597
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1157
+                percent: 0
+          navigation:
+            mass: 350000
+      Bastion 400mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 67
+        activation_cost: 574
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1217
+                percent: 0
+          navigation:
+            mass: 350000
+      Imperial Navy 400mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 70
+        activation_cost: 580
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1279
+                percent: 0
+          navigation:
+            mass: 350000
+      Federation Navy 400mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 70
+        activation_cost: 580
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1279
+                percent: 0
+          navigation:
+            mass: 350000
+      Dark Blood 400mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 72
+        activation_cost: 587
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1345
+                percent: 0
+          navigation:
+            mass: 350000
+      Hansen 400mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 75
+        activation_cost: 594
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1415
+                percent: 0
+          navigation:
+            mass: 350000
+      MK5 800mm Reinforced Steel Plate:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 138
+        activation_cost: 553
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 1976
+                percent: 0
+          navigation:
+            mass: 1350000
+      MK7 800mm Reinforced Steel Plate:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 144
+        activation_cost: 560
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2078
+                percent: 0
+          navigation:
+            mass: 1350000
+      MK9 800mm Reinforced Steel Plate:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 151
+        activation_cost: 567
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2186
+                percent: 0
+          navigation:
+            mass: 1350000
+      Bastion 800mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 157
+        activation_cost: 574
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2298
+                percent: 0
+          navigation:
+            mass: 1350000
+      Imperial Navy 800mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 163
+        activation_cost: 580
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2417
+                percent: 0
+          navigation:
+            mass: 1350000
+      Federation Navy 800mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 163
+        activation_cost: 580
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2417
+                percent: 0
+          navigation:
+            mass: 1350000
+      Dark Blood 800mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 170
+        activation_cost: 587
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2542
+                percent: 0
+          navigation:
+            mass: 1350000
+      Hansen 800mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 176
+        activation_cost: 594
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 2673
+                percent: 0
+          navigation:
+            mass: 1350000
+    large:
+      MK9 1600mm Reinforced Steel Plate:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 777
+        activation_cost: 1181
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4500
+                percent: 0
+          navigation:
+            mass: 3500000
+      Bailey 1600mm Reinforced Steel Plate:
+        tech_level: 9
+        metalevel: 4
+        faction: story
+        powergrid: 810
+        activation_cost: 1195
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4733
+                percent: 0
+          navigation:
+            mass: 3500000
+      Imperial Navy 1600mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 842
+        activation_cost: 1209
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4977
+                percent: 0
+          navigation:
+            mass: 3500000
+      Federation Navy 1600mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 842
+        activation_cost: 1209
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 4977
+                percent: 0
+          navigation:
+            mass: 3500000
+      Dark Blood 1600mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 874
+        activation_cost: 1223
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 5233
+                percent: 0
+          navigation:
+            mass: 3500000
+      Core 1600mm Reinforced Steel Plate:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 907
+        activation_cost: 1238
+        activation_time: 25
+        ship:
+          defenses:
+            shield:
+              value:
+                flat: 5503
+                percent: 0
+          navigation:
+            mass: 3500000
+  hardeners:
+    reactive:
+      MK1 Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 1
+        faction: none
+        powergrid: 1
+        activation_cost: 10
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 8
+                thermal: 8
+                kinetic: 8
+                explosive: 8
+      MK3 Reactive Armor Hardener:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 1
+        activation_cost: 10.1
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 9.84
+                thermal: 9.84
+                kinetic: 9.84
+                explosive: 9.84
+      MK5 Reactive Armor Hardener:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 1
+        activation_cost: 10.2
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 10.91
+                thermal: 10.91
+                kinetic: 10.91
+                explosive: 10.91
+      MK7 Reactive Armor Hardener:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        activation_cost: 10.3
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 11.68
+                thermal: 11.68
+                kinetic: 11.68
+                explosive: 11.68
+      MK9 Reactive Armor Hardener:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 1
+        activation_cost: 10.5
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 12.27
+                thermal: 12.27
+                kinetic: 12.27
+                explosive: 12.27
+      Moat Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 1
+        activation_cost: 10.6
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 12.75
+                thermal: 12.75
+                kinetic: 12.75
+                explosive: 12.75
+      Imperial Navy Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.7
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 13.16
+                thermal: 13.16
+                kinetic: 13.16
+                explosive: 13.16
+      Federation Navy Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.7
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 13.16
+                thermal: 13.16
+                kinetic: 13.16
+                explosive: 13.16
+      Dark Blood Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.8
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 13.52
+                thermal: 13.52
+                kinetic: 13.52
+                explosive: 13.52
+      Shadow Serpentis Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.8
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 13.52
+                thermal: 13.52
+                kinetic: 13.52
+                explosive: 13.52
+      Sparkly Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 1
+        activation_cost: 11
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 13.83
+                thermal: 13.83
+                kinetic: 13.83
+                explosive: 13.83
+      Corpum C-Type Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 11.3
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 14.59
+                thermal: 14.59
+                kinetic: 14.59
+                explosive: 14.59
+      Corelum C-Type Reactive Armor Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 11.3
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 14.59
+                thermal: 14.59
+                kinetic: 14.59
+                explosive: 14.59
+    adaptive:
+      MK5 Adaptive Armor Hardener:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 1
+        activation_cost: 10.2
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 16.37
+                thermal: 16.37
+                kinetic: 16.37
+                explosive: 16.37
+      MK7 Adaptive Armor Hardener:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        activation_cost: 10.3
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 17.52
+                thermal: 17.52
+                kinetic: 17.52
+                explosive: 17.52
+      MK9 Adaptive Armor Hardener:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 1
+        activation_cost: 10.5
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 18.41
+                thermal: 18.41
+                kinetic: 18.41
+                explosive: 18.41
+      Pilfer Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 1
+        activation_cost: 10.6
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 19.13
+                thermal: 19.13
+                kinetic: 19.13
+                explosive: 19.13
+      Imperial Navy Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.7
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 19.75
+                thermal: 19.75
+                kinetic: 19.75
+                explosive: 19.75
+      Federation Navy Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.7
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 19.75
+                thermal: 19.75
+                kinetic: 19.75
+                explosive: 19.75
+      True Sansha Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.8
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 20.28
+                thermal: 20.28
+                kinetic: 20.28
+                explosive: 20.28
+      Dark Blood Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.8
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 20.28
+                thermal: 20.28
+                kinetic: 20.28
+                explosive: 20.28
+      Shadow Serpentis Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 10.8
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 20.28
+                thermal: 20.28
+                kinetic: 20.28
+                explosive: 20.28
+      Sparkly Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 1
+        activation_cost: 11
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 20.75
+                thermal: 20.75
+                kinetic: 20.75
+                explosive: 20.75
+      Corpus C-Type Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 11.3
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 21.89
+                thermal: 21.89
+                kinetic: 21.89
+                explosive: 21.89
+      Core C-Type Adaptive Armor Hardener:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 1
+        activation_cost: 11.3
+        activation_time: 10
+        ship:
+          defenses:
+            armor:
+              resists:
+                em: 21.89
+                thermal: 21.89
+                kinetic: 21.89
+                explosive: 21.89
+
+damage control:
+  dcus:
+    damage control units:
+      MK5 Damage Control:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 1
+        activation_cost: 138
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 6.82
+                thermal: 6.82
+                kinetic: 6.82
+                explosive: 6.82
+            armor:
+              resists:
+                em: 6.82
+                thermal: 6.82
+                kinetic: 6.82
+                explosive: 6.82
+            hull:
+              resists:
+                em: 6.82
+                thermal: 6.82
+                kinetic: 6.82
+                explosive: 6.82
+      MK7 Damage Control:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 1
+        activation_cost: 140
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 7.3
+                thermal: 7.3
+                kinetic: 7.3
+                explosive: 7.3
+            armor:
+              resists:
+                em: 7.3
+                thermal: 7.3
+                kinetic: 7.3
+                explosive: 7.3
+            hull:
+              resists:
+                em: 7.3
+                thermal: 7.3
+                kinetic: 7.3
+                explosive: 7.3
+      MK9 Damage Control:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 1
+        activation_cost: 142
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 7.67
+                thermal: 7.67
+                kinetic: 7.67
+                explosive: 7.67
+            armor:
+              resists:
+                em: 7.67
+                thermal: 7.67
+                kinetic: 7.67
+                explosive: 7.67
+            hull:
+              resists:
+                em: 7.67
+                thermal: 7.67
+                kinetic: 7.67
+                explosive: 7.67
+      Basic Damage Control:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 1
+        activation_cost: 143
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 7.97
+                thermal: 7.97
+                kinetic: 7.97
+                explosive: 7.97
+            armor:
+              resists:
+                em: 7.97
+                thermal: 7.97
+                kinetic: 7.97
+                explosive: 7.97
+            hull:
+              resists:
+                em: 7.97
+                thermal: 7.97
+                kinetic: 7.97
+                explosive: 7.97
+      Imperial Navy Damage Control:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 145
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 8.23
+                thermal: 8.23
+                kinetic: 8.23
+                explosive: 8.23
+            armor:
+              resists:
+                em: 8.23
+                thermal: 8.23
+                kinetic: 8.23
+                explosive: 8.23
+            hull:
+              resists:
+                em: 8.23
+                thermal: 8.23
+                kinetic: 8.23
+                explosive: 8.23
+      Federation Navy Damage Control:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 1
+        activation_cost: 145
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 8.23
+                thermal: 8.23
+                kinetic: 8.23
+                explosive: 8.23
+            armor:
+              resists:
+                em: 8.23
+                thermal: 8.23
+                kinetic: 8.23
+                explosive: 8.23
+            hull:
+              resists:
+                em: 8.23
+                thermal: 8.23
+                kinetic: 8.23
+                explosive: 8.23
+      Shadow Serpentis Damage Control:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 147
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 8.45
+                thermal: 8.45
+                kinetic: 8.45
+                explosive: 8.45
+            armor:
+              resists:
+                em: 8.45
+                thermal: 8.45
+                kinetic: 8.45
+                explosive: 8.45
+            hull:
+              resists:
+                em: 8.45
+                thermal: 8.45
+                kinetic: 8.45
+                explosive: 8.45
+      Sentient Damage Control:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 147
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 8.45
+                thermal: 8.45
+                kinetic: 8.45
+                explosive: 8.45
+            armor:
+              resists:
+                em: 8.45
+                thermal: 8.45
+                kinetic: 8.45
+                explosive: 8.45
+            hull:
+              resists:
+                em: 8.45
+                thermal: 8.45
+                kinetic: 8.45
+                explosive: 8.45
+      Allround Damage Control:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 1
+        activation_cost: 149
+        activation_time: 13
+        ship:
+          defenses:
+            shield:
+              resists:
+                em: 8.64
+                thermal: 8.64
+                kinetic: 8.64
+                explosive: 8.64
+            armor:
+              resists:
+                em: 8.64
+                thermal: 8.64
+                kinetic: 8.64
+                explosive: 8.64
+            hull:
+              resists:
+                em: 8.64
+                thermal: 8.64
+                kinetic: 8.64
+                explosive: 8.64
+
+capacitor:
+  batteries:
+    small:
+      MK3 Small Capacitor Battery:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 6
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 134
+              percent: 0
+    medium:
+      Gistum C-Type Medium Capacitor Battery:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 83
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 683
+              percent: 0
+    large:
+      Gist C-Type Large Capacitor Battery:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 753
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 1879
+              percent: 0
+
+
+weapons:
+  damage upgrades:
+    heat sinks:
+      MK1 Heat Sink:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 5
+        activation_cost: 120
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -2.76
+      MK3 Heat Sink:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 5
+        activation_cost: 122
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.25
+      MK5 Heat Sink:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 5
+        activation_cost: 123
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.53
+      MK7 Heat Sink:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 5
+        activation_cost: 125
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.73
+      MK9 Heat Sink:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 6
+        activation_cost: 126
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.89
+      Basic Heat Sink:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 6
+        activation_cost: 128
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.01
+      Imperial Navy Heat Sink:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 6
+        activation_cost: 129
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.12
+      True Sansha Heat Sink:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 6
+        activation_cost: 131
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.22
+      Dark blood Heat Sink:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 6
+        activation_cost: 131
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.22
+      Judgement Heat Sink:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 7
+        activation_cost: 132
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.3
+      Centum C-Type Heat Sink:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 7
+        activation_cost: 137
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.5
+      Corpum C-Type Heat Sink:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 7
+        activation_cost: 137
+        activation_time: 20
+        lasers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.5
+    magnetic field stabilizers:
+      MK1 Magnetic Field Stabilizer:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 5
+        activation_cost: 120
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -2.76
+      MK3 Magnetic Field Stabilizer:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 5
+        activation_cost: 122
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.25
+      MK5 Magnetic Field Stabilizer:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 5
+        activation_cost: 123
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.53
+      MK7 Magnetic Field Stabilizer:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 5
+        activation_cost: 125
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.73
+      MK9 Magnetic Field Stabilizer:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 6
+        activation_cost: 126
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.89
+      Basic Magnetic Field Stabilizer:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 6
+        activation_cost: 128
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.01
+      Federation Navy Magnetic Field Stabilizer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 6
+        activation_cost: 129
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.12
+      Shadow Serpentis Magnetic Field Stabilizer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 6
+        activation_cost: 131
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.22
+      Narcotics Magnetic Field Stabilizer:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 7
+        activation_cost: 132
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.3
+      Corelum C-Type Magnetic Field Stabilizer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 7
+        activation_cost: 137
+        activation_time: 20
+        railguns:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.5
+    gyrostabilizers:
+      MK1 Gyrostabilizer:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 5
+        activation_cost: 120
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -2.76
+      MK3 Gyrostabilizer:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 5
+        activation_cost: 122
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.25
+      MK5 Gyrostabilizer:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 5
+        activation_cost: 123
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.53
+      MK7 Gyrostabilizer:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 5
+        activation_cost: 125
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.73
+      MK9 Gyrostabilizer:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 6
+        activation_cost: 126
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.89
+      Basic Gyrostabilizer:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 6
+        activation_cost: 128
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.01
+      Federation Navy Gyrostabilizer:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 6
+        activation_cost: 129
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.12
+      Shadow Serpentis Gyrostabilizer:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 6
+        activation_cost: 131
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.22
+      Narcotics Gyrostabilizer:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 7
+        activation_cost: 132
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.3
+      Corelum C-Type Gyrostabilizer:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 7
+        activation_cost: 137
+        activation_time: 20
+        cannons:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.5
+    ballistic control systems:
+      MK1 Ballistic Control System:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 5
+        activation_cost: 120
+        activation_time: 20
+        launchers:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -2.76
+    drone damage amplifiers:
+      MK1 Drone Damage Amplifier:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 5
+        activation_cost: 120
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -2.76
+      MK3 Drone Damage Amplifier:
+        tech_level: 3
+        metalevel: 1
+        faction: none
+        powergrid: 5
+        activation_cost: 140
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.25
+      MK5 Drone Damage Amplifier:
+        tech_level: 7
+        metalevel: 2
+        faction: none
+        powergrid: 5
+        activation_cost: 143
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.73
+      MK9 Drone Damage Amplifier:
+        tech_level: 9
+        metalevel: 3
+        faction: none
+        powergrid: 5
+        activation_cost: 145
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -3.89
+      Bat Drone Damage Amplifier:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 5
+        activation_cost: 147
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.01
+      Imperial Navy Drone Damage Amplifier:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 6
+        activation_cost: 148
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.12
+      Federation Navy Drone Damage Amplifier:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 6
+        activation_cost: 148
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.12
+      Dread Guristas Drone Damage Amplifier:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 6
+        activation_cost: 150
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.22
+      Sentient Drone Damage Amplifier:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 6
+        activation_cost: 150
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.22
+      Nestworm Drone Damage Amplifier:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 7
+        activation_cost: 152
+        activation_time: 20
+        drones:
+          any:
+            any:
+              damage:
+                em: 5
+                thermal: 5
+                kinetic: 5
+                explosive: 5
+              activation_time: -4.3
+
+
+
+propulsion:
+  afterburners:
+    small:
+      MK1 Small Afterburner:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 10
+        activation_cost: 22
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 118
+    medium:
+      MK5 Medium Afterburner:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 59
+        activation_cost: 138
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 124
+      MK7 Medium Afterburner:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 62
+        activation_cost: 140
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 127
+      MK9 Medium Afterburner:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 64
+        activation_cost: 142
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 131
+      Smuggler Medium Afterburner:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 67
+        activation_cost: 143
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 134
+      Federation Navy Medium Afterburner:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 70
+        activation_cost: 145
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 137
+      Republic Fleet Medium Afterburner:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 70
+        activation_cost: 145
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 137
+      Shadow Serpentis Medium Afterburner:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 72
+        activation_cost: 147
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 140
+      Domination Medium Afterburner:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 72
+        activation_cost: 147
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 140
+      Ranger Medium Afterburner:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 75
+        activation_cost: 149
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 143
+      Centum C-Type Medium Afterburner:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 83
+        activation_cost: 154
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 153
+      Corelum C-Type Medium Afterburner:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 83
+        activation_cost: 154
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 5000000
+            flight_velocity: 153
+

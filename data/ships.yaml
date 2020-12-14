@@ -1,0 +1,1863 @@
+Gallente:
+  Frigates:
+    #T1
+    Velator:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 1
+        mid: 0
+        low: 2
+      rigs:
+        combat: 0
+        engineer: 0
+      cargo:
+        value: 270
+      powergrid:
+        value: 32
+        used: 0
+      capacitor:
+        value: 295
+        recharge: 162
+      targeting:
+        signature: 36
+        scan: 675
+        strenght: 10.8
+        targets: 3
+      navigation:
+        flight_velocity: 359
+        warp_speed: 5.0
+        mass: 1148000
+        inertia_modifier: 1.8
+      defenses:
+        shield:
+          value: 130
+          recharge: 450
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 156
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 159
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Frigate Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 15
+                    thermal: 15
+                    kinetic: 15
+                    explosive: 15
+            ship:
+              targeting:
+                scan: 5
+          second:
+            none
+    #T2
+    Incursus:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 2
+        mid: 0
+        low: 3
+      rigs:
+        combat: 0
+        engineer: 0
+      cargo:
+        value: 330
+      powergrid:
+        value: 43
+        used: 0
+      capacitor:
+        value: 362
+        recharge: 172
+      targeting:
+        signature: 37.9
+        scan: 743
+        strenght: 11.9
+        targets: 4
+      navigation:
+        flight_velocity: 366
+        warp_speed: 5.0
+        mass: 1028000
+        inertia_modifier: 1.85
+      defenses:
+        shield:
+          value: 224
+          recharge: 490
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 270
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 275
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Frigate Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 7.5
+                    thermal: 7.5
+                    kinetic: 7.5
+                    explosive: 7.5
+            armor:
+              repairers:
+                any:
+                  amount: 7.5
+            ship:
+              targeting:
+                scan: 5
+          second:
+            none
+    Atron:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 2
+        mid: 1
+        low: 2
+      rigs:
+        combat: 0
+        engineer: 0
+      cargo:
+        value: 290
+      powergrid:
+        value: 41
+        used: 0
+      capacitor:
+        value: 351
+        recharge: 172
+      targeting:
+        signature: 33.9
+        scan: 852
+        strenght: 13.1
+        targets: 3
+      navigation:
+        flight_velocity: 410
+        warp_speed: 5.5
+        mass: 1050000
+        inertia_modifier: 1.1
+      defenses:
+        shield:
+          value: 200
+          recharge: 490
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 242
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 246
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Frigate Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+                  accuracy_falloff: 5
+          second:
+            none
+    #T3
+    Tristan:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 2
+        drone_size: small
+        high: 2
+        mid: 1
+        low: 2
+      rigs:
+        combat: 0
+        engineer: 0
+      cargo:
+        value: 280
+      powergrid:
+        value: 45
+        used: 0
+      capacitor:
+        value: 377
+        recharge: 177
+      targeting:
+        signature: 36
+        scan: 566
+        strenght: 9
+        targets: 3
+      navigation:
+        flight_velocity: 399
+        warp_speed: 5.0
+        mass: 1044000
+        inertia_modifier: 1.55
+      defenses:
+        shield:
+          value: 398
+          recharge: 490
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 480
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 489
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Small Drone Operation
+            drones:
+              scout:
+                small:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+                  defense: 5
+          second:
+            name: Frigate Command
+            railguns:
+              any:
+                small:
+                  tracking_speed: 5
+    Imucus:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 2
+        mid: 1
+        low: 2
+      rigs:
+        combat: 0
+        engineer: 0
+      cargo:
+        value: 1000
+      powergrid:
+        value: 33
+        used: 0
+      capacitor:
+        value: 291
+        recharge: 177
+      targeting:
+        signature: 34.2
+        scan: 447
+        strenght: 11.5
+        targets: 3
+      navigation:
+        flight_velocity: 411
+        warp_speed: 5.5
+        mass: 997000
+        inertia_modifier: 2.2
+      defenses:
+        shield:
+          value: 255
+          recharge: 510
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 307
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 313
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Frigate Defense Upgrade
+            ship:
+              targeting:
+                scan: 5
+          second:
+            name: Frigate Command
+            ship:
+              cargo:
+                value:
+                  flat: 0
+                  percent: 5
+    #T4
+    Atron II:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 2
+        mid: 2
+        low: 2
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 290
+      powergrid:
+        value: 40
+        used: 0
+      capacitor:
+        value: 378
+        recharge: 185
+      targeting:
+        signature: 33.9
+        scan: 868
+        strenght: 13.3
+        targets: 4
+      navigation:
+        flight_velocity: 426
+        warp_speed: 5.0
+        mass: 950000
+        inertia_modifier: 1.3
+      defenses:
+        shield:
+          value: 327
+          recharge: 540
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 395
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 403
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Afterburner
+            propulsion:
+              afterburners:
+                any:
+                  ship:
+                    navigation:
+                      flight_velocity: 10
+          second:
+            name: Frigate Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 12
+                    thermal: 12
+                    kinetic: 12
+                    explosive: 12
+                  accuracy_falloff: 7.5
+    Maulus:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 2
+        mid: 2
+        low: 2
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 550
+      powergrid:
+        value: 46
+        used: 0
+      capacitor:
+        value: 414
+        recharge: 185
+      targeting:
+        signature: 34.2
+        scan: 452
+        strenght: 11.7
+        targets: 4
+      navigation:
+        flight_velocity: 418
+        warp_speed: 5.5
+        mass: 1063000
+        inertia_modifier: 1.92
+      defenses:
+        shield:
+          value: 308
+          recharge: 540
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 371
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 379
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            none
+          second:
+            name: Advanced Frigate Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 8
+                    thermal: 8
+                    kinetic: 8
+                    explosive: 8
+                  optimal_range: 5
+    #T5
+    Imucus Covert Ops:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 2
+        mid: 2
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 1500
+      powergrid:
+        value: 39
+        used: 0
+      capacitor:
+        value: 381
+        recharge: 192
+      targeting:
+        signature: 31.5
+        scan: 772
+        strenght: 12.3
+        targets: 4
+      navigation:
+        flight_velocity: 418
+        warp_speed: 6.0
+        mass: 1271000
+        inertia_modifier: 2.65
+      defenses:
+        shield:
+          value: 470
+          recharge: 610
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 567
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 579
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Frigate Defense Upgrade
+            ship:
+              targeting:
+                scan: 7.5
+                strenght: 1
+          second:
+            name: Frigate Command
+            ship:
+              cargo:
+                value:
+                  flat: 0
+                  percent: 8
+    #T6
+    Nemesis:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 2
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 540
+      powergrid:
+        value: 52
+        used: 0
+      capacitor:
+        value: 483
+        recharge: 200
+      targeting:
+        signature: 31.1
+        scan: 351
+        strenght: 16.8
+        targets: 4
+      navigation:
+        flight_velocity: 327
+        warp_speed: 5.0
+        mass: 1410000
+        inertia_modifier: 2.55
+      defenses:
+        shield:
+          value: 528
+          recharge: 640
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 637
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 650
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          launchers:
+            torpedos:
+              medium:
+                powergrid: -90
+        skills:
+          first:
+            name: Medium Missile/Torpedo Upgrade
+            launchers:
+              torpedos:
+                medium:
+                  damage:
+                    em: 0
+                    thermal: 0
+                    kinetic: 10
+                    explosive: 5
+                  flight_velocity: 10
+          second:
+            name: Expert Frigate Command
+            ship:
+              navigation:
+                inertia_modifier: -5
+    #T7
+    Incursus Assault:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 3
+        low: 3
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 330
+      powergrid:
+        value: 64
+        used: 0
+      capacitor:
+        value: 647
+        recharge: 207
+      targeting:
+        signature: 33.5
+        scan: 822
+        strenght: 14.3
+        targets: 5
+      navigation:
+        flight_velocity: 353
+        warp_speed: 5.5
+        mass: 1216000
+        inertia_modifier: 2.85
+      defenses:
+        shield:
+          value: 725
+          recharge: 740
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 875
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 892
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          damage control:
+            dcus:
+              damage control units:
+                activation_time: 5
+        skills:
+          first:
+            none
+          second:
+            name: Advanced Frigate Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 7.5
+                    thermal: 7.5
+                    kinetic: 7.5
+                    explosive: 7.5
+                  optimal_range: 7.5
+            armor:
+              repairers:
+                any:
+                  amount: 7.5
+    #T8
+    Atron Interceptor:
+      type: Frigate
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 3
+        low: 3
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 290
+      powergrid:
+        value: 55
+        used: 0
+      capacitor:
+        value: 583
+        recharge: 212
+      targeting:
+        signature: 27.8
+        scan: 902
+        strenght: 13.8
+        targets: 4
+      navigation:
+        flight_velocity: 457
+        warp_speed: 5.5
+        mass: 1060000
+        inertia_modifier: 1.2
+      defenses:
+        shield:
+          value: 521
+          recharge: 650
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 628
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 641
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Advanced Electronic Warfare
+            drones:
+              scout:
+                medium:
+                  damage:
+                    em: 10
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 10
+          second:
+            name: Advanced Frigate Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 10
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 10
+                  accuracy_falloff: 7.5
+
+Guristas Pirates:
+  Frigates:
+    Worm:
+      type: Frigate
+      faction: Guristas Pirates
+      slots:
+        drone: 2
+        drone_size: small
+        high: 2
+        mid: 3
+        low: 3
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 260
+      powergrid:
+        value: 64
+        used: 0
+      capacitor:
+        value: 858
+        recharge: 240
+        user: 0
+      targeting:
+        signature: 29.4
+        scan: 722
+        strenght: 15.9
+        targets: 5
+      navigation:
+        flight_velocity: 354
+        warp_speed: 5.0
+        mass: 981000
+        inertia_modifier: 2.85
+      defenses:
+        shield:
+          value: 1352
+          recharge: 1010
+          resists:
+            em: 0
+            thermal: 28
+            kinetic: 40
+            explosive: 50
+        armor:
+          value: 969
+          resists:
+            em: 50
+            thermal: 44.75
+            kinetic: 25
+            explosive: 10
+        hull:
+          value: 1014
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          drones:
+            scout:
+              small:
+                damage:
+                  em: 200
+                  thermal: 200
+                  kinetic: 200
+                  explosive: 200
+                defense: 200
+        skills:
+          first:
+            name: Advanced Small Drone Operation
+            drones:
+              scout:
+                small:
+                  damage:
+                    em: 10
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 10
+                  control_range: 1
+          second:
+            name: Advanced Frigate Command
+            launchers:
+              any:
+                any:
+                  damage:
+                    em: 0
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 0
+            ship:
+              defenses:
+                shield:
+                  resists:
+                    em: 4
+                    thermal: 4
+                    kinetic: 4
+                    explosive: 4
+  Cruisers:
+    Gila:
+      type: Cruiser
+      faction: Guristas Pirates
+      slots:
+        drone: 2
+        drone_size: medium
+        high: 4
+        mid: 3
+        low: 5
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 880
+      powergrid:
+        value: 664
+        used: 0
+      capacitor:
+        value: 3666
+        recharge: 600
+      targeting:
+        signature: 100.0
+        scan: 309
+        strenght: 23.9
+        targets: 7
+      navigation:
+        flight_velocity: 216
+        warp_speed: 3.0
+        mass: 9600000
+        inertia_modifier: 0.4
+      defenses:
+        shield:
+          value: 6761
+          recharge: 6090
+          resists:
+            em: 0
+            thermal: 28
+            kinetic: 40
+            explosive: 50
+        armor:
+          value: 4846
+          resists:
+            em: 50
+            thermal: 44.75
+            kinetic: 25
+            explosive: 10
+        hull:
+          value: 5069
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          drones:
+            scout:
+              medium:
+                damage:
+                  em: 200
+                  thermal: 200
+                  kinetic: 200
+                  explosive: 200
+                defense: 200
+        skills:
+          first:
+            name: Advanced Medium Drone Operation
+            drones:
+              scout:
+                medium:
+                  damage:
+                    em: 10
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 10
+                  control_range: 4
+          second:
+            name: Advanced Cruiser Command
+            launchers:
+              any:
+                any:
+                  damage:
+                    em: 0
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 0
+            ship:
+              defenses:
+                shield:
+                  resists:
+                    em: 4
+                    thermal: 4
+                    kinetic: 4
+                    explosive: 4
+  Battleships:
+    Rattlesnake:
+      type: Battleship
+      faction: Guristas Pirates
+      slots:
+        drone: 2
+        drone_size: large
+        high: 5
+        mid: 3
+        low: 7
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 1330
+      powergrid:
+        value: 8058
+        used: 0
+      capacitor:
+        value: 10768
+        recharge: 978
+      targeting:
+        signature: 352.8
+        scan: 105
+        strenght: 35
+        targets: 7
+      navigation:
+        flight_velocity: 103
+        warp_speed: 2.0
+        mass: 99300000
+        inertia_modifier: 0.128
+      defenses:
+        shield:
+          value: 32452
+          recharge: 31540
+          resists:
+            em: 0
+            thermal: 28
+            kinetic: 40
+            explosive: 50
+        armor:
+          value: 23262
+          resists:
+            em: 50
+            thermal: 44.75
+            kinetic: 25
+            explosive: 10
+        hull:
+          value: 24329
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          drones:
+            any:
+              large:
+                damage:
+                  em: 450
+                  thermal: 450
+                  kinetic: 450
+                  explosive: 450
+                defense: 200
+        skills:
+          first:
+            name: Advanced Large Drone Operation
+            drones:
+              scout:
+                medium:
+                  damage:
+                    em: 10
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 10
+                  control_range: 10
+          second:
+            name: Advanced Battleship Command
+            launchers:
+              any:
+                any:
+                  damage:
+                    em: 0
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 0
+            ship:
+              defenses:
+                shield:
+                  resists:
+                    em: 4
+                    thermal: 4
+                    kinetic: 4
+                    explosive: 4
+
+Sansha's Nation:
+  Frigates:
+    Succubus:
+      type: Frigate
+      faction: Sansha's Nation
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 3
+        low: 3
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 270
+      powergrid:
+        value: 96
+        used: 0
+      capacitor:
+        value: 985
+        recharge: 242
+        user: 0
+      targeting:
+        signature: 24.5
+        scan: 697
+        strenght: 14.4
+        targets: 5
+      navigation:
+        flight_velocity: 414
+        warp_speed: 5.0
+        mass: 965000
+        inertia_modifier: 2.4
+      defenses:
+        shield:
+          value: 1333
+          recharge: 1010
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 40
+            explosive: 55
+        armor:
+          value: 1010
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 25
+            explosive: 19
+        hull:
+          value: 993
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Advanced Small Laser Operation
+            lasers:
+              any:
+                small:
+                  damage:
+                    em: 20
+                    thermal: 20
+                    kinetic: 20
+                    explosive: 20
+                  tracking_speed: 7.5
+          second:
+            name: Advanced Frigate Command
+            propulsion:
+              afterburners:
+                any:
+                  ship:
+                    navigation:
+                      flight_velocity: 20
+            ship:
+              defenses:
+                shield:
+                  value:
+                    flat: 0
+                    percent: 5
+  Cruisers:
+    Phantasm:
+      type: Cruiser
+      faction: Sansha's Nation
+      slots:
+        drone: 1
+        drone_size: medium
+        high: 4
+        mid: 3
+        low: 5
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 820
+      powergrid:
+        value: 1086
+        used: 0
+      capacitor:
+        value: 4657
+        recharge: 600
+      targeting:
+        signature: 83.3
+        scan: 298
+        strenght: 21.7
+        targets: 7
+      navigation:
+        flight_velocity: 253
+        warp_speed: 3.0
+        mass: 9600000
+        inertia_modifier: 0.4
+      defenses:
+        shield:
+          value: 6666
+          recharge: 6020
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 40
+            explosive: 55
+        armor:
+          value: 5048
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 25
+            explosive: 19
+        hull:
+          value: 4966
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Advanced Medium Laser Operation
+            lasers:
+              any:
+                medium:
+                  damage:
+                    em: 15
+                    thermal: 15
+                    kinetic: 15
+                    explosive: 15
+                  tracking_speed: 7.5
+          second:
+            name: Advanced Cruiser Command
+            propulsion:
+              afterburners:
+                any:
+                  ship:
+                    navigation:
+                      flight_velocity: 25
+            ship:
+              defenses:
+                shield:
+                  value:
+                    flat: 0
+                    percent: 5
+  Battleships:
+    Nightmare:
+      type: Battleship
+      faction: Sansha's Nation
+      slots:
+        drone: 2
+        drone_size: large
+        high: 6
+        mid: 3
+        low: 7
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 1330
+      powergrid:
+        value: 13081
+        used: 0
+      capacitor:
+        value: 16589
+        recharge: 988
+      targeting:
+        signature: 294
+        scan: 101
+        strenght: 31.8
+        targets: 7
+      navigation:
+        flight_velocity: 121
+        warp_speed: 2.0
+        mass: 99300000
+        inertia_modifier: 0.122
+      defenses:
+        shield:
+          value: 31998
+          recharge: 31150
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 40
+            explosive: 55
+        armor:
+          value: 24231
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 25
+            explosive: 19
+        hull:
+          value: 23835
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Advanced Large Laser Operation
+            lasers:
+              any:
+                large:
+                  damage:
+                    em: 10
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 10
+                  tracking_speed: 7.5
+          second:
+            name: Advanced Battleship Command
+            propulsion:
+              afterburners:
+                any:
+                  ship:
+                    navigation:
+                      flight_velocity: 30
+            ship:
+              defenses:
+                shield:
+                  value:
+                    flat: 0
+                    percent: 5
+
+Serpentis Corporation:
+  Frigates:
+    Daredevil:
+      type: Frigate
+      faction: Serpentis Corporation
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 3
+        low: 3
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 280
+      powergrid:
+        value: 72
+        used: 0
+      capacitor:
+        value: 657
+        recharge: 242
+        user: 0
+      targeting:
+        signature: 26.7
+        scan: 760
+        strenght: 14.4
+        targets: 5
+      navigation:
+        flight_velocity: 439
+        warp_speed: 5.0
+        mass: 823000
+        inertia_modifier: 1.8
+      defenses:
+        shield:
+          value: 909
+          recharge: 870
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 1193
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 1233
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Advanced Small Railgun Operation
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 25
+                    thermal: 25
+                    kinetic: 25
+                    explosive: 25
+                  accuracy_falloff: 10
+          second:
+            name: Advanced Frigate Command
+            propulsion:
+              afterburners:
+                any:
+                  ship:
+                    navigation:
+                      flight_velocity: 0
+            ship:
+              defenses:
+                shield:
+                  value:
+                    flat: 0
+                    percent: 0
+  Cruisers:
+    Vigilant:
+      type: Cruiser
+      faction: Serpentis Corporation
+      slots:
+        drone: 1
+        drone_size: medium
+        high: 5
+        mid: 3
+        low: 5
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 900
+      powergrid:
+        value: 974
+        used: 0
+      capacitor:
+        value: 3250
+        recharge: 606
+      targeting:
+        signature: 90.8
+        scan: 325
+        strenght: 21.8
+        targets: 7
+      navigation:
+        flight_velocity: 268
+        warp_speed: 3.0
+        mass: 9830000
+        inertia_modifier: 0.38
+      defenses:
+        shield:
+          value: 4546
+          recharge: 4540
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 5966
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 6164
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Advanced Medium Railgun Operation
+            railguns:
+              any:
+                medium:
+                  damage:
+                    em: 12
+                    thermal: 12
+                    kinetic: 12
+                    explosive: 12
+                  accuracy_falloff: 10
+          second:
+            name: Advanced Cruiser Command
+            propulsion:
+              afterburners:
+                any:
+                  ship:
+                    navigation:
+                      flight_velocity: 0
+            ship:
+              defenses:
+                shield:
+                  value:
+                    flat: 0
+                    percent: 0
+  Battleships:
+    Vindicator:
+      type: Battleship
+      faction: Serpentis Corporation
+      slots:
+        drone: 2
+        drone_size: large
+        high: 8
+        mid: 4
+        low: 6
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 1330
+      powergrid:
+        value: 11250
+        used: 0
+      capacitor:
+        value: 11907
+        recharge: 1007
+      targeting:
+        signature: 325
+        scan: 110
+        strenght: 31.8
+        targets: 7
+      navigation:
+        flight_velocity: 128
+        warp_speed: 2.0
+        mass: 105200000
+        inertia_modifier: 0.083
+      defenses:
+        shield:
+          value: 21819
+          recharge: 21950
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 28638
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 29587
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Advanced Large Railgun Operation
+            railguns:
+              any:
+                large:
+                  damage:
+                    em: 12
+                    thermal: 12
+                    kinetic: 12
+                    explosive: 12
+                  tracking_speed: 7.5
+          second:
+            name: Advanced Battleship Command
+            propulsion:
+              afterburners:
+                any:
+                  ship:
+                    navigation:
+                      flight_velocity: 0
+            ship:
+              defenses:
+                shield:
+                  value:
+                    flat: 0
+                    percent: 0
+
+Angel Cartel:
+  Frigates:
+    Dramiel:
+      type: Frigate
+      faction: Angel Cartel
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 3
+        low: 3
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 260
+      powergrid:
+        value: 61
+        used: 0
+      capacitor:
+        value: 639
+        recharge: 242
+        user: 0
+      targeting:
+        signature: 20.6
+        scan: 988
+        strenght: 13
+        targets: 5
+      navigation:
+        flight_velocity: 477
+        warp_speed: 5.0
+        mass: 950000
+        inertia_modifier: 1.6
+      defenses:
+        shield:
+          value: 1156
+          recharge: 950
+          resists:
+            em: 10
+            thermal: 20
+            kinetic: 40
+            explosive: 50
+        armor:
+          value: 1156
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 25
+            explosive: 10
+        hull:
+          value: 1023
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          ship:
+            navigation:
+              warp_speed: 50
+          damage control:
+            dcus:
+              damage control units:
+                activation_time: 5
+        skills:
+          first:
+            name: Advanced Small Cannon Operation
+            cannons:
+              any:
+                small:
+                  damage:
+                    em: 10
+                    thermal: 10
+                    kinetic: 10
+                    explosive: 10
+                  activation_time: -5
+          second:
+            name: Advanced Frigate Command
+            cannons:
+              any:
+                small:
+                  tracking_speed: 7.5
+                  accuracy_falloff: 10
+  Cruisers:
+    Cynabal:
+      type: Cruiser
+      faction: Angel Cartel
+      slots:
+        drone: 1
+        drone_size: medium
+        high: 5
+        mid: 3
+        low: 5
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 800
+      powergrid:
+        value: 949
+        used: 0
+      capacitor:
+        value: 3002
+        recharge: 606
+      targeting:
+        signature: 70
+        scan: 423
+        strenght: 19.5
+        targets: 7
+      navigation:
+        flight_velocity: 292
+        warp_speed: 3.0
+        mass: 9047000
+        inertia_modifier: 0.34
+      defenses:
+        shield:
+          value: 5781
+          recharge: 5410
+          resists:
+            em: 10
+            thermal: 20
+            kinetic: 40
+            explosive: 50
+        armor:
+          value: 5781
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 25
+            explosive: 10
+        hull:
+          value: 5114
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          ship:
+            navigation:
+              warp_speed: 50
+          damage control:
+            dcus:
+              damage control units:
+                activation_time: 5
+        skills:
+          first:
+            name: Advanced Medium Cannon Operation
+            cannons:
+              any:
+                medium:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+                  activation_time: -5
+          second:
+            name: Advanced Cruiser Command
+            cannons:
+              any:
+                medium:
+                  tracking_speed: 7.5
+                  accuracy_falloff: 7.5
+  Battleships:
+    Machariel:
+      type: Battleship
+      faction: Angel Cartel
+      slots:
+        drone: 2
+        drone_size: large
+        high: 8
+        mid: 4
+        low: 6
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 1330
+      powergrid:
+        value: 12353
+        used: 0
+      capacitor:
+        value: 9978
+        recharge: 1007
+      targeting:
+        signature: 247
+        scan: 143
+        strenght: 28.6
+        targets: 7
+      navigation:
+        flight_velocity: 139
+        warp_speed: 2.0
+        mass: 94680000
+        inertia_modifier: 0.096
+      defenses:
+        shield:
+          value: 27749
+          recharge: 27330
+          resists:
+            em: 10
+            thermal: 20
+            kinetic: 40
+            explosive: 50
+        armor:
+          value: 27749
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 25
+            explosive: 10
+        hull:
+          value: 24547
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          ship:
+            navigation:
+              warp_speed: 50
+          damage control:
+            dcus:
+              damage control units:
+                activation_time: 5
+        skills:
+          first:
+            name: Advanced Large Cannon Operation
+            cannons:
+              any:
+                large:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+                  activation_time: -5
+          second:
+            name: Advanced Battleship Command
+            cannons:
+              any:
+                large:
+                  tracking_speed: 7.5
+                  accuracy_falloff: 7.5
+
+
+
+
