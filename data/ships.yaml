@@ -1,5 +1,5 @@
 Gallente:
-  Frigates:
+  Frigate:
     #T1
     Velator:
       type: Frigate
@@ -818,7 +818,7 @@ Gallente:
                   accuracy_falloff: 7.5
 
 Guristas Pirates:
-  Frigates:
+  Frigate:
     Worm:
       type: Frigate
       faction: Guristas Pirates
@@ -914,7 +914,7 @@ Guristas Pirates:
                     thermal: 4
                     kinetic: 4
                     explosive: 4
-  Cruisers:
+  Cruiser:
     Gila:
       type: Cruiser
       faction: Guristas Pirates
@@ -1009,7 +1009,7 @@ Guristas Pirates:
                     thermal: 4
                     kinetic: 4
                     explosive: 4
-  Battleships:
+  Battleship:
     Rattlesnake:
       type: Battleship
       faction: Guristas Pirates
@@ -1106,7 +1106,7 @@ Guristas Pirates:
                     explosive: 4
 
 Sansha's Nation:
-  Frigates:
+  Frigate:
     Succubus:
       type: Frigate
       faction: Sansha's Nation
@@ -1190,7 +1190,7 @@ Sansha's Nation:
                   value:
                     flat: 0
                     percent: 5
-  Cruisers:
+  Cruiser:
     Phantasm:
       type: Cruiser
       faction: Sansha's Nation
@@ -1273,7 +1273,7 @@ Sansha's Nation:
                   value:
                     flat: 0
                     percent: 5
-  Battleships:
+  Battleship:
     Nightmare:
       type: Battleship
       faction: Sansha's Nation
@@ -1358,7 +1358,7 @@ Sansha's Nation:
                     percent: 5
 
 Serpentis Corporation:
-  Frigates:
+  Frigate:
     Daredevil:
       type: Frigate
       faction: Serpentis Corporation
@@ -1442,7 +1442,7 @@ Serpentis Corporation:
                   value:
                     flat: 0
                     percent: 0
-  Cruisers:
+  Cruiser:
     Vigilant:
       type: Cruiser
       faction: Serpentis Corporation
@@ -1525,7 +1525,7 @@ Serpentis Corporation:
                   value:
                     flat: 0
                     percent: 0
-  Battleships:
+  Battleship:
     Vindicator:
       type: Battleship
       faction: Serpentis Corporation
@@ -1610,7 +1610,7 @@ Serpentis Corporation:
                     percent: 0
 
 Angel Cartel:
-  Frigates:
+  Frigate:
     Dramiel:
       type: Frigate
       faction: Angel Cartel
@@ -1693,7 +1693,7 @@ Angel Cartel:
                 small:
                   tracking_speed: 7.5
                   accuracy_falloff: 10
-  Cruisers:
+  Cruiser:
     Cynabal:
       type: Cruiser
       faction: Angel Cartel
@@ -1775,7 +1775,7 @@ Angel Cartel:
                 medium:
                   tracking_speed: 7.5
                   accuracy_falloff: 7.5
-  Battleships:
+  Battleship:
     Machariel:
       type: Battleship
       faction: Angel Cartel

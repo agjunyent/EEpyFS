@@ -1,0 +1,17 @@
+combat: [weapon rigs_drone rigs_activation time rigs_Drone Speed Augmentor III, weapon
+    rigs_drone rigs_activation time rigs_Drone Speed Augmentor III, null]
+drone: [drones_scout_medium_MK7 Infiltrator, drones_scout_medium_MK7 Infiltrator]
+engineer: [engineer rigs_engineering rigs_capacitor value_Semiconductor Memory Cell
+    III, engineer rigs_engineering rigs_capacitor value_Semiconductor Memory Cell
+    III, engineer rigs_engineering rigs_capacitor recharge_Capacitor Control Circuit
+    III]
+high: [launchers_missiles_medium_Pithum C-Type Medium Missile Launcher, launchers_missiles_medium_Pithum
+    C-Type Medium Missile Launcher, launchers_missiles_medium_Pithum C-Type Medium
+    Missile Launcher, launchers_missiles_medium_Pithum C-Type Medium Missile Launcher]
+low: [shield_boosters_medium_Pithum C-Type Medium Shield Booster, shield_hardeners_adaptive_Gist
+    C-Type Adaptive Shield Hardener, shield_hardeners_adaptive_Gist C-Type Adaptive
+    Shield Hardener, propulsion_afterburners_medium_Corelum C-Type Medium Afterburner,
+  capacitor_batteries_medium_Gistum C-Type Medium Capacitor Battery]
+mid: [null, null, null]
+ship: {faction: Guristas Pirates, name: Gila, type: Cruiser}
+fitting_name: "testing"

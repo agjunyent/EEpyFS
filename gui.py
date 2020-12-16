@@ -4,7 +4,9 @@ import base64
 import copy
 import os
 from ast import literal_eval
+from glob import glob
 
+import yaml
 import cv2
 import PySimpleGUI as sg
 
@@ -50,6 +52,12 @@ class GUI():
         self.low_slots_data = low_slots_data
         self.combat_rigs_data = combat_rigs_data
         self.engineer_rigs_data = engineer_rigs_data
+
+        menu_def = [['&File', ['&Load::full-load', '&Save::full-save', '---', 'E&xit']],
+                    ['!&Edit', ['!&Paste', ['Special', 'Normal', ], 'Undo'], ],
+                    ['&Debugger', ['Popout', 'Launch Debugger']],
+                    ['&Toolbar', ['Command &1', 'Command &2', 'Command &3', 'Command &4']],
+                    ['&Help', '&About...'], ]
 
         high_slots_layout = [self.make_slot("slot-high-" + str(x), image_filename="icons/high-slot.png") for x in range(MAX_HIGH_SLOTS)]
         mid_slots_layout = [[self.make_slot("slot-mid-" + str(x), image_filename="icons/mid-slot.png")] for x in range(MAX_MID_SLOTS)]
@@ -99,9 +107,8 @@ class GUI():
             [sg.Text("Warp speed:", size=(20, 1))] + [sg.Text("0 AU/s", key="navigation-warp-speed", size=(14, 1), justification="r")],
         ])]
 
-        # treedata = self.make_treedata(high_slots_data)
         treedata = sg.TreeData()
-        treedata_layout = [sg.Tree(data=treedata,
+        treedata_items_layout = [sg.Tree(data=treedata,
                                    headings=[''],
                                    visible_column_map=[''],
                                    auto_size_columns=True,
@@ -113,12 +120,30 @@ class GUI():
                                    show_expanded=False,
                                    enable_events=True)]
 
-        layout = [[sg.Text('Faction: ', size=(10, 1))] + [sg.Combo(self.ship_factions, enable_events=True, size=(20, 1), key='dropdown-faction')],
+        treedata_ships = self.make_ship_treedata(self.ship_names)
+        treedata_fittings_layout = [sg.Tree(data=treedata_ships,
+                                            headings=[''],
+                                            visible_column_map=[''],
+                                            auto_size_columns=True,
+                                            row_height=26,
+                                            num_rows=30,
+                                            col0_width=30,
+                                            key='tree-fittings',
+                                            change_submits=False,
+                                            show_expanded=False,
+                                            enable_events=True)]
+
+        treedata_tabs = [[sg.Tab('Fittings', [treedata_fittings_layout], key="tab-fittings"),
+                          sg.Tab('Items', [treedata_items_layout], key="tab-items")]]
+
+        layout = [[sg.Menu(menu_def)],
+                  [sg.Text('Faction: ', size=(10, 1))] + [sg.Combo(self.ship_factions, enable_events=True, size=(20, 1), key='dropdown-faction')],
                   [sg.Text('Type: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-type', disabled=True)],
-                  [sg.Text('Ship: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-shipname', disabled=True)],
-                  [sg.Frame('', [
-                      treedata_layout
-                  ])] +
+                  [sg.Text('Ship: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-shipname', disabled=True)] + [sg.Button('Update', key='Update', disabled=True)],
+                  # [sg.Frame('', [
+                  #     treedata_layout
+                  # ])] +
+                  [sg.TabGroup(treedata_tabs, enable_events=True, key="tabs")] +
                   [sg.Frame('', [
                       high_slots_layout,
                       [
@@ -135,9 +160,6 @@ class GUI():
                        navigation_layout
                    ]),
                   ],
-                  [
-                      sg.Button('Update', key='Update', disabled=True), sg.Exit(),
-                  ]
                  ]
 
         self.current_ship_data = None
@@ -152,6 +174,7 @@ class GUI():
         self.window.Finalize()
 
         self.window["tree"].bind('<Double-Button-1>', '-double-click')
+        self.window["tree-fittings"].bind('<Double-Button-1>', '-double-click')
         # self.window["tree"].bind('<Button-3>', '-right-click')
         self.window["tree"].Widget.bind('<Button-3>', self.onTreeRightClick)
         self.window["tree"].bind('<Leave>', '-leave')
@@ -198,8 +221,30 @@ class GUI():
     def read(self):
         # event, values = self.window.Read()
         window, event, values = sg.read_all_windows()
-        if event is None or event == 'Exit':
-            return False
+        self.hide_slot_info()
+        print(event)
+        if event == "Exit" or event is None:
+            exiting = sg.PopupOKCancel("Do you want to exit?", keep_on_top=True)
+            if exiting == "OK":
+                return False
+
+        elif event == "tree-fittings-double-click":
+            selected = values["tree-fittings"][0].split("::")
+            print(selected)
+            if len(selected) == 2:
+                if selected[0] == "loadfit":
+                    if selected[1] == "New*":
+                        print("Creating new fit")
+                    else:
+                        selected_item_row = self.window.Element("tree-fittings").SelectedRows[0]
+                        selected = self.window.Element("tree-fittings").TreeData.tree_dict[selected_item_row]
+                        current_fit = selected.values[0]
+                        self.load_fit(current_fit)
+
+        elif event == "Save::full-save" and self.current_ship_data:
+            current_fit = self.current_ship.export_fit()
+            with open("fitting.yaml", 'w') as stream:
+                yaml.safe_dump(current_fit, stream)
 
         if self.selected_tree_row and self.selected_tree_row["values"]:
             self.selected_tree_row["text"] = values["tree"][0]
@@ -211,16 +256,15 @@ class GUI():
                 return True
             if not self.current_ship:
                 self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
-                self.reset_ship()
-                self.update_ship()
             elif self.current_ship_name != self.current_ship.name:
                 ok_cancel = sg.PopupOKCancel("Are you sure you want to change ship?")
                 if ok_cancel == "OK":
                     self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
-                    self.reset_ship()
-                    self.update_ship()
-                    self.selected_slot = None
-                    self.update_treedata("empty", None)
+            self.reset_ship()
+            self.update_ship()
+            self.selected_slot = None
+            self.update_treedata("empty", None)
+            self.window["tab-items"].Select()
 
         elif "dropdown" in event:
             dropdown_type = event.split("-")[1]
@@ -248,24 +292,28 @@ class GUI():
 
         elif self.current_ship:
             if event == "tree-double-click" and self.selected_slot:
-                if values["tree"] and len(values["tree"][0].split("-")) > 1:
+                if values["tree"] and len(values["tree"][0].split("_")) > 1:
                     selected_item_row = self.window.Element("tree").SelectedRows[0]
                     selected = self.window.Element("tree").TreeData.tree_dict[selected_item_row]
                     item = {}
                     item[values["tree"][0]] = copy.deepcopy(selected.values)
-                    slot_added, self.selected_slot = self.current_ship.add_slot(self.selected_slot, item)
+                    slot_added, slot_name = self.current_ship.add_slot(self.selected_slot, item)
                     if slot_added:
+                        self.selected_slot = slot_name
                         if "drones" in values["tree"][0]:
-                            image_filename = "-".join(values["tree"][0].split("-")[0:3])
+                            image_filename = "-".join(values["tree"][0].split("_")[0:3])
                             image_filename += "-" + values["tree"][0].split(" ")[-1].lower()
                         else:
-                            image_filename = "-".join(values["tree"][0].split("-")[0:3])
+                            image_filename = "-".join(values["tree"][0].split("_")[0:3])
                         faction = list(item.values())[0]["faction"]
                         icon = self.get_icon(image_filename, faction=faction, size=(65, 65))
                         self.window.Element(self.selected_slot).Update(image_data=icon)
                         self.update_ship()
                     else:
-                        sg.PopupOK("NOT ENOUGH POWERGRID!", no_titlebar=True)
+                        if slot_name == "powergrid":
+                            sg.PopupOK("NOT ENOUGH POWERGRID", no_titlebar=True)
+                        elif slot_name == "full":
+                            sg.PopupOK("ALL SLOTS FULL", no_titlebar=True)
 
             elif event.split("-")[0] == "slot":
                 if len(event.split("-")) >= 4:
@@ -377,10 +425,11 @@ class GUI():
             [sg.Button("Stats")]
         ]
         window = sg.Window("test",
-                            layout=layout,
+                            layout=[[sg.Frame('', layout)]],
                             no_titlebar=True,
                             finalize=True,
-                            location=location)
+                            location=location,
+                            force_toplevel=True)
         event, _ = window.read(timeout=5000)
         window.close()
         return event
@@ -421,8 +470,8 @@ class GUI():
         return window
 
     def make_tooltip(self, slot_type, item_name, item_data, position):
-        item_type, item_sub_type, item_size, *_ = item_name.split("-")
-        item_name = ("-").join(item_name.split("-")[3:])
+        item_type, item_sub_type, item_size, *_ = item_name.split("_")
+        item_name = ("-").join(item_name.split("_")[3:])
         slot_type = slot_type.split("-")[1]
         layout = []
         item_damage_percent = {}
@@ -526,7 +575,8 @@ class GUI():
                             [[sg.Frame('', [[sg.Text(item_name)]])], [sg.Frame('', layout)]],
                             no_titlebar=True,
                             finalize=True,
-                            location=position)
+                            location=position,
+                            force_toplevel=True)
         if item_sub_type == "dcus":
             for defense in ["shield", "armor", "hull"]:
                 item_damage_percent = item_data["ship"]["defenses"][defense]["resists"]
@@ -587,44 +637,101 @@ class GUI():
                    [sg.Text("EXP", size=(9, 1))] + [sg.Text("0", size=(4, 1), key="explosive-" + defense_type + "-VAL", justification="r")], [sg.ProgressBar(100, orientation='h', size=(10, 3), key="explosive-" + defense_type + "-PROG", bar_color=("yellow", "grey"))]]
         return defense
 
+    def load_fit(self, current_fit):
+        self.current_ship_faction = current_fit["ship"]["faction"]
+        self.current_ship_type = current_fit["ship"]["type"]
+        self.current_ship_name = current_fit["ship"]["name"]
+        self.current_ship_data = self.ships_data[self.current_ship_faction][self.current_ship_type][self.current_ship_name]
+        self.current_ship = Ship(current_fit["ship"]["name"], self.current_ship_data, self.player_data)
+        self.reset_ship()
+
+        for slot_type, slot_data in zip(["high", "mid", "drone", "low", "combat", "engineer"], [self.high_slots_data, self.mid_slots_data, self.drone_slots_data, self.low_slots_data, self.combat_rigs_data, self.engineer_rigs_data]):
+            slot_num = 0
+            for slot in current_fit[slot_type]:
+                if slot:
+                    item_type, sub_item_type, item_size, item_name = slot.split("_")
+                    item_data = {}
+                    item_data[slot] = slot_data[item_type][sub_item_type][item_size][item_name]
+                    self.current_ship.add_slot("slot-" + slot_type + "-" + str(slot_num), item_data)
+                    image_filename = "-".join(slot.split("_")[0:3])
+                    if slot_type == "drone":
+                        image_filename += "-" + slot.split(" ")[-1].lower()
+                    faction = item_data[slot]["faction"]
+                    icon = self.get_icon(image_filename, faction=faction, size=(65, 65))
+                    self.window.Element("slot-" + slot_type + "-" + str(slot_num)).Update(image_data=icon)
+                slot_num += 1
+        self.update_ship()
+        self.selected_slot = None
+        self.update_treedata("empty", None)
+
+    def get_saved_fittings(self, ship_names):
+        saved_fittings_fnames = glob("saved_fittings/*.yaml")
+        saved_fittings = copy.deepcopy(ship_names)
+        for ship_faction in saved_fittings:
+            ship_types = saved_fittings[ship_faction]
+            for ship_type in ship_types:
+                ships = saved_fittings[ship_faction][ship_type]
+                saved_fittings[ship_faction][ship_type] = {}
+                for ship in ships:
+                    saved_fittings[ship_faction][ship_type][ship] = []
+
+        for saved_fitting_fname in saved_fittings_fnames:
+            with open(saved_fitting_fname, 'r') as stream:
+                try:
+                    saved_fitting_data = yaml.safe_load(stream)
+                except yaml.YAMLError as exc:
+                    print(exc)
+            saved_fitting_ship = saved_fitting_data["ship"]
+            saved_fittings[saved_fitting_ship["faction"]][saved_fitting_ship["type"]][saved_fitting_ship["name"]].append(saved_fitting_data)
+
+        return saved_fittings
+
+    def make_ship_treedata(self, ship_names):
+        saved_fittings_data = self.get_saved_fittings(ship_names)
+        treedata = sg.TreeData()
+        for ship_faction in ship_names:
+            treedata.Insert('', ship_faction, ship_faction, values=[])
+            ship_types = ship_names[ship_faction]
+            for ship_type in ship_types:
+                treedata.Insert(ship_faction, ship_type, ship_type, values=[])
+                ships = ship_names[ship_faction][ship_type]
+                for ship in ships:
+                    treedata.Insert(ship_type, ship, ship, values=[])
+                    if saved_fittings_data[ship_faction][ship_type][ship]:
+                        for saved in saved_fittings_data[ship_faction][ship_type][ship]:
+                            treedata.Insert(ship, "loadfit::" + saved["fitting_name"], saved["fitting_name"], values=[saved])
+                    else:
+                        treedata.Insert(ship, "loadfit::New*", "New*", values=[])
+        return treedata
+
     def make_treedata(self, slot_data, is_drone=False, max_drone_size=None):
         treedata = sg.TreeData()
-        if False:
-            for slot_type in slot_data:
-                treedata.Insert('', slot_type, slot_type, values=[])
-                slot_sizes = slot_data[slot_type]
-                for slot_size in slot_data:
-                    treedata.Insert('', slot_size, slot_size, values=[])
-                    slot_names = slot_data[slot_size]
-                    for slot_name in slot_names:
-                        key = slot_size + "-drones-" + slot_name
-                        treedata.Insert(slot_size, key, slot_name, values=slot_names[slot_name])
-        else:
-            for slot_type in slot_data:
-                treedata.Insert('', slot_type, slot_type, values=[])
-                sub_slot_types = slot_data[slot_type]
-                for sub_slot_type in sub_slot_types:
-                    treedata.Insert(slot_type, sub_slot_type, sub_slot_type, values=[])
-                    slot_sizes = sub_slot_types[sub_slot_type]
-                    for slot_size in slot_sizes:
-                        icon_fname = slot_type + "-" + sub_slot_type + "-" + slot_size
-                        icon = None
-                        if not is_drone:
-                            icon = self.get_icon(icon_fname)
-                        treedata.Insert(sub_slot_type, slot_size, slot_size, values=[], icon=icon)
-                        items = slot_sizes[slot_size]
-                        for item in items:
-                            item_data = items[item]
-                            if is_drone:
-                                icon_fname += "-" + item.split(" ")[-1].lower()
-                            icon = self.get_icon(icon_fname, faction=item_data["faction"])
-                            key = slot_type + "-" + sub_slot_type + "-" + slot_size + "-" + item
-                            treedata.Insert(slot_size, key, item, values=item_data, icon=icon)
-                        if slot_size == max_drone_size: # limit drones to max size from ship
-                            break
+        for slot_type in slot_data:
+            treedata.Insert('', slot_type, slot_type, values=[])
+            sub_slot_types = slot_data[slot_type]
+            for sub_slot_type in sub_slot_types:
+                treedata.Insert(slot_type, sub_slot_type, sub_slot_type, values=[])
+                slot_sizes = sub_slot_types[sub_slot_type]
+                for slot_size in slot_sizes:
+                    icon_fname = slot_type + "_" + sub_slot_type + "_" + slot_size
+                    icon = None
+                    if not is_drone:
+                        icon = self.get_icon(icon_fname)
+                    treedata.Insert(sub_slot_type, slot_size, slot_size, values=[], icon=icon)
+                    items = slot_sizes[slot_size]
+                    for item in items:
+                        item_data = items[item]
+                        if is_drone:
+                            icon_fname += "_" + item.split(" ")[-1].lower()
+                        icon = self.get_icon(icon_fname, faction=item_data["faction"])
+                        key = slot_type + "_" + sub_slot_type + "_" + slot_size + "_" + item
+                        treedata.Insert(slot_size, key, item, values=item_data, icon=icon)
+                    if slot_size == max_drone_size: # limit drones to max size from ship
+                        break
         return treedata
 
     def get_icon(self, icon_fname, faction='none', size=(24, 24)):
+        icon_fname = icon_fname.replace("_", "-")
         img = cv2.imread("./icons/" + icon_fname + ".png")
         if img is not None:
             img = cv2.resize(img, size)

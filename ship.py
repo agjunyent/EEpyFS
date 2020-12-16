@@ -13,6 +13,7 @@ class Ship():
 
         self.name = name
         self.type = ship_data["type"]
+        self.faction = ship_data["faction"]
         self.max_slots = ship_data["slots"]
         self.max_rigs = ship_data["rigs"]
 
@@ -174,60 +175,47 @@ class Ship():
 
         slot_number = int(slot_number)
         slot_added = False
-        if current_slot:
+        num_full_slots = 0
+        slot_name = "powergrid"
+        num_max_slots = self.max_rigs[slot_type] if slot_type in {"combat", "engineer"} else self.max_slots[slot_type]
+        while current_slot:
+            num_full_slots += 1
+            if num_full_slots >= num_max_slots:
+                return False, "full"
             slot_number += 1
-            if slot_number >= self.max_slots[slot_type]:
+            if slot_number >= num_max_slots:
                 slot_number = 0
-            current_data = list(current_slot.values())[0]
-            if (self.powergrid["used"] - current_data["powergrid"]) + data["powergrid"] <= self.powergrid["value"]:
-                self.powergrid["used"] -= current_data["powergrid"]
-                if slot_type == "high":
-                    self.slots["high-base"][slot_number] = item_data
-                    self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_high_slot_data(item_data)
-                elif slot_type == "low":
-                    self.slots[slot_type][slot_number] = None
-                    self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_bonus_slot_data(item_data)
-                elif slot_type == "drone":
-                    self.slots["drone-base"][slot_number] = item_data
-                    self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_high_slot_data(item_data)
-                elif slot_type == "combat":
-                    self.slots[slot_type][slot_number] = None
-                    self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_bonus_slot_data(item_data)
-                elif slot_type == "engineer":
-                    self.slots[slot_type][slot_number] = None
-                    self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_bonus_slot_data(item_data)
-                else:
-                    self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_high_slot_data(item_data)
-                self.powergrid["used"] += data["powergrid"]
-                slot_added = True
-        elif (self.powergrid["used"] + data["powergrid"]) <= self.powergrid["value"]:
+            current_slot = self.slots[slot_type][int(slot_number)]
+
+        if (self.powergrid["used"] + data["powergrid"]) <= self.powergrid["value"]:
             if slot_type == "high":
                 self.slots["high-base"][slot_number] = item_data
-                self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_high_slot_data(item_data)
+                self.slots[slot_type][slot_number] = item_data_bonus
             elif slot_type == "low":
-                self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_bonus_slot_data(item_data)
+                self.slots[slot_type][slot_number] = item_data_bonus
             elif slot_type == "drone":
                 self.slots["drone-base"][slot_number] = item_data
-                self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_high_slot_data(item_data)
+                self.slots[slot_type][slot_number] = item_data_bonus
             elif slot_type == "combat":
                 self.slots[slot_type][slot_number] = None
-                self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_bonus_slot_data(item_data)
+                self.slots[slot_type][slot_number] = item_data_bonus
             elif slot_type == "engineer":
                 self.slots[slot_type][slot_number] = None
-                self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_bonus_slot_data(item_data)
+                self.slots[slot_type][slot_number] = item_data_bonus
             else:
-                self.slots[slot_type][slot_number] = item_data_bonus # self.apply_bonus_to_high_slot_data(item_data)
+                self.slots[slot_type][slot_number] = item_data_bonus
             self.powergrid["used"] += data["powergrid"]
             slot_added = True
-        self.fittings_bonus_data = copy.deepcopy(self.raw_bonus_data)
-        self.capacitor["consumption"] = 0
-        for slot_type in ["low", "combat", "engineer"]:
-            self.update_fittings_bonus_data(slot_type)
-        self.update_slots_stats()
-        slot = slot.split("-")[0:-1]
-        slot.append(str(slot_number))
-        slot = ("-").join(slot)
-        return slot_added, slot
+
+            self.fittings_bonus_data = copy.deepcopy(self.raw_bonus_data)
+            self.capacitor["consumption"] = 0
+            for slot_type in ["low", "combat", "engineer"]:
+                self.update_fittings_bonus_data(slot_type)
+            self.update_slots_stats()
+            slot = slot.split("-")[0:-1]
+            slot.append(str(slot_number))
+            slot_name = ("-").join(slot)
+        return slot_added, slot_name
 
     def remove_slot(self, slot):
         slot_type, slot_number = slot.split("-")[1:]
@@ -261,7 +249,7 @@ class Ship():
     def apply_bonus_to_high_slot_data(self, item_data):
         item_data_with_bonus = copy.deepcopy(item_data)
         item_name = list(item_data_with_bonus.keys())[0]
-        item_info = item_name.split("-")
+        item_info = item_name.split("_")
         item_type, sub_item_type, item_size, *_ = item_info
         stat_ship_bonus = self.ship_bonus_data[item_type][sub_item_type][item_size]
         role_ship_bonus = self.ship_role_data[item_type][sub_item_type][item_size]
@@ -293,7 +281,7 @@ class Ship():
     def apply_bonus_to_bonus_slot_data(self, item_data):
         item_data_with_bonus = copy.deepcopy(item_data)
         item_name = list(item_data_with_bonus.keys())[0]
-        item_info = item_name.split("-")
+        item_info = item_name.split("_")
         item_type, sub_item_type, item_size, *_ = item_info
         stat_ship_bonus = self.ship_bonus_data[item_type][sub_item_type][item_size]
         role_ship_bonus = self.ship_role_data[item_type][sub_item_type][item_size]
@@ -346,13 +334,13 @@ class Ship():
                 continue
             item_data_with_bonus = copy.deepcopy(slot_data)
             item_name = list(slot_data.keys())[0]
-            item_info = item_name.split("-")
+            item_info = item_name.split("_")
             item_type, sub_item_type, item_size, *_ = item_info
             if item_type == "propulsion":
                 self.navigation["propulsion_thrust_bonus"] = PROPULSION_THRUST_BONUS[item_size]
             num_same_items = 0
             for same_item_name in item_names:
-                same_item_info = same_item_name.split("-")
+                same_item_info = same_item_name.split("_")
                 same_item_type, same_sub_item_type, same_item_size, *_ = same_item_info
                 if item_type == same_item_type and sub_item_type == same_sub_item_type and item_size == same_item_size:
                     num_same_items += 1
@@ -537,7 +525,7 @@ class Ship():
         for slot in self.slots["high"]:
             if slot:
                 slot_key = list(slot.keys())[0]
-                slot_info = slot_key.split("-")
+                slot_info = slot_key.split("_")
                 slot_type, sub_slot_type, slot_size, *_ = slot_info
                 if slot_type == "launchers":
                     dps["launchers"] += self.get_launcher_dps(slot[slot_key])
@@ -584,6 +572,31 @@ class Ship():
         val = math.pow(math.e, -math.pow(num_items / 2.67, 2))
         return val
 
+    def export_fit(self):
+        current_fit = {}
+        current_fit["ship"] = {}
+        current_fit["ship"]["faction"] = self.faction
+        current_fit["ship"]["type"] = self.type
+        current_fit["ship"]["name"] = self.name
+        current_fit["high"] = []
+        for slot in self.slots["high"]:
+            current_fit["high"].append(list(slot.keys())[0] if slot else None)
+        current_fit["mid"] = []
+        for slot in self.slots["mid"]:
+            current_fit["mid"].append(list(slot.keys())[0] if slot else None)
+        current_fit["low"] = []
+        for slot in self.slots["low"]:
+            current_fit["low"].append(list(slot.keys())[0] if slot else None)
+        current_fit["drone"] = []
+        for slot in self.slots["drone"]:
+            current_fit["drone"].append(list(slot.keys())[0] if slot else None)
+        current_fit["engineer"] = []
+        for slot in self.slots["engineer"]:
+            current_fit["engineer"].append(list(slot.keys())[0] if slot else None)
+        current_fit["combat"] = []
+        for slot in self.slots["combat"]:
+            current_fit["combat"].append(list(slot.keys())[0] if slot else None)
+        return current_fit
 
     def get_skill_data(self):
         with open("data/skills_data.yaml", 'r') as stream:
