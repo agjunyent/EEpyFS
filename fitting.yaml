@@ -14,4 +14,3 @@ low: [shield_boosters_medium_Pithum C-Type Medium Shield Booster, shield_hardene
   capacitor_batteries_medium_Gistum C-Type Medium Capacitor Battery]
 mid: [null, null, null]
 ship: {faction: Guristas Pirates, name: Gila, type: Cruiser}
-fitting_name: "testing"

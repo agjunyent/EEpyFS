@@ -2571,7 +2571,172 @@ capacitor:
             value:
               flat: 134
               percent: 0
+      MK5 Small Capacitor Battery:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 6
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 142
+              percent: 0
+      MK7 Small Capacitor Battery:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 6
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 148
+              percent: 0
+      MK9 Small Capacitor Battery:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 7
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 152
+              percent: 0
+      Acolyth Small Capacitor Battery:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 7
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 156
+              percent: 0
+      Republic Fleet Small Capacitor Battery:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 7
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 159
+              percent: 0
+      Domination Small Capacitor Battery:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 8
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 162
+              percent: 0
+      Demolish Small Capacitor Battery:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 8
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 164
+              percent: 0
+      Gistii C-Type Small Capacitor Battery:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 9
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 170
+              percent: 0
     medium:
+      MK5 Medium Capacitor Battery:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 59
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 569
+              percent: 0
+      MK7 Medium Capacitor Battery:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 62
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 593
+              percent: 0
+      MK9 Medium Capacitor Battery:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 64
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 611
+              percent: 0
+      Acolyth Medium Capacitor Battery:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 67
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 626
+              percent: 0
+      Republic Fleet Medium Capacitor Battery:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 70
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 639
+              percent: 0
+      Domination Medium Capacitor Battery:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 72
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 650
+              percent: 0
+      Demolish Medium Capacitor Battery:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 75
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 659
+              percent: 0
       Gistum C-Type Medium Capacitor Battery:
         tech_level: 1
         metalevel: 11
@@ -2584,6 +2749,61 @@ capacitor:
               flat: 683
               percent: 0
     large:
+      MK9 Large Capacitor Battery:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 583
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 1682
+              percent: 0
+      Acolyth Large Capacitor Battery:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 607
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 1723
+              percent: 0
+      Republic Fleet Large Capacitor Battery:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 631
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 1758
+              percent: 0
+      Domination Large Capacitor Battery:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 656
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 1788
+              percent: 0
+      Demolish Large Capacitor Battery:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 680
+        activation_time: 25
+        ship:
+          capacitor:
+            value:
+              flat: 1814
+              percent: 0
       Gist C-Type Large Capacitor Battery:
         tech_level: 1
         metalevel: 11
@@ -2595,7 +2815,6 @@ capacitor:
             value:
               flat: 1879
               percent: 0
-
 
 weapons:
   damage upgrades:
@@ -3293,8 +3512,6 @@ weapons:
                 explosive: 5
               activation_time: -4.3
 
-
-
 propulsion:
   afterburners:
     small:
@@ -3309,6 +3526,138 @@ propulsion:
           navigation:
             mass: 500000
             flight_velocity: 118
+      MK3 Small Afterburner:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 10
+        activation_cost: 22.2
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 121
+      MK5 Small Afterburner:
+        tech_level: 1
+        metalevel: 0
+        faction: none
+        powergrid: 11
+        activation_cost: 22.5
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 124
+      MK7 Small Afterburner:
+        tech_level: 7
+        metalevel: 3
+        faction: none
+        powergrid: 11
+        activation_cost: 22.8
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 127
+      MK9 Small Afterburner:
+        tech_level: 9
+        metalevel: 4
+        faction: none
+        powergrid: 12
+        activation_cost: 23.1
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 131
+      Smuggler Small Afterburner:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 12
+        activation_cost: 23.3
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 134
+      Federation Navy Small Afterburner:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 13
+        activation_cost: 23.6
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 137
+      Republic Fleet Small Afterburner:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 13
+        activation_cost: 23.6
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 137
+      Shadow Serpentis Small Afterburner:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 13
+        activation_cost: 23.9
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 140
+      Domination Small Afterburner:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 13
+        activation_cost: 23.9
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 140
+      Ranger Small Afterburner:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 14
+        activation_cost: 24.2
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 143
+      Centii C-Type Small Afterburner:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 15
+        activation_cost: 25
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 153
+      Coreli C-Type Small Afterburner:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 15
+        activation_cost: 25
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 500000
+            flight_velocity: 153
     medium:
       MK5 Medium Afterburner:
         tech_level: 5
@@ -3431,4 +3780,103 @@ propulsion:
           navigation:
             mass: 5000000
             flight_velocity: 153
-
+    large:
+      MK9 Large Afterburner:
+        tech_level: 5
+        metalevel: 2
+        faction: none
+        powergrid: 680
+        activation_cost: 459
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 131
+      Smuggler Large Afterburner:
+        tech_level: 1
+        metalevel: 5
+        faction: story
+        powergrid: 708
+        activation_cost: 465
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 134
+      Federation Navy Large Afterburner:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 737
+        activation_cost: 470
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 137
+      Republic Fleet Large Afterburner:
+        tech_level: 1
+        metalevel: 6
+        faction: pirate
+        powergrid: 737
+        activation_cost: 470
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 137
+      Shadow Serpentis Large Afterburner:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 765
+        activation_cost: 476
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 140
+      Domination Large Afterburner:
+        tech_level: 1
+        metalevel: 7
+        faction: pirate
+        powergrid: 765
+        activation_cost: 476
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 140
+      Ranger Large Afterburner:
+        tech_level: 1
+        metalevel: 8
+        faction: story
+        powergrid: 793
+        activation_cost: 481
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 143
+      Centum C-Type Large Afterburner:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 878
+        activation_cost: 498
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 153
+      Core C-Type Large Afterburner:
+        tech_level: 1
+        metalevel: 11
+        faction: deadspace
+        powergrid: 878
+        activation_cost: 498
+        activation_time: 10
+        ship:
+          navigation:
+            mass: 50000000
+            flight_velocity: 153

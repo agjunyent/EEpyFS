@@ -1,0 +1,9 @@
+combat: []
+drone: []
+engineer: []
+fitting_name: New Velator fit
+high: [railguns_rifled_small_Coreli C-Type Small Rifled Railgun]
+low: [damage control_dcus_damage control units_Allround Damage Control, propulsion_afterburners_small_Coreli
+    C-Type Small Afterburner]
+mid: []
+ship: {faction: Gallente, name: Velator, type: Frigate}

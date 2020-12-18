@@ -426,12 +426,12 @@ class Ship():
         self.capacitor["consumption"] += consumption
 
     def update_capacitor(self):
-        self.capacitor["value"] = round((self.base_capacitor["value"] +
-                                         self.skills_bonus_data["ship"]["capacitor"]["value"]["flat"] +
-                                         self.fittings_bonus_data["ship"]["capacitor"]["value"]["flat"]) *
+        self.capacitor["value"] = round((self.base_capacitor["value"]) *
                                         (1 + self.ship_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100) *
                                         (1 + (self.skills_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100) +
-                                        (self.fittings_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100)), 0)
+                                        (self.fittings_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100)) +
+                                        (self.skills_bonus_data["ship"]["capacitor"]["value"]["flat"] +
+                                         self.fittings_bonus_data["ship"]["capacitor"]["value"]["flat"]), 0)
         self.capacitor["recharge"] = round(self.base_capacitor["recharge"] *
                                           (1 + self.ship_bonus_data["ship"]["capacitor"]["recharge"] / 100) *
                                           (1 + (self.skills_bonus_data["ship"]["capacitor"]["recharge"] / 100) +

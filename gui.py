@@ -5,6 +5,7 @@ import copy
 import os
 from ast import literal_eval
 from glob import glob
+from pathlib import Path
 
 import yaml
 import cv2
@@ -53,11 +54,8 @@ class GUI():
         self.combat_rigs_data = combat_rigs_data
         self.engineer_rigs_data = engineer_rigs_data
 
-        menu_def = [['&File', ['&Load::full-load', '&Save::full-save', '---', 'E&xit']],
-                    ['!&Edit', ['!&Paste', ['Special', 'Normal', ], 'Undo'], ],
-                    ['&Debugger', ['Popout', 'Launch Debugger']],
-                    ['&Toolbar', ['Command &1', 'Command &2', 'Command &3', 'Command &4']],
-                    ['&Help', '&About...'], ]
+        self.menu_def = [['&File', ['&Load::full-load', '!&Save::full-save', '---', 'E&xit']],
+                        ]
 
         high_slots_layout = [self.make_slot("slot-high-" + str(x), image_filename="icons/high-slot.png") for x in range(MAX_HIGH_SLOTS)]
         mid_slots_layout = [[self.make_slot("slot-mid-" + str(x), image_filename="icons/mid-slot.png")] for x in range(MAX_MID_SLOTS)]
@@ -136,10 +134,10 @@ class GUI():
         treedata_tabs = [[sg.Tab('Fittings', [treedata_fittings_layout], key="tab-fittings"),
                           sg.Tab('Items', [treedata_items_layout], key="tab-items")]]
 
-        layout = [[sg.Menu(menu_def)],
-                  [sg.Text('Faction: ', size=(10, 1))] + [sg.Combo(self.ship_factions, enable_events=True, size=(20, 1), key='dropdown-faction')],
-                  [sg.Text('Type: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-type', disabled=True)],
-                  [sg.Text('Ship: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-shipname', disabled=True)] + [sg.Button('Update', key='Update', disabled=True)],
+        layout = [[sg.Menu(self.menu_def, key="menu")],
+                  # [sg.Text('Faction: ', size=(10, 1))] + [sg.Combo(self.ship_factions, enable_events=True, size=(20, 1), key='dropdown-faction')],
+                  # [sg.Text('Type: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-type', disabled=True)],
+                  # [sg.Text('Ship: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-shipname', disabled=True)] + [sg.Button('Update', key='Update', disabled=True)],
                   # [sg.Frame('', [
                   #     treedata_layout
                   # ])] +
@@ -162,6 +160,7 @@ class GUI():
                   ],
                  ]
 
+        self.current_fitting_name = None
         self.current_ship_data = None
         self.current_ship_name = None
         self.current_ship = None
@@ -208,6 +207,15 @@ class GUI():
         #     self.window["slot-engineer-" + str(slot_num)].bind('<Enter>', '-hover-enter')
         #     self.window["slot-engineer-" + str(slot_num)].bind('<Leave>', '-hover-leave')
 
+    def enable_disable_save(self, enable=True):
+        if enable:
+            self.menu_def = [['&File', ['&Load::full-load', '&Save::full-save', '---', 'E&xit']],
+                             ]
+        else:
+            self.menu_def = [['&File', ['&Load::full-load', '!&Save::full-save', '---', 'E&xit']],
+                             ]
+        self.window["menu"].Update(self.menu_def)
+
     def onTreeRightClick(self, event):
         row = self.window["tree"].Widget.identify_row(event.y)
         self.window["tree"].Widget.selection_set(row)
@@ -222,49 +230,84 @@ class GUI():
         # event, values = self.window.Read()
         window, event, values = sg.read_all_windows()
         self.hide_slot_info()
-        print(event)
         if event == "Exit" or event is None:
             exiting = sg.PopupOKCancel("Do you want to exit?", keep_on_top=True)
             if exiting == "OK":
                 return False
 
         elif event == "tree-fittings-double-click":
-            selected = values["tree-fittings"][0].split("::")
-            print(selected)
-            if len(selected) == 2:
+            try:
+                selected = values["tree-fittings"][0].split("::")
+            except IndexError:
+                return True
+            if len(selected) >= 2:
                 if selected[0] == "loadfit":
                     if selected[1] == "New*":
-                        print("Creating new fit")
+                        ship_name = selected[2]
+                        ship_type = selected[3]
+                        ship_faction = selected[4]
+                        self.current_ship_data = self.ships_data[ship_faction][ship_type][ship_name]
+                        self.current_ship = Ship(ship_name, self.current_ship_data, self.player_data)
+                        get_fitting_name = False
+                        while not get_fitting_name:
+                            self.current_fitting_name = sg.popup_get_text("Enter fitting name:", selected[2] + " fit", default_text="New " + selected[2] + " fit")
+                            if not self.current_fitting_name:
+                                self.current_ship = None
+                                self.current_ship_data = None
+                                return True
+                            fitting_file = "saved_fittings/" + self.current_fitting_name + ".yaml"
+                            if Path(fitting_file).is_file():
+                                overwrite = sg.popup_ok_cancel("Fitting name already exists. Overwirte?")
+                                if overwrite is not 'OK':
+                                    continue
+                            with open(fitting_file, "w") as stream:
+                                current_fit = self.current_ship.export_fit()
+                                current_fit["fitting_name"] = self.current_fitting_name
+                                yaml.safe_dump(current_fit, stream)
+                                get_fitting_name = True
+                        self.window.Element('tree-fittings').Update(self.make_ship_treedata(self.ship_names))
+                        self.reset_ship()
+                        self.update_ship()
+                        self.selected_slot = None
+                        self.update_treedata("empty", None)
+                        self.window["tab-items"].Select()
+                        self.enable_disable_save(enable=True)
                     else:
                         selected_item_row = self.window.Element("tree-fittings").SelectedRows[0]
                         selected = self.window.Element("tree-fittings").TreeData.tree_dict[selected_item_row]
+                        self.current_fitting_name = selected.text
                         current_fit = selected.values[0]
                         self.load_fit(current_fit)
+                        self.update_treedata("empty", None)
+                        self.window["tab-items"].Select()
+                        self.enable_disable_save(enable=True)
 
         elif event == "Save::full-save" and self.current_ship_data:
             current_fit = self.current_ship.export_fit()
-            with open("fitting.yaml", 'w') as stream:
+            current_fit["fitting_name"] = self.current_fitting_name
+            with open("saved_fittings/" + self.current_fitting_name + ".yaml", 'w') as stream:
                 yaml.safe_dump(current_fit, stream)
+            self.window.Element('tree-fittings').Update(self.make_ship_treedata(self.ship_names))
 
         if self.selected_tree_row and self.selected_tree_row["values"]:
             self.selected_tree_row["text"] = values["tree"][0]
             self.show_tree_tooltip(self.selected_tree_row_position, self.selected_tree_row)
             self.selected_tree_row = None
 
-        if event == 'Update':
-            if not self.current_ship_data:
-                return True
-            if not self.current_ship:
-                self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
-            elif self.current_ship_name != self.current_ship.name:
-                ok_cancel = sg.PopupOKCancel("Are you sure you want to change ship?")
-                if ok_cancel == "OK":
-                    self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
-            self.reset_ship()
-            self.update_ship()
-            self.selected_slot = None
-            self.update_treedata("empty", None)
-            self.window["tab-items"].Select()
+        # if event == 'Update':
+        #     if not self.current_ship_data:
+        #         return True
+        #     if not self.current_ship:
+        #         self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
+        #     elif self.current_ship_name != self.current_ship.name:
+        #         ok_cancel = sg.PopupOKCancel("Are you sure you want to change ship?")
+        #         if ok_cancel == "OK":
+        #             self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
+        #     self.reset_ship()
+        #     self.update_ship()
+        #     self.selected_slot = None
+        #     self.update_treedata("empty", None)
+        #     self.window["tab-items"].Select()
 
         elif "dropdown" in event:
             dropdown_type = event.split("-")[1]
@@ -693,15 +736,14 @@ class GUI():
             treedata.Insert('', ship_faction, ship_faction, values=[])
             ship_types = ship_names[ship_faction]
             for ship_type in ship_types:
-                treedata.Insert(ship_faction, ship_type, ship_type, values=[])
+                treedata.Insert(ship_faction, ship_type + "::" + ship_faction, ship_type, values=[])
                 ships = ship_names[ship_faction][ship_type]
                 for ship in ships:
-                    treedata.Insert(ship_type, ship, ship, values=[])
+                    treedata.Insert(ship_type + "::" + ship_faction, ship + "::" + ship_type, ship, values=[])
                     if saved_fittings_data[ship_faction][ship_type][ship]:
                         for saved in saved_fittings_data[ship_faction][ship_type][ship]:
-                            treedata.Insert(ship, "loadfit::" + saved["fitting_name"], saved["fitting_name"], values=[saved])
-                    else:
-                        treedata.Insert(ship, "loadfit::New*", "New*", values=[])
+                            treedata.Insert(ship + "::" + ship_type, "loadfit::" + saved["fitting_name"], saved["fitting_name"], values=[saved])
+                    treedata.Insert(ship + "::" + ship_type, "loadfit::New*::" + ship + "::" + ship_type + "::" + ship_faction, "New*", values=[])
         return treedata
 
     def make_treedata(self, slot_data, is_drone=False, max_drone_size=None):
