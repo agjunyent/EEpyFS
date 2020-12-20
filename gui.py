@@ -12,6 +12,8 @@ import cv2
 import PySimpleGUI as sg
 
 from ship import Ship
+from gui_user_profile import GUIUserProfile
+from user_profile import UserProfile
 
 MAX_HIGH_SLOTS = 8
 MAX_MID_SLOTS = 5
@@ -24,11 +26,13 @@ COLORS["story"] = [38, 91, 54]
 COLORS["pirate"] = [93, 236, 178]
 COLORS["deadspace"] = [200, 70, 0]
 
-sg.user_settings_filename("settings/skills.json")
+sg.user_settings_filename("settings/settings.json")
 
 class GUI():
     def __init__(self, ships_data, high_slots_data, mid_slots_data, drone_slots_data, low_slots_data, combat_rigs_data, engineer_rigs_data):
-        self.player_data = sg.user_settings()
+        profile_name = sg.user_settings()["last_loaded_profile"]
+        self.profile_data = UserProfile()
+        self.profile_data.load(profile_name)
 
         self.ships_data = copy.deepcopy(ships_data)
         self.ship_factions = []
@@ -54,8 +58,10 @@ class GUI():
         self.combat_rigs_data = combat_rigs_data
         self.engineer_rigs_data = engineer_rigs_data
 
-        self.menu_def = [['&File', ['&Load::full-load', '!&Save::full-save', '---', 'E&xit']],
-                        ]
+        self.menu_def = [['&File', ['E&xit']],
+                         ['F&itting', ['&New::fitting', '!&Save::fitting']],
+                         ['&Profile', ['&New::profile', '---', '&Edit::profile', '!&Save::profile', '&Load::profile']],
+                         ]
 
         high_slots_layout = [self.make_slot("slot-high-" + str(x), image_filename="icons/high-slot.png") for x in range(MAX_HIGH_SLOTS)]
         mid_slots_layout = [[self.make_slot("slot-mid-" + str(x), image_filename="icons/mid-slot.png")] for x in range(MAX_MID_SLOTS)]
@@ -135,12 +141,6 @@ class GUI():
                           sg.Tab('Items', [treedata_items_layout], key="tab-items")]]
 
         layout = [[sg.Menu(self.menu_def, key="menu")],
-                  # [sg.Text('Faction: ', size=(10, 1))] + [sg.Combo(self.ship_factions, enable_events=True, size=(20, 1), key='dropdown-faction')],
-                  # [sg.Text('Type: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-type', disabled=True)],
-                  # [sg.Text('Ship: ', size=(10, 1))] + [sg.Combo([], enable_events=True, size=(20, 1), key='dropdown-shipname', disabled=True)] + [sg.Button('Update', key='Update', disabled=True)],
-                  # [sg.Frame('', [
-                  #     treedata_layout
-                  # ])] +
                   [sg.TabGroup(treedata_tabs, enable_events=True, key="tabs")] +
                   [sg.Frame('', [
                       high_slots_layout,
@@ -168,6 +168,8 @@ class GUI():
         self.tooltip = None
         self.selected_tree_row = None
         self.selected_tree_row_position = None
+
+        self.gui_user_profile = GUIUserProfile()
 
         self.window = sg.Window('EEpyFS. Eve Echoes python Fitting Simulator', layout)
         self.window.Finalize()
@@ -207,13 +209,30 @@ class GUI():
         #     self.window["slot-engineer-" + str(slot_num)].bind('<Enter>', '-hover-enter')
         #     self.window["slot-engineer-" + str(slot_num)].bind('<Leave>', '-hover-leave')
 
-    def enable_disable_save(self, enable=True):
+    def enable_disable_save_fitting(self, enable=True):
         if enable:
-            self.menu_def = [['&File', ['&Load::full-load', '&Save::full-save', '---', 'E&xit']],
-                             ]
+            self.menu_def = [['&File', ['E&xit']],
+                             ['F&itting', ['&New::fitting', '&Save::fitting']],
+                             self.menu_def[2],
+                            ]
         else:
-            self.menu_def = [['&File', ['&Load::full-load', '!&Save::full-save', '---', 'E&xit']],
-                             ]
+            self.menu_def = [['&File', ['E&xit']],
+                             ['F&itting', ['&New::fitting', '!&Save::fitting']],
+                             self.menu_def[2],
+                            ]
+        self.window["menu"].Update(self.menu_def)
+
+    def enable_disable_save_profile(self, enable=True):
+        if enable:
+            self.menu_def = [['&File', ['E&xit']],
+                             self.menu_def[1],
+                             ['&Profile', ['&New::profile', '---', '&Edit::profile', '&Save::profile', '&Load::profile']],
+                            ]
+        else:
+            self.menu_def = [['&File', ['E&xit']],
+                             self.menu_def[1],
+                             ['&Profile', ['&New::profile', '---', '&Edit::profile', '!&Save::profile', '&Load::profile']],
+                            ]
         self.window["menu"].Update(self.menu_def)
 
     def onTreeRightClick(self, event):
@@ -229,6 +248,7 @@ class GUI():
     def read(self):
         # event, values = self.window.Read()
         window, event, values = sg.read_all_windows()
+
         self.hide_slot_info()
         if event == "Exit" or event is None:
             exiting = sg.PopupOKCancel("Do you want to exit?", keep_on_top=True)
@@ -247,7 +267,7 @@ class GUI():
                         ship_type = selected[3]
                         ship_faction = selected[4]
                         self.current_ship_data = self.ships_data[ship_faction][ship_type][ship_name]
-                        self.current_ship = Ship(ship_name, self.current_ship_data, self.player_data)
+                        self.current_ship = Ship(ship_name, self.current_ship_data, self.profile_data)
                         get_fitting_name = False
                         while not get_fitting_name:
                             self.current_fitting_name = sg.popup_get_text("Enter fitting name:", selected[2] + " fit", default_text="New " + selected[2] + " fit")
@@ -258,7 +278,7 @@ class GUI():
                             fitting_file = "saved_fittings/" + self.current_fitting_name + ".yaml"
                             if Path(fitting_file).is_file():
                                 overwrite = sg.popup_ok_cancel("Fitting name already exists. Overwirte?")
-                                if overwrite is not 'OK':
+                                if overwrite != 'OK':
                                     continue
                             with open(fitting_file, "w") as stream:
                                 current_fit = self.current_ship.export_fit()
@@ -269,45 +289,31 @@ class GUI():
                         self.reset_ship()
                         self.update_ship()
                         self.selected_slot = None
-                        self.update_treedata("empty", None)
-                        self.window["tab-items"].Select()
-                        self.enable_disable_save(enable=True)
                     else:
                         selected_item_row = self.window.Element("tree-fittings").SelectedRows[0]
                         selected = self.window.Element("tree-fittings").TreeData.tree_dict[selected_item_row]
                         self.current_fitting_name = selected.text
                         current_fit = selected.values[0]
                         self.load_fit(current_fit)
-                        self.update_treedata("empty", None)
-                        self.window["tab-items"].Select()
-                        self.enable_disable_save(enable=True)
+                    self.update_treedata("empty", None)
+                    self.window["tab-items"].Select()
+                    self.enable_disable_save_fitting(enable=True)
 
-        elif event == "Save::full-save" and self.current_ship_data:
+        elif event == "New::profile":
+            new_profile = self.gui_user_profile.create_new_profile()
+            if new_profile:
+                self.profile_data = new_profile
+        elif event == "Edit::profile":
+            new_profile = self.gui_user_profile.edit_user_profile(self.profile_data)
+            if new_profile:
+                self.profile_data = new_profile
+
+        elif event == "Save::fitting" and self.current_ship_data:
             current_fit = self.current_ship.export_fit()
             current_fit["fitting_name"] = self.current_fitting_name
             with open("saved_fittings/" + self.current_fitting_name + ".yaml", 'w') as stream:
                 yaml.safe_dump(current_fit, stream)
             self.window.Element('tree-fittings').Update(self.make_ship_treedata(self.ship_names))
-
-        if self.selected_tree_row and self.selected_tree_row["values"]:
-            self.selected_tree_row["text"] = values["tree"][0]
-            self.show_tree_tooltip(self.selected_tree_row_position, self.selected_tree_row)
-            self.selected_tree_row = None
-
-        # if event == 'Update':
-        #     if not self.current_ship_data:
-        #         return True
-        #     if not self.current_ship:
-        #         self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
-        #     elif self.current_ship_name != self.current_ship.name:
-        #         ok_cancel = sg.PopupOKCancel("Are you sure you want to change ship?")
-        #         if ok_cancel == "OK":
-        #             self.current_ship = Ship(self.current_ship_name, self.current_ship_data, self.player_data)
-        #     self.reset_ship()
-        #     self.update_ship()
-        #     self.selected_slot = None
-        #     self.update_treedata("empty", None)
-        #     self.window["tab-items"].Select()
 
         elif "dropdown" in event:
             dropdown_type = event.split("-")[1]
@@ -332,6 +338,11 @@ class GUI():
             if self.tooltip:
                 self.tooltip.close()
                 self.tooltip = None
+
+        if self.selected_tree_row and self.selected_tree_row["values"]:
+            self.selected_tree_row["text"] = values["tree"][0]
+            self.show_tree_tooltip(self.selected_tree_row_position, self.selected_tree_row)
+            self.selected_tree_row = None
 
         elif self.current_ship:
             if event == "tree-double-click" and self.selected_slot:
@@ -685,7 +696,7 @@ class GUI():
         self.current_ship_type = current_fit["ship"]["type"]
         self.current_ship_name = current_fit["ship"]["name"]
         self.current_ship_data = self.ships_data[self.current_ship_faction][self.current_ship_type][self.current_ship_name]
-        self.current_ship = Ship(current_fit["ship"]["name"], self.current_ship_data, self.player_data)
+        self.current_ship = Ship(current_fit["ship"]["name"], self.current_ship_data, self.profile_data)
         self.reset_ship()
 
         for slot_type, slot_data in zip(["high", "mid", "drone", "low", "combat", "engineer"], [self.high_slots_data, self.mid_slots_data, self.drone_slots_data, self.low_slots_data, self.combat_rigs_data, self.engineer_rigs_data]):

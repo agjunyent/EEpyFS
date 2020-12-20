@@ -2508,6 +2508,22 @@ Engineering:
             value:
               percent: 4
               flat: 0
+      launchers:
+        any:
+          small:
+            powergrid: -3
+      lasers:
+        any:
+          small:
+            powergrid: -3
+      railguns:
+        any:
+          small:
+            powergrid: -3
+      cannons:
+        any:
+          small:
+            powergrid: -3
     4:
       ship:
         type: Frigate
@@ -2520,6 +2536,22 @@ Engineering:
             value:
               percent: 7
               flat: 0
+      launchers:
+        any:
+          small:
+            powergrid: -6
+      lasers:
+        any:
+          small:
+            powergrid: -6
+      railguns:
+        any:
+          small:
+            powergrid: -6
+      cannons:
+        any:
+          small:
+            powergrid: -6
     5:
       ship:
         type: Frigate
@@ -2532,6 +2564,22 @@ Engineering:
             value:
               percent: 10
               flat: 0
+      launchers:
+        any:
+          small:
+            powergrid: -10
+      lasers:
+        any:
+          small:
+            powergrid: -10
+      railguns:
+        any:
+          small:
+            powergrid: -10
+      cannons:
+        any:
+          small:
+            powergrid: -10
   Destroyer Engineering:
     1:
       ship:
@@ -2671,6 +2719,22 @@ Engineering:
             value:
               percent: 4
               flat: 0
+      launchers:
+        any:
+          small:
+            powergrid: -3
+      lasers:
+        any:
+          small:
+            powergrid: -3
+      railguns:
+        any:
+          small:
+            powergrid: -3
+      cannons:
+        any:
+          small:
+            powergrid: -3
     4:
       ship:
         type: Destroyer
@@ -2683,6 +2747,22 @@ Engineering:
             value:
               percent: 7
               flat: 0
+      launchers:
+        any:
+          small:
+            powergrid: -6
+      lasers:
+        any:
+          small:
+            powergrid: -6
+      railguns:
+        any:
+          small:
+            powergrid: -6
+      cannons:
+        any:
+          small:
+            powergrid: -6
     5:
       ship:
         type: Destroyer
@@ -2695,6 +2775,22 @@ Engineering:
             value:
               percent: 10
               flat: 0
+      launchers:
+        any:
+          small:
+            powergrid: -10
+      lasers:
+        any:
+          small:
+            powergrid: -10
+      railguns:
+        any:
+          small:
+            powergrid: -10
+      cannons:
+        any:
+          small:
+            powergrid: -10
   Cruiser Engineering:
     1:
       ship:
@@ -2834,6 +2930,22 @@ Engineering:
             value:
               percent: 4
               flat: 0
+      launchers:
+        any:
+          medium:
+            powergrid: -3
+      lasers:
+        any:
+          medium:
+            powergrid: -3
+      railguns:
+        any:
+          medium:
+            powergrid: -3
+      cannons:
+        any:
+          medium:
+            powergrid: -3
     4:
       ship:
         type: Cruiser
@@ -2846,6 +2958,22 @@ Engineering:
             value:
               percent: 7
               flat: 0
+      launchers:
+        any:
+          medium:
+            powergrid: -6
+      lasers:
+        any:
+          medium:
+            powergrid: -6
+      railguns:
+        any:
+          medium:
+            powergrid: -6
+      cannons:
+        any:
+          medium:
+            powergrid: -6
     5:
       ship:
         type: Cruiser
@@ -2858,6 +2986,22 @@ Engineering:
             value:
               percent: 10
               flat: 0
+      launchers:
+        any:
+          medium:
+            powergrid: -10
+      lasers:
+        any:
+          medium:
+            powergrid: -10
+      railguns:
+        any:
+          medium:
+            powergrid: -10
+      cannons:
+        any:
+          medium:
+            powergrid: -10
   Battlecruiser Engineering:
     1:
       ship:
@@ -2997,6 +3141,22 @@ Engineering:
             value:
               percent: 4
               flat: 0
+      launchers:
+        any:
+          medium:
+            powergrid: -3
+      lasers:
+        any:
+          medium:
+            powergrid: -3
+      railguns:
+        any:
+          medium:
+            powergrid: -3
+      cannons:
+        any:
+          medium:
+            powergrid: -3
     4:
       ship:
         type: Battlecruiser
@@ -3009,6 +3169,22 @@ Engineering:
             value:
               percent: 7
               flat: 0
+      launchers:
+        any:
+          medium:
+            powergrid: -6
+      lasers:
+        any:
+          medium:
+            powergrid: -6
+      railguns:
+        any:
+          medium:
+            powergrid: -6
+      cannons:
+        any:
+          medium:
+            powergrid: -6
     5:
       ship:
         type: Battlecruiser
@@ -3021,6 +3197,22 @@ Engineering:
             value:
               percent: 10
               flat: 0
+      launchers:
+        any:
+          medium:
+            powergrid: -10
+      lasers:
+        any:
+          medium:
+            powergrid: -10
+      railguns:
+        any:
+          medium:
+            powergrid: -10
+      cannons:
+        any:
+          medium:
+            powergrid: -10
   Battleship Engineering:
     1:
       ship:
@@ -3160,6 +3352,22 @@ Engineering:
             value:
               percent: 4
               flat: 0
+      launchers:
+        any:
+          large:
+            powergrid: -3
+      lasers:
+        any:
+          large:
+            powergrid: -3
+      railguns:
+        any:
+          large:
+            powergrid: -3
+      cannons:
+        any:
+          large:
+            powergrid: -3
     4:
       ship:
         type: Battleship
@@ -3172,6 +3380,22 @@ Engineering:
             value:
               percent: 7
               flat: 0
+      launchers:
+        any:
+          large:
+            powergrid: -6
+      lasers:
+        any:
+          large:
+            powergrid: -6
+      railguns:
+        any:
+          large:
+            powergrid: -6
+      cannons:
+        any:
+          large:
+            powergrid: -6
     5:
       ship:
         type: Battleship
@@ -3184,6 +3408,22 @@ Engineering:
             value:
               percent: 10
               flat: 0
+      launchers:
+        any:
+          large:
+            powergrid: -10
+      lasers:
+        any:
+          large:
+            powergrid: -10
+      railguns:
+        any:
+          large:
+            powergrid: -10
+      cannons:
+        any:
+          large:
+            powergrid: -10
   Industrial Ship Engineering:
     1:
       ship:
@@ -7054,7 +7294,7 @@ Cannon:
             accuracy_falloff: 10
             optimal_range: 5
 
-Drone:
+Drones:
   Small Drone Operation:
     1:
       drones:

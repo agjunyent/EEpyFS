@@ -8,8 +8,8 @@ PROPULSION_THRUST_BONUS["medium"] = 13.5
 PROPULSION_THRUST_BONUS["large"] = 135
 
 class Ship():
-    def __init__(self, name, ship_data, player_data):
-        self.player_data = player_data
+    def __init__(self, name, ship_data, profile_data):
+        self.profile_skills_data = profile_data.get_skills_data()
 
         self.name = name
         self.type = ship_data["type"]
@@ -72,7 +72,7 @@ class Ship():
         for bonus in current_bonus_type:
             if bonus == "name":
                 try:
-                    current_skill_level = self.player_data[current_bonus_type[bonus]]
+                    current_skill_level = self.profile_skills_data[current_bonus_type[bonus]]
                 except:
                     print("Skill", current_bonus_type[bonus], "not implemented yet")
                 continue
@@ -419,7 +419,8 @@ class Ship():
                                          self.fittings_bonus_data["ship"]["powergrid"]["value"]["flat"]) *
                                         (1 + self.ship_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100) *
                                         (1 + (self.skills_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100) +
-                                        (self.fittings_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100)), 0)
+                                        (self.fittings_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100)))
+        self.powergrid["used"] = round(self.powergrid["used"])
 
     def add_capacitor_cost(self, act_cost, act_time):
         consumption = act_cost / act_time
@@ -608,7 +609,7 @@ class Ship():
         for skill_group_name in skill_data:
             skill_group = skill_data[skill_group_name]
             for skill_name in skill_group:
-                current_skill_level = self.player_data[skill_name]
+                current_skill_level = self.profile_skills_data[skill_name]
                 if current_skill_level > 0:
                     skill = skill_group[skill_name][current_skill_level]
                     for skill_type in skill:
