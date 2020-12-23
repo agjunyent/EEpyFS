@@ -94,6 +94,7 @@ class GUI():
         ])]
 
         capacitor_layout = [sg.Frame('', [
+            [sg.Text("Capacitor Stability:", size=(24, 1))] + [sg.Text("N/A", key="capacitor-STAB", size=(10, 1), justification="r")],
             [sg.Text("Capacitor Capacity:", size=(24, 1))] + [sg.Text("0 GJ", key="capacitor-VAL", size=(10, 1), justification="r")],
             [sg.Text("Capacitor Recharge Time:", size=(24, 1))] + [sg.Text("0 s", key="capacitor-recharge-VAL", size=(10, 1), justification="r")],
             [sg.Text("Capacitor Recharge Rate:", size=(24, 1))] + [sg.Text("0 GJ/s", key="capacitor-rate-VAL", size=(10, 1), justification="r")],
@@ -307,6 +308,9 @@ class GUI():
             new_profile = self.gui_user_profile.edit_user_profile(self.profile_data)
             if new_profile:
                 self.profile_data = new_profile
+            current_fit = self.current_ship.export_fit()
+            self.load_fit(current_fit)
+            self.update_ship()
 
         elif event == "Save::fitting" and self.current_ship_data:
             current_fit = self.current_ship.export_fit()
@@ -431,6 +435,11 @@ class GUI():
         self.window.Element("powergrid-PROG").update_bar(str(100 * powergrid["used"] / powergrid["value"]))
         # Update Capacitor
         capacitor = self.current_ship.get_capacitor()
+        cap_duration = capacitor["stability"]
+        if cap_duration > 60:
+            self.window.Element("capacitor-STAB").Update(str(cap_duration // 60) + " m " + str(cap_duration % 60) + " s")
+        else:
+            self.window.Element("capacitor-STAB").Update("STABLE")
         self.window.Element("capacitor-VAL").Update(str(capacitor["value"]) + " GJ")
         self.window.Element("capacitor-recharge-VAL").Update(str(capacitor["recharge"]) + " s")
         self.window.Element("capacitor-rate-VAL").Update(str(capacitor["rate"]) + " GJ/s")

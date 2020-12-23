@@ -440,19 +440,19 @@ class Ship():
         self.capacitor["rate"] = self.get_capacitor_rate()
 
         self.capacitor["rate_percentage"] = []
-        for i in range(101):
-            current_capacitor = self.capacitor["value"] * i / 100
+        for i in range(1001):
+            current_capacitor = self.capacitor["value"] * i / 1000
             rate_percentage = round((10 * self.capacitor["value"] / self.capacitor["recharge"]) * (math.sqrt(current_capacitor/self.capacitor["value"]) - (current_capacitor/self.capacitor["value"])), 2)
             self.capacitor["rate_percentage"].append(rate_percentage)
 
         seconds = 0
         current_cap = self.capacitor["value"]
         if self.capacitor["consumption"] > self.capacitor["rate"]:
-            current_cap = current_cap - self.capacitor["consumption"]
             while current_cap >= self.capacitor["consumption"]:
-                current_cap = current_cap - self.capacitor["consumption"]
-                current_cap += self.capacitor["rate_percentage"][round(100 * (current_cap/self.capacitor["value"]))]
+                current_cap -= self.capacitor["consumption"]
+                current_cap += self.capacitor["rate_percentage"][round(1000 * (current_cap/self.capacitor["value"]))]
                 seconds += 1
+        self.capacitor["stability"] = seconds
         # print(seconds, self.capacitor["rate"] - self.capacitor["consumption"])
 
     def update_defenses(self):
