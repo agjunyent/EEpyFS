@@ -269,7 +269,7 @@ class GUI():
 
         self.hide_slot_info()
         if event == "Exit" or event is None:
-            exiting = sg.PopupOKCancel("Do you want to exit?", keep_on_top=True)
+            exiting = sg.PopupOKCancel("Do you want to exit?", keep_on_top=True, modal=True)
             if exiting == "OK":
                 return False
 
@@ -508,12 +508,13 @@ class GUI():
             [sg.Button("Unfit")],
             [sg.Button("Stats")]
         ]
-        window = sg.Window("test",
+        window = sg.Window("",
                             layout=[[sg.Frame('', layout)]],
                             no_titlebar=True,
                             finalize=True,
                             location=location,
-                            force_toplevel=True)
+                            force_toplevel=True,
+                            modal=True)
         event, _ = window.read(timeout=5000)
         window.close()
         return event
@@ -655,7 +656,7 @@ class GUI():
                 layout.append([sg.Text("Activation Cost: ", size=(32, 1), justification='l')] + [sg.Text(str(round(item_data["activation_cost"], 2)) + "GJ", size=(10, 1), justification='r')])
 
 
-        window = sg.Window("test",
+        window = sg.Window("",
                             [[sg.Frame('', [[sg.Text(item_name)]])], [sg.Frame('', layout)]],
                             no_titlebar=True,
                             finalize=True,
