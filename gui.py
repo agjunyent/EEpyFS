@@ -13,6 +13,7 @@ import PySimpleGUI as sg
 
 from ship import Ship
 from gui_user_profile import GUIUserProfile
+from circular_progress_bar import CircularProgressbar
 from user_profile import UserProfile
 
 MAX_HIGH_SLOTS = 8
@@ -71,11 +72,15 @@ class GUI():
         combat_rigs_layout = [[self.make_slot("slot-combat-" + str(x), image_filename="icons/combat-slot.png")] for x in range(MAX_RIG_SLOTS)]
         engineer_rigs_layout = [[self.make_slot("slot-engineer-" + str(x), image_filename="icons/engineer-slot.png")] for x in range(MAX_RIG_SLOTS)]
 
+        profile_layout = [sg.Frame('PROFILE', [
+            [sg.Text("Name: ", size=(10, 1))] + [sg.Text(profile_name, key="profile-name", size=(20, 1), justification="r")]
+        ], element_justification="right")]
+
         turrets_damage_layout = [[sg.Text("")], [sg.Text("Turrets: ")], [sg.Text("0 dps", key="turrets-dps", size=(14, 1))]]
         missiles_damage_layout = [[sg.Text("")], [sg.Text("Missiles: ")], [sg.Text("0 dps", key="launchers-dps", size=(14, 1))]]
         drones_damage_layout = [[sg.Text("0 Km", key="drones-range", size=(14, 1))], [sg.Text("Drones: ")], [sg.Text("0 dps", key="drones-dps", size=(14, 1))]]
 
-        damage_layout = [sg.Frame('', [
+        damage_layout = [sg.Frame('DAMAGE', [
             [sg.Text("Damage: ")] + [sg.Text("0 dps", key="dps", size=(14, 1))],
             [sg.Frame('', [[sg.Col(turrets_damage_layout)], [sg.Sizer(160, 1)]])] +
             [sg.Frame('', [[sg.Col(missiles_damage_layout)], [sg.Sizer(160, 1)]])] +
@@ -86,26 +91,30 @@ class GUI():
         armor_layout = self.make_defense("armor")
         hull_layout = self.make_defense("hull")
 
-        defense_layout = [sg.Frame('', [
+        defense_layout = [sg.Frame('DEFENSES', [
             [sg.Text("Defense:", size=(9, 1))] + [sg.Text("", key="defense-VAL", size=(10, 1))],
             [sg.Frame('', [[sg.Col(shield_layout)], [sg.Sizer(160, 1)]])] +
             [sg.Frame('', [[sg.Col(armor_layout)], [sg.Sizer(160, 1)]])] +
             [sg.Frame('', [[sg.Col(hull_layout)], [sg.Sizer(160, 1)]])],
         ])]
 
-        capacitor_layout = [sg.Frame('', [
-            [sg.Text("Capacitor Stability:", size=(24, 1))] + [sg.Text("N/A", key="capacitor-STAB", size=(10, 1), justification="r")],
-            [sg.Text("Capacitor Capacity:", size=(24, 1))] + [sg.Text("0 GJ", key="capacitor-VAL", size=(10, 1), justification="r")],
-            [sg.Text("Capacitor Recharge Time:", size=(24, 1))] + [sg.Text("0 s", key="capacitor-recharge-VAL", size=(10, 1), justification="r")],
-            [sg.Text("Capacitor Recharge Rate:", size=(24, 1))] + [sg.Text("0 GJ/s", key="capacitor-rate-VAL", size=(10, 1), justification="r")],
-        ])]
+        self.capacitor_graph = CircularProgressbar()
+        capacitor_layout = [sg.Frame('CAPACITOR', [
+            [sg.Col([[self.capacitor_graph.graph]])] +
+            [sg.Col([
+                [sg.Text("Capacitor Stability:", size=(24, 1))] + [sg.Text("N/A", key="capacitor-STAB", size=(10, 1), justification="r")],
+                [sg.Text("Capacitor Capacity:", size=(24, 1))] + [sg.Text("0 GJ", key="capacitor-VAL", size=(10, 1), justification="r")],
+                [sg.Text("Capacitor Recharge Time:", size=(24, 1))] + [sg.Text("0 s", key="capacitor-recharge-VAL", size=(10, 1), justification="r")],
+                [sg.Text("Capacitor Recharge Rate:", size=(24, 1))] + [sg.Text("0 GJ/s", key="capacitor-rate-VAL", size=(10, 1), justification="r")],
+                ])]
+            ])]
 
-        powergrid_layout = [sg.Frame('', [
+        powergrid_layout = [sg.Frame('POWERGRID', [
             [sg.Text("Powergrid:", size=(18, 1))] + [sg.Text("0 MW", key="powergrid-VAL", size=(16, 1), justification="r")],
             [sg.ProgressBar(100, orientation='h', size=(25, 5), key="powergrid-PROG", bar_color=("orange", "grey"))]
         ])]
 
-        navigation_layout = [sg.Frame('', [
+        navigation_layout = [sg.Frame('NAVIGATION', [
             [sg.Text("Flight velocity:", size=(20, 1))] + [sg.Text("0 m/s", key="navigation-flight-velocity", size=(14, 1), justification="r")],
             [sg.Text("Mass:", size=(20, 1))] + [sg.Text("0 Kg", key="navigation-mass", size=(14, 1), justification="r")],
             [sg.Text("Inertia modifier:", size=(20, 1))] + [sg.Text("0", key="navigation-inertia-modifier", size=(14, 1), justification="r")],
@@ -150,15 +159,22 @@ class GUI():
                           self.make_ship("ships/blank.png"),
                           sg.Col(mid_slots_layout + [[sg.HorizontalSeparator()]] + drone_slots_layout, pad=(0, 0))
                       ],
-                      low_slots_layout], key='fit', element_justification='c'),
-                   sg.Frame('', [
-                       damage_layout,
-                       defense_layout,
-                       capacitor_layout,
-                       powergrid_layout,
-                       navigation_layout
-                   ]),
-                  ],
+                      low_slots_layout], key='fit', element_justification='c'),] +
+                  [sg.Col([
+                        profile_layout,
+                        damage_layout,
+                        defense_layout,
+                        powergrid_layout,
+                        capacitor_layout,
+                        navigation_layout
+                    # [sg.Col([
+                    #     powergrid_layout +
+                    #     [sg.Col([
+                    #         capacitor_layout,
+                    #         navigation_layout
+                    #     ])],
+                    # ])],
+                  ], element_justification="right")]
                  ]
 
         self.current_fitting_name = None
@@ -174,6 +190,7 @@ class GUI():
 
         self.window = sg.Window('EEpyFS. Eve Echoes python Fitting Simulator', layout)
         self.window.Finalize()
+        self.capacitor_graph.initiate()
 
         self.window["tree"].bind('<Double-Button-1>', '-double-click')
         self.window["tree-fittings"].bind('<Double-Button-1>', '-double-click')
@@ -308,9 +325,10 @@ class GUI():
             new_profile = self.gui_user_profile.edit_user_profile(self.profile_data)
             if new_profile:
                 self.profile_data = new_profile
-            current_fit = self.current_ship.export_fit()
-            self.load_fit(current_fit)
-            self.update_ship()
+            if self.current_ship:
+                current_fit = self.current_ship.export_fit()
+                self.load_fit(current_fit)
+                self.update_ship()
 
         elif event == "Save::fitting" and self.current_ship_data:
             current_fit = self.current_ship.export_fit()
@@ -438,11 +456,14 @@ class GUI():
         cap_duration = capacitor["stability"]
         if cap_duration > 60:
             self.window.Element("capacitor-STAB").Update(str(cap_duration // 60) + " m " + str(cap_duration % 60) + " s")
+        elif cap_duration > 0:
+            self.window.Element("capacitor-STAB").Update(str(cap_duration) + " s")
         else:
             self.window.Element("capacitor-STAB").Update("STABLE")
         self.window.Element("capacitor-VAL").Update(str(capacitor["value"]) + " GJ")
         self.window.Element("capacitor-recharge-VAL").Update(str(capacitor["recharge"]) + " s")
         self.window.Element("capacitor-rate-VAL").Update(str(capacitor["rate"]) + " GJ/s")
+        self.capacitor_graph.set_percent(capacitor["percentage"])
         # Update Defenses
         defenses = self.current_ship.get_defenses()
         for defense_type in defenses:

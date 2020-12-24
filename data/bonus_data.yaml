@@ -760,6 +760,14 @@ propulsion:
         navigation:
           mass: 0
           flight_velocity: 0
+    large:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        navigation:
+          mass: 0
+          flight_velocity: 0
 
 ship:
   cargo:

@@ -1,5 +1,3 @@
-import yaml
-
 from gui import GUI
 from data_loader import DataLoader
 

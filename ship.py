@@ -311,7 +311,7 @@ class Ship():
                 if item_data_with_bonus[item_name][item_stat] >= 100:
                     item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat], 0)
             elif item_stat == "activation_time":
-                if stat_skill_bonus[item_stat] > 0:
+                if stat_skill_bonus[item_stat] >= 1:
                     item_data_with_bonus[item_name][item_stat] += role_ship_bonus[item_stat] + stat_ship_bonus[item_stat] + stat_skill_bonus[item_stat]
                 else:
                     item_data_with_bonus[item_name][item_stat] = item_data_with_bonus[item_name][item_stat] * ((1 + stat_ship_bonus[item_stat]) *
@@ -439,20 +439,30 @@ class Ship():
                                           (self.fittings_bonus_data["ship"]["capacitor"]["recharge"] / 100)), 0)
         self.capacitor["rate"] = self.get_capacitor_rate()
 
-        self.capacitor["rate_percentage"] = []
+        rate_percentage_list = []
         for i in range(1001):
-            current_capacitor = self.capacitor["value"] * i / 1000
-            rate_percentage = round((10 * self.capacitor["value"] / self.capacitor["recharge"]) * (math.sqrt(current_capacitor/self.capacitor["value"]) - (current_capacitor/self.capacitor["value"])), 2)
-            self.capacitor["rate_percentage"].append(rate_percentage)
+            rate_percentage = round((10 * self.capacitor["value"] / self.capacitor["recharge"]) * (math.sqrt(i / 1000.0) - (i / 1000.0)), 2)
+            rate_percentage_list.append(rate_percentage)
 
         seconds = 0
+        percentage = 100
         current_cap = self.capacitor["value"]
         if self.capacitor["consumption"] > self.capacitor["rate"]:
+            percentage = 0
             while current_cap >= self.capacitor["consumption"]:
+                current_cap += rate_percentage_list[round(1000 * (current_cap / self.capacitor["value"]))]
                 current_cap -= self.capacitor["consumption"]
-                current_cap += self.capacitor["rate_percentage"][round(1000 * (current_cap/self.capacitor["value"]))]
                 seconds += 1
+        elif self.capacitor["consumption"] > 0:
+            while True:
+                current_cap -= self.capacitor["consumption"]
+                recharge = rate_percentage_list[round(1000 * (current_cap / self.capacitor["value"]))]
+                if recharge > self.capacitor["consumption"]:
+                    break
+                current_cap += recharge
+            percentage = round(100 * (current_cap/self.capacitor["value"]))
         self.capacitor["stability"] = seconds
+        self.capacitor["percentage"] = percentage
         # print(seconds, self.capacitor["rate"] - self.capacitor["consumption"])
 
     def update_defenses(self):
