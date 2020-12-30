@@ -1,3 +1,5 @@
+# pylint: disable=line-too-long
+
 from gui import GUI
 from data_loader import DataLoader
 

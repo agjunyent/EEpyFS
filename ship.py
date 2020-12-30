@@ -1,3 +1,5 @@
+# pylint: disable=line-too-long
+
 import yaml
 import copy
 import math
@@ -6,6 +8,8 @@ PROPULSION_THRUST_BONUS = {}
 PROPULSION_THRUST_BONUS["small"] = 1.35
 PROPULSION_THRUST_BONUS["medium"] = 13.5
 PROPULSION_THRUST_BONUS["large"] = 135
+CAPACITOR_SIM_TIME = 60 * 60
+CAPACITOR_SIM_RES_PER_SECOND = 10
 
 class Ship():
     def __init__(self, name, ship_data, profile_data):
@@ -37,6 +41,7 @@ class Ship():
         self.base_defenses = ship_data["defenses"]
         self.base_capacitor = ship_data["capacitor"]
         self.base_capacitor["consumption"] = 0
+        self.base_capacitor["consumption_ext"] = [0] * CAPACITOR_SIM_TIME * CAPACITOR_SIM_RES_PER_SECOND
         self.base_powergrid = ship_data["powergrid"]
 
         with open("data/bonus_data.yaml", 'r') as stream:
@@ -159,7 +164,7 @@ class Ship():
     def is_slot_empty(self, slot):
         slot_type, slot_number = slot.split("-")[1:]
         current_slot = self.slots[slot_type][int(slot_number)]
-        return current_slot == None
+        return current_slot is None
 
     def add_slot(self, slot, slot_data):
         item_data = copy.deepcopy(slot_data)
@@ -209,6 +214,7 @@ class Ship():
 
             self.fittings_bonus_data = copy.deepcopy(self.raw_bonus_data)
             self.capacitor["consumption"] = 0
+            self.capacitor["consumption_ext"] = [0] * CAPACITOR_SIM_TIME * CAPACITOR_SIM_RES_PER_SECOND
             for slot_type in ["low", "combat", "engineer"]:
                 self.update_fittings_bonus_data(slot_type)
             self.update_slots_stats()
@@ -241,6 +247,7 @@ class Ship():
             slot_removed = True
             self.fittings_bonus_data = copy.deepcopy(self.raw_bonus_data)
             self.capacitor["consumption"] = 0
+            self.capacitor["consumption_ext"] = [0] * CAPACITOR_SIM_TIME * CAPACITOR_SIM_RES_PER_SECOND
             for slot_type in ["low", "combat", "engineer"]:
                 self.update_fittings_bonus_data(slot_type)
             self.update_slots_stats()
@@ -261,7 +268,9 @@ class Ship():
                     item_stat_data[val] = item_stat_data[val] * ((1 + stat_ship_bonus[item_stat][val] / 100) *
                                                                  (1 + role_ship_bonus[item_stat][val] / 100) *
                                                                  (1 + (stat_skill_bonus[item_stat][val] / 100) +
-                                                                      (self.fittings_bonus_data[item_type][sub_item_type][item_size][item_stat][val] / 100)))
+                                                                  (self.fittings_bonus_data[item_type][sub_item_type][item_size][item_stat][val] / 100)))
+                    if item_stat_data[val] >= 100:
+                        item_stat_data[val] = round(item_stat_data[val])
             elif item_stat == "activation_time":
                 item_data_with_bonus[item_name][item_stat] = item_data_with_bonus[item_name][item_stat] * ((1 - stat_ship_bonus[item_stat] / 100) *
                                                                                                            (1 - stat_skill_bonus[item_stat] / 100) *
@@ -309,7 +318,7 @@ class Ship():
                                                                                                            (1 + -abs(role_ship_bonus[item_stat])) *
                                                                                                            (1 + -abs(stat_skill_bonus[item_stat])))
                 if item_data_with_bonus[item_name][item_stat] >= 100:
-                    item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat], 0)
+                    item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat])
             elif item_stat == "activation_time":
                 if stat_skill_bonus[item_stat] >= 1:
                     item_data_with_bonus[item_name][item_stat] += role_ship_bonus[item_stat] + stat_ship_bonus[item_stat] + stat_skill_bonus[item_stat]
@@ -318,13 +327,13 @@ class Ship():
                                                                                                                (1 + role_ship_bonus[item_stat]) *
                                                                                                                (1 + stat_skill_bonus[item_stat]))
                 if item_data_with_bonus[item_name][item_stat] >= 100:
-                    item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat], 0)
+                    item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat])
             else:
                 item_data_with_bonus[item_name][item_stat] = item_data_with_bonus[item_name][item_stat] * ((1 + stat_ship_bonus[item_stat] / 100) *
                                                                                                            (1 + role_ship_bonus[item_stat] / 100) *
                                                                                                            (1 + stat_skill_bonus[item_stat] / 100))
                 if item_data_with_bonus[item_name][item_stat] >= 100:
-                    item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat], 0)
+                    item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat])
         return item_data_with_bonus
 
     def update_fittings_bonus_data(self, slot_type):
@@ -393,7 +402,7 @@ class Ship():
                                             self.fittings_bonus_data[high_slot_type][sub_slot_type][slot_size][bonus][damage_type] += self.get_stack_penalty(num_same_items) * high_slot_bonus["any"]["any"]["damage"][damage_type]
                                     elif bonus == "activation_time":
                                         self.fittings_bonus_data[high_slot_type][sub_slot_type][slot_size][bonus] = (1 - (1 - self.fittings_bonus_data[high_slot_type][sub_slot_type][slot_size][bonus] / 100) *
-                                                                                                                         (1 + (self.get_stack_penalty(num_same_items) * high_slot_bonus["any"]["any"][bonus] / 100))) * 100
+                                                                                                                     (1 + (self.get_stack_penalty(num_same_items) * high_slot_bonus["any"]["any"][bonus] / 100))) * 100
                                     else:
                                         self.fittings_bonus_data[high_slot_type][sub_slot_type][slot_size][bonus] += self.get_stack_penalty(num_same_items) * high_slot_bonus["any"]["any"][bonus]
         return
@@ -419,24 +428,25 @@ class Ship():
                                          self.fittings_bonus_data["ship"]["powergrid"]["value"]["flat"]) *
                                         (1 + self.ship_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100) *
                                         (1 + (self.skills_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100) +
-                                        (self.fittings_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100)))
+                                         (self.fittings_bonus_data["ship"]["powergrid"]["value"]["percent"] / 100)))
         self.powergrid["used"] = round(self.powergrid["used"])
 
     def add_capacitor_cost(self, act_cost, act_time):
         consumption = act_cost / act_time
         self.capacitor["consumption"] += consumption
+        self.capacitor["consumption_ext"] = [self.capacitor["consumption_ext"][i] + act_cost * ((i % round(act_time * 10)) == 0) for i in range(len(self.capacitor["consumption_ext"]))]
 
     def update_capacitor(self):
         self.capacitor["value"] = round((self.base_capacitor["value"]) *
                                         (1 + self.ship_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100) *
                                         (1 + (self.skills_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100) +
-                                        (self.fittings_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100)) +
+                                         (self.fittings_bonus_data["ship"]["capacitor"]["value"]["percent"] / 100)) +
                                         (self.skills_bonus_data["ship"]["capacitor"]["value"]["flat"] +
                                          self.fittings_bonus_data["ship"]["capacitor"]["value"]["flat"]), 0)
         self.capacitor["recharge"] = round(self.base_capacitor["recharge"] *
-                                          (1 + self.ship_bonus_data["ship"]["capacitor"]["recharge"] / 100) *
-                                          (1 + (self.skills_bonus_data["ship"]["capacitor"]["recharge"] / 100) +
-                                          (self.fittings_bonus_data["ship"]["capacitor"]["recharge"] / 100)), 0)
+                                           (1 + self.ship_bonus_data["ship"]["capacitor"]["recharge"] / 100) *
+                                           (1 + (self.skills_bonus_data["ship"]["capacitor"]["recharge"] / 100) +
+                                            (self.fittings_bonus_data["ship"]["capacitor"]["recharge"] / 100)), 0)
         self.capacitor["rate"] = self.get_capacitor_rate()
 
         rate_percentage_list = []
@@ -444,6 +454,7 @@ class Ship():
             rate_percentage = round((10 * self.capacitor["value"] / self.capacitor["recharge"]) * (math.sqrt(i / 1000.0) - (i / 1000.0)), 2)
             rate_percentage_list.append(rate_percentage)
 
+        """
         seconds = 0
         percentage = 100
         current_cap = self.capacitor["value"]
@@ -463,7 +474,25 @@ class Ship():
             percentage = round(100 * (current_cap/self.capacitor["value"]))
         self.capacitor["stability"] = seconds
         self.capacitor["percentage"] = percentage
-        # print(seconds, self.capacitor["rate"] - self.capacitor["consumption"])
+        """
+
+        current_cap = self.capacitor["value"]
+        max_consumption = max(self.capacitor["consumption_ext"])
+        for second, consumption in enumerate(self.capacitor["consumption_ext"]):
+            if second % CAPACITOR_SIM_RES_PER_SECOND == 0:
+                recover = rate_percentage_list[round(1000 * (current_cap / self.capacitor["value"]))]
+            else:
+                recover = 0
+            current_cap += recover
+            if current_cap > self.capacitor["value"]:
+                current_cap = self.capacitor["value"]
+            current_cap -= consumption
+            if current_cap <= max_consumption:
+                current_cap = 0
+                break
+        percentage = round(100 * (current_cap / self.capacitor["value"]))
+        self.capacitor["stability"] = round(second / CAPACITOR_SIM_RES_PER_SECOND)
+        self.capacitor["percentage"] = percentage
 
     def update_defenses(self):
         for defense in self.defenses:
