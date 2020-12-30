@@ -1,0 +1,67 @@
+profile: {faction: Amarr, name: All 5}
+skills:
+  Cruising Technology:
+    Navigation: {Advanced Afterburner: 5, Afterburner: 5, Expert Afterburner: 5}
+    Spaceship Command: {Advanced Battlecruiser Command: 5, Advanced Battleship Command: 5,
+      Advanced Cruiser Command: 5, Advanced Destroyer Command: 5, Advanced Frigate Command: 5,
+      Advanced Industrial Ship Command: 5, Battlecruiser Command: 5, Battleship Command: 5,
+      Cruiser Command: 5, Destroyer Command: 5, Expert Battlecruiser Command: 5, Expert Battleship Command: 5,
+      Expert Cruiser Command: 5, Expert Destroyer Command: 5, Expert Frigate Command: 5,
+      Expert Industrial Ship Command: 5, Frigate Command: 5, Industrial Ship Command: 5}
+  Electronics:
+    Engineering: {Advanced Battlecruiser Engineering: 5, Advanced Battleship Engineering: 5,
+      Advanced Cruiser Engineering: 5, Advanced Destroyer Engineering: 5, Advanced Frigate Engineering: 5,
+      Advanced Industrial Ship Engineering: 5, Battlecruiser Engineering: 5, Battleship Engineering: 5,
+      Cruiser Engineering: 5, Destroyer Engineering: 5, Expert Battlecruiser Engineering: 5,
+      Expert Battleship Engineering: 5, Expert Cruiser Engineering: 5, Expert Destroyer Engineering: 5,
+      Expert Frigate Engineering: 5, Expert Industrial Ship Engineering: 5, Frigate Engineering: 5,
+      Industrial Ship Engineering: 5}
+  Maintenance Technology:
+    Armor Operations: {Advanced Armor Hardening: 5, Advanced Armor Operation: 5, Armor Hardening: 5,
+      Armor Operation: 5, Expert Armor Hardening: 5, Expert Armor Operation: 5}
+    Defense Upgrade: {Advanced Battlecruiser Defense Upgrade: 5, Advanced Battleship Defense Upgrade: 5,
+      Advanced Cruiser Defense Upgrade: 5, Advanced Destroyer Defense Upgrade: 5,
+      Advanced Frigate Defense Upgrade: 5, Advanced Industrial Ship Defense Upgrade: 5,
+      Battlecruiser Defense Upgrade: 5, Battleship Defense Upgrade: 5, Cruiser Defense Upgrade: 5,
+      Destroyer Defense Upgrade: 5, Expert Battlecruiser Defense Upgrade: 5, Expert Battleship Defense Upgrade: 5,
+      Expert Cruiser Defense Upgrade: 5, Expert Destroyer Defense Upgrade: 5, Expert Frigate Defense Upgrade: 5,
+      Expert Industrial Ship Defense Upgrade: 5, Frigate Defense Upgrade: 5, Industrial Ship Defense Upgrade: 5}
+    Shield Operations: {Advanced Shield Hardening: 5, Advanced Shield Operation: 5,
+      Expert Shield Hardening: 5, Expert Shield Operation: 5, Shield Hardening: 5,
+      Shield Operation: 5}
+  Weapon Technology:
+    Cannon: {Advanced Large Cannon Operation: 5, Advanced Large Cannon Upgrade: 5,
+      Advanced Medium Cannon Operation: 5, Advanced Medium Cannon Upgrade: 5, Advanced Small Cannon Operation: 5,
+      Advanced Small Cannon Upgrade: 5, Expert Large Cannon Operation: 5, Expert Large Cannon Upgrade: 5,
+      Expert Medium Cannon Operation: 5, Expert Medium Cannon Upgrade: 5, Expert Small Cannon Operation: 5,
+      Expert Small Cannon Upgrade: 5, Large Cannon Operation: 5, Large Cannon Upgrade: 5,
+      Medium Cannon Operation: 5, Medium Cannon Upgrade: 5, Small Cannon Operation: 5,
+      Small Cannon Upgrade: 5}
+    Drones: {Advanced Drone: 5, Advanced Large Drone Operation: 5, Advanced Large Drone Upgrade: 5,
+      Advanced Medium Drone Operation: 5, Advanced Medium Drone Upgrade: 5, Advanced Small Drone Operation: 5,
+      Advanced Small Drone Upgrade: 5, Drone: 5, Expert Drone: 5, Expert Large Drone Operation: 5,
+      Expert Large Drone Upgrade: 5, Expert Medium Drone Operation: 5, Expert Medium Drone Upgrade: 5,
+      Expert Small Drone Operation: 5, Expert Small Drone Upgrade: 5, Large Drone Operation: 5,
+      Large Drone Upgrade: 5, Medium Drone Operation: 5, Medium Drone Upgrade: 5,
+      Small Drone Operation: 5, Small Drone Upgrade: 5}
+    Laser: {Advanced Large Laser Operation: 5, Advanced Large Laser Upgrade: 5, Advanced Medium Laser Operation: 5,
+      Advanced Medium Laser Upgrade: 5, Advanced Small Laser Operation: 5, Advanced Small Laser Upgrade: 5,
+      Expert Large Laser Operation: 5, Expert Large Laser Upgrade: 5, Expert Medium Laser Operation: 5,
+      Expert Medium Laser Upgrade: 5, Expert Small Laser Operation: 5, Expert Small Laser Upgrade: 5,
+      Large Laser Operation: 5, Large Laser Upgrade: 5, Medium Laser Operation: 5,
+      Medium Laser Upgrade: 5, Small Laser Operation: 5, Small Laser Upgrade: 5}
+    Missiles: {Advanced Large Missile/Torpedo Operation: 5, Advanced Large Missile/Torpedo Upgrade: 5,
+      Advanced Medium Missile/Torpedo Operation: 5, Advanced Medium Missile/Torpedo Upgrade: 5,
+      Advanced Small Missile/Torpedo Operation: 5, Advanced Small Missile/Torpedo Upgrade: 5,
+      Expert Large Missile/Torpedo Operation: 5, Expert Large Missile/Torpedo Upgrade: 5,
+      Expert Medium Missile/Torpedo Operation: 5, Expert Medium Missile/Torpedo Upgrade: 5,
+      Expert Small Missile/Torpedo Operation: 5, Expert Small Missile/Torpedo Upgrade: 5,
+      Large Missile/Torpedo Operation: 5, Large Missile/Torpedo Upgrade: 5, Medium Missile/Torpedo Operation: 5,
+      Medium Missile/Torpedo Upgrade: 5, Small Missile/Torpedo Operation: 5, Small Missile/Torpedo Upgrade: 5}
+    Railgun: {Advanced Large Railgun Operation: 5, Advanced Large Railgun Upgrade: 5,
+      Advanced Medium Railgun Operation: 5, Advanced Medium Railgun Upgrade: 5, Advanced Small Railgun Operation: 5,
+      Advanced Small Railgun Upgrade: 5, Expert Large Railgun Operation: 5, Expert Large Railgun Upgrade: 5,
+      Expert Medium Railgun Operation: 5, Expert Medium Railgun Upgrade: 5, Expert Small Railgun Operation: 5,
+      Expert Small Railgun Upgrade: 5, Large Railgun Operation: 5, Large Railgun Upgrade: 5,
+      Medium Railgun Operation: 5, Medium Railgun Upgrade: 5, Small Railgun Operation: 5,
+      Small Railgun Upgrade: 5}

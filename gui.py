@@ -60,7 +60,7 @@ class GUI():
         self.engineer_rigs_data = engineer_rigs_data
 
         self.menu_def = [['&File', ['E&xit']],
-                         ['F&itting', ['&New::fitting', '!&Save::fitting']],
+                         ['F&itting', ['!&Save::fitting']],
                          ['&Profile', ['&New::profile', '---', '&Edit::profile', '!&Save::profile', '&Load::profile']],
                          ]
 
@@ -188,7 +188,7 @@ class GUI():
 
         self.gui_user_profile = GUIUserProfile()
 
-        self.window = sg.Window('EEpyFS. Eve Echoes python Fitting Simulator', layout)
+        self.window = sg.Window('EEpyFS. Eve Echoes python Fitting Simulator', layout, keep_on_top=False)
         self.window.Finalize()
         self.capacitor_graph.initiate()
 
@@ -200,7 +200,7 @@ class GUI():
 
         self.add_hover_events()
 
-        # self.window.Maximize()
+        self.window.Maximize()
 
     def add_hover_events(self):
         for slot_num in range(MAX_HIGH_SLOTS):
@@ -230,12 +230,12 @@ class GUI():
     def enable_disable_save_fitting(self, enable=True):
         if enable:
             self.menu_def = [['&File', ['E&xit']],
-                             ['F&itting', ['&New::fitting', '&Save::fitting']],
+                             ['F&itting', ['&Save::fitting']],
                              self.menu_def[2],
                             ]
         else:
             self.menu_def = [['&File', ['E&xit']],
-                             ['F&itting', ['&New::fitting', '!&Save::fitting']],
+                             ['F&itting', ['!&Save::fitting']],
                              self.menu_def[2],
                             ]
         self.window["menu"].Update(self.menu_def)
@@ -321,10 +321,24 @@ class GUI():
             new_profile = self.gui_user_profile.create_new_profile()
             if new_profile:
                 self.profile_data = new_profile
+                self.window.Element("profile-name").Update(self.profile_data.profile_name)
+                sg.user_settings_set_entry("last_loaded_profile", self.profile_data.profile_name)
         elif event == "Edit::profile":
             new_profile = self.gui_user_profile.edit_user_profile(self.profile_data)
             if new_profile:
                 self.profile_data = new_profile
+                self.window.Element("profile-name").Update(self.profile_data.profile_name)
+                sg.user_settings_set_entry("last_loaded_profile", self.profile_data.profile_name)
+            if self.current_ship:
+                current_fit = self.current_ship.export_fit()
+                self.load_fit(current_fit)
+                self.update_ship()
+        elif event == "Load::profile":
+            new_profile = self.gui_user_profile.load_user_profile()
+            if new_profile:
+                self.profile_data = new_profile
+                self.window.Element("profile-name").Update(self.profile_data.profile_name)
+                sg.user_settings_set_entry("last_loaded_profile", self.profile_data.profile_name)
             if self.current_ship:
                 current_fit = self.current_ship.export_fit()
                 self.load_fit(current_fit)
@@ -514,6 +528,7 @@ class GUI():
                             finalize=True,
                             location=location,
                             force_toplevel=True,
+                            keep_on_top=True,
                             modal=True)
         event, _ = window.read(timeout=5000)
         window.close()
@@ -661,7 +676,8 @@ class GUI():
                             no_titlebar=True,
                             finalize=True,
                             location=position,
-                            force_toplevel=True)
+                            force_toplevel=True,
+                            keep_on_top=True)
         if item_sub_type == "dcus":
             for defense in ["shield", "armor", "hull"]:
                 item_damage_percent = item_data["ship"]["defenses"][defense]["resists"]
