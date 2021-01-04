@@ -320,9 +320,17 @@ class Ship():
                 if item_data_with_bonus[item_name][item_stat] >= 100:
                     item_data_with_bonus[item_name][item_stat] = round(item_data_with_bonus[item_name][item_stat])
             elif item_stat == "activation_time":
+                added = False
                 if stat_skill_bonus[item_stat] >= 1:
-                    item_data_with_bonus[item_name][item_stat] += role_ship_bonus[item_stat] + stat_ship_bonus[item_stat] + stat_skill_bonus[item_stat]
-                else:
+                    item_data_with_bonus[item_name][item_stat] += stat_skill_bonus[item_stat]
+                    added = True
+                if role_ship_bonus[item_stat] >= 1:
+                    item_data_with_bonus[item_name][item_stat] += role_ship_bonus[item_stat]
+                    added = True
+                if stat_ship_bonus[item_stat] >= 1:
+                    item_data_with_bonus[item_name][item_stat] += stat_ship_bonus[item_stat]
+                    added = True
+                if not added:
                     item_data_with_bonus[item_name][item_stat] = item_data_with_bonus[item_name][item_stat] * ((1 + stat_ship_bonus[item_stat]) *
                                                                                                                (1 + role_ship_bonus[item_stat]) *
                                                                                                                (1 + stat_skill_bonus[item_stat]))
@@ -728,7 +736,7 @@ class Ship():
                                                     self.skills_bonus_data[skill_type][sub_slot_type][slot][slot_bonus]["percent"] += slot_type[sub_slot_type][slot][slot_bonus]["percent"]
                                                     self.skills_bonus_data[skill_type][sub_slot_type][slot][slot_bonus]["flat"] += slot_type[sub_slot_type][slot][slot_bonus]["flat"]
                                                 elif slot_bonus == "activation_time":
-                                                    if skill_type == "weapons":
+                                                    if skill_type in {"weapons"}:
                                                         self.skills_bonus_data[skill_type][sub_slot_type][slot][slot_bonus] += slot_type[sub_slot_type][slot][slot_bonus]
                                                     else:
                                                         self.skills_bonus_data[skill_type][sub_slot_type][slot][slot_bonus] = ((1 + self.skills_bonus_data[skill_type][sub_slot_type][slot][slot_bonus]) * (1 + slot_type[sub_slot_type][slot][slot_bonus] / 100)) - 1

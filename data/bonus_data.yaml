@@ -502,17 +502,43 @@ armor:
       activation_time: 0
       amount: 0
   plates:
-    powergrid: 0
-    activation_cost: 0
-    activation_time: 0
-    ship:
-      defenses:
-        armor:
-          value:
-            flat: 0
-            percent: 0
-      navigation:
-        mass:  0
+    small:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          armor:
+            value:
+              flat: 0
+              percent: 0
+        navigation:
+          mass:  0
+    medium:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          armor:
+            value:
+              flat: 0
+              percent: 0
+        navigation:
+          mass:  0
+    large:
+      powergrid: 0
+      activation_cost: 0
+      activation_time: 0
+      ship:
+        defenses:
+          armor:
+            value:
+              flat: 0
+              percent: 0
+        navigation:
+          mass:  0
+
   hardeners:
     reactive:
       powergrid: 0

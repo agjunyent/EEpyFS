@@ -816,6 +816,706 @@ Gallente:
                     kinetic: 10
                     explosive: 10
                   accuracy_falloff: 7.5
+  Destroyer:
+    #T3
+    Catalyst:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 2
+        low: 3
+      rigs:
+        combat: 0
+        engineer: 0
+      cargo:
+        value: 900
+      powergrid:
+        value: 54
+        used: 0
+      capacitor:
+        value: 480
+        recharge: 185
+      targeting:
+        signature: 64.9
+        scan: 528
+        strenght: 12.1
+        targets: 5
+      navigation:
+        flight_velocity: 244
+        warp_speed: 4.5
+        mass: 1550000
+        inertia_modifier: 2.1
+      defenses:
+        shield:
+          value: 700
+          recharge: 680
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 844
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 861
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          railguns:
+            any:
+              small:
+                optimal_range: 25
+        skills:
+          first:
+            name: Small Railgun Operation
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 6
+                    thermal: 6
+                    kinetic: 6
+                    explosive: 6
+                  accuracy_falloff: 5
+          second:
+            name: Destroyer Command
+            ship:
+              defenses:
+                armor:
+                  value:
+                    flat: 0
+                    percent: 5
+    #T4
+    Catalyst II:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 4
+        mid: 2
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 900
+      powergrid:
+        value: 64
+        used: 0
+      capacitor:
+        value: 492
+        recharge: 192
+      targeting:
+        signature: 61
+        scan: 667
+        strenght: 14.6
+        targets: 6
+      navigation:
+        flight_velocity: 278
+        warp_speed: 5
+        mass: 1550000
+        inertia_modifier: 2.1
+      defenses:
+        shield:
+          value: 720
+          recharge: 710
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 868
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 886
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          railguns:
+            any:
+              small:
+                optimal_range: 25
+        skills:
+          first:
+            name: Small Railgun Operation
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 2.5
+                    thermal: 2.5
+                    kinetic: 2.5
+                    explosive: 2.5
+                  accuracy_falloff: 7.5
+                  tracking_speed: 7.5
+          second:
+            name: Destroyer Command
+            ship:
+              defenses:
+                armor:
+                  value:
+                    flat: 0
+                    percent: 5
+    Algos Trainer:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 3
+        drone_size: small
+        high: 2
+        mid: 2
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 700
+      powergrid:
+        value: 59
+        used: 0
+      capacitor:
+        value: 509
+        recharge: 185
+      targeting:
+        signature: 68.8
+        scan: 534
+        strenght: 12.2
+        targets: 6
+      navigation:
+        flight_velocity: 241
+        warp_speed: 4.5
+        mass: 1600000
+        inertia_modifier: 2.2
+      defenses:
+        shield:
+          value: 678
+          recharge: 680
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 817
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 834
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          drones:
+            scout:
+              small:
+                flight_velocity: 12.5
+        skills:
+          first:
+            name: Small Drone Operation
+            drones:
+              scout:
+                small:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+          second:
+            name: Destroyer Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+    Algos:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 3
+        drone_size: small
+        high: 2
+        mid: 2
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 700
+      powergrid:
+        value: 47
+        used: 0
+      capacitor:
+        value: 570
+        recharge: 187
+      targeting:
+        signature: 68.1
+        scan: 576
+        strenght: 13.2
+        targets: 7
+      navigation:
+        flight_velocity: 248
+        warp_speed: 4.5
+        mass: 1600000
+        inertia_modifier: 2.2
+      defenses:
+        shield:
+          value: 802
+          recharge: 703
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 971
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 990
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          drones:
+            scout:
+              small:
+                flight_velocity: 12.5
+        skills:
+          first:
+            name: Small Drone Operation
+            drones:
+              scout:
+                small:
+                  damage:
+                    em: 20
+                    thermal: 20
+                    kinetic: 20
+                    explosive: 20
+                  defense: 5
+          second:
+            none
+    #T5
+    Catalyst Navy Issue:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 4
+        mid: 3
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 900
+      powergrid:
+        value: 68
+        used: 0
+      capacitor:
+        value: 549
+        recharge: 200
+      targeting:
+        signature: 59.2
+        scan: 549
+        strenght: 13.2
+        targets: 7
+      navigation:
+        flight_velocity: 265
+        warp_speed: 4.5
+        mass: 1550000
+        inertia_modifier: 2.1
+      defenses:
+        shield:
+          value: 1133
+          recharge: 890
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 1367
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 1394
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          railguns:
+            any:
+              small:
+                optimal_range: 25
+        skills:
+          first:
+            name: Small Railgun Operation
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+                  accuracy_falloff: 7.5
+                  tracking_speed: 7.5
+          second:
+            name: Destroyer Command
+            ship:
+              defenses:
+                armor:
+                  value:
+                    flat: 0
+                    percent: 5
+              targeting:
+                scan: 5
+                strenght: 5
+    Catalyst Guardian:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 3
+        mid: 2
+        low: 4
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 900
+      powergrid:
+        value: 60
+        used: 0
+      capacitor:
+        value: 572
+        recharge: 197
+      targeting:
+        signature: 61.6
+        scan: 447
+        strenght: 10.2
+        targets: 6
+      navigation:
+        flight_velocity: 271
+        warp_speed: 4.5
+        mass: 1150000
+        inertia_modifier: 2.4
+      defenses:
+        shield:
+          value: 1232
+          recharge: 920
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 1486
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 1515
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          railguns:
+            any:
+              small:
+                optimal_range: 25
+        skills:
+          first:
+            name: Destroyer Defense Upgrade
+            ship:
+              defenses:
+                armor:
+                  value:
+                    flat: 0
+                    percent: 5
+          second:
+            name: Destroyer Command
+            railguns:
+              any:
+                small:
+                  tracking_speed: 7.5
+                  accuracy_falloff: 7.5
+    #T6
+    Algos Sniper:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 3
+        drone_size: small
+        high: 2
+        mid: 3
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 700
+      powergrid:
+        value: 55
+        used: 0
+      capacitor:
+        value: 532
+        recharge: 200
+      targeting:
+        signature: 58.4
+        scan: 680
+        strenght: 11.4
+        targets: 7
+      navigation:
+        flight_velocity: 227
+        warp_speed: 4.5
+        mass: 1050000
+        inertia_modifier: 2.4
+      defenses:
+        shield:
+          value: 940
+          recharge: 810
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 1134
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 1157
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          drones:
+            scout:
+              small:
+                flight_velocity: 12.5
+        skills:
+          first:
+            name: Advanced Small Drone Upgrade
+            drones:
+              scout:
+                small:
+                  damage:
+                    em: 30
+                    thermal: 30
+                    kinetic: 30
+                    explosive: 30
+                  defense: 5
+          second:
+            none
+    Catalyst Interdictor:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 0
+        drone_size: none
+        high: 4
+        mid: 3
+        low: 3
+      rigs:
+        combat: 2
+        engineer: 2
+      cargo:
+        value: 900
+      powergrid:
+        value: 64
+        used: 0
+      capacitor:
+        value: 528
+        recharge: 205
+      targeting:
+        signature: 54.9
+        scan: 680
+        strenght: 14.9
+        targets: 6
+      navigation:
+        flight_velocity: 288
+        warp_speed: 5
+        mass: 1200000
+        inertia_modifier: 2.6
+      defenses:
+        shield:
+          value: 940
+          recharge: 820
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 1134
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 1157
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          railguns:
+            any:
+              small:
+                optimal_range: 25
+        skills:
+          first:
+            none
+          second:
+            name: Advanced Destroyer Command
+            railguns:
+              any:
+                small:
+                  damage:
+                    em: 5
+                    thermal: 5
+                    kinetic: 5
+                    explosive: 5
+                  accuracy_falloff: 7.5
+    #T7
+    Algos Assault:
+      type: Destroyer
+      faction: Gallente
+      slots:
+        drone: 3
+        drone_size: small
+        high: 2
+        mid: 2
+        low: 4
+      rigs:
+        combat: 3
+        engineer: 3
+      cargo:
+        value: 700
+      powergrid:
+        value: 56
+        used: 0
+      capacitor:
+        value: 501
+        recharge: 205
+      targeting:
+        signature: 60.3
+        scan: 619
+        strenght: 15.4
+        targets: 7
+      navigation:
+        flight_velocity: 231
+        warp_speed: 5
+        mass: 1600000
+        inertia_modifier: 2.4
+      defenses:
+        shield:
+          value: 1595
+          recharge: 1100
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 46
+            explosive: 50
+        armor:
+          value: 1924
+          resists:
+            em: 50
+            thermal: 35
+            kinetic: 36.25
+            explosive: 10
+        hull:
+          value: 1963
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          drones:
+            scout:
+              small:
+                flight_velocity: 12.5
+          damage control:
+            dcus:
+              damage control units:
+                activation_time: 5
+        skills:
+          first:
+            name: Advanced Small Drone Operation
+            drones:
+              scout:
+                small:
+                  damage:
+                    em: 30
+                    thermal: 30
+                    kinetic: 30
+                    explosive: 30
+                  defense: 5
+          second:
+            none
+
 
 Guristas Pirates:
   Frigate:
