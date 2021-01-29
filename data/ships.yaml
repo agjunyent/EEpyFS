@@ -1517,6 +1517,82 @@ Gallente:
             none
 
 
+Minmatar:
+  Frigate:
+    #T1
+    Reaper:
+      type: Frigate
+      faction: Minmatar
+      slots:
+        drone: 0
+        drone_size: none
+        high: 1
+        mid: 0
+        low: 2
+      rigs:
+        combat: 0
+        engineer: 0
+      cargo:
+        value: 240
+      powergrid:
+        value: 27
+        used: 0
+      capacitor:
+        value: 276
+        recharge: 162
+      targeting:
+        signature: 29.4
+        scan: 722
+        strenght: 9.4
+        targets: 3
+      navigation:
+        flight_velocity: 402
+        warp_speed: 5.0
+        mass: 1157000
+        inertia_modifier: 1.8
+      defenses:
+        shield:
+          value: 166
+          recharge: 450
+          resists:
+            em: 0
+            thermal: 20
+            kinetic: 40
+            explosive: 50
+        armor:
+          value: 146
+          resists:
+            em: 60
+            thermal: 35
+            kinetic: 25
+            explosive: 10
+        hull:
+          value: 131
+          resists:
+            em: 33.33
+            thermal: 33.33
+            kinetic: 33.33
+            explosive: 33.33
+      bonus:
+        role:
+          none
+        skills:
+          first:
+            name: Frigate Command
+            cannons:
+              any:
+                small:
+                  damage:
+                    em: 15
+                    thermal: 15
+                    kinetic: 15
+                    explosive: 15
+            ship:
+              navigation:
+                flight_velocity: 5
+          second:
+            none
+
 Guristas Pirates:
   Frigate:
     Worm:
